@@ -1,0 +1,204 @@
+helpSuffix: '&6Plugin by &bLeePMC &7- &6Buy it on SpigotMC.org!'
+noPermission: '&cYou do not have permission to do that!'
+notPlayer: '{prefix} &cYou must be a player to do that!'
+pluginIsUpdated: '&6TNT-Fill &7is up to date with version {currentVersion}!'
+pluginNeedsUpdates: '&6TNT-Fill &cis not up to date. Current installed: {currentVersion},
+  Avalible: {newVersion}'
+prefix: '&7[&aTNT-Fill&7]'
+reloaded: '{prefix} &aAll configurations have been reloaded!'
+tooFewArguments: '{prefix} &cToo few arguments! Try using {3} arguments or type /{1}
+  ?'
+tooManyArguments: '{prefix} &cToo many arguments! Try using {3} arguments or type
+  /{1} ?'
+fill:
+  countDispensers: '{prefix} &aThere are {2} dispensers in a {1} block radius!'
+  dispenserAlreadySelected: '{prefix} &cThat dispenser has already been selected,
+    please try another one!'
+  dispenserSelected: '{prefix} &7That dispenser has been selected!'
+  dispensersFilled: '{prefix} &aAll dispensers have been filled with {1} TNT!'
+  dispensersFilledFaction: '{prefix} &aAll dispensers have been filled with {1} TNT
+    except for the ones in non ally factions!'
+  error: '{prefix} &c{2} is not a correct argument! try /tntfill ?'
+  errorFilling: '{prefix} &cAn unknown error occured, contact staff immidietly!'
+  exitSelectMode: '{prefix} &cYou must exit select mode before you can break dispensers
+    in creative!'
+  helpError: '&cThe help menu is currently unavailable, please contact staff immediately'
+  maxDispensersSelected: '{prefix} &cYou cannot select more than {dispensers} dispensers!'
+  maxRadius: '{prefix} &cPlease use a radius smaller than {1}'
+  noDispensers: '{prefix} &cThere are no dispensers within a {1} block radius'
+  noDispensersToFill: '{prefix} &cThere are no dispensers to fill, &7try &6Left Clicking
+    &7a dispenser to select it!'
+  notEnoughTNT: '{prefix} &cYou need {1} TNT to do that!'
+  nothingToClear: '{prefix} &cThere is nothing to clear!'
+  nothingToUndo: '{prefix} &cThere is nothing to undo!'
+  noTNT: '{prefix} &cYou do not have any TNT!'
+  notNumber: '{prefix} &c{1} is not a valid number, please use a number greater than
+    0!'
+  notSelecting: '{prefix} &cYou must be in selecting mode to use that command!'
+  onePerDispenser: '{prefix} &cYou need at-least 1 TNT for each of the {2} dispensers!'
+  selectedDispenserBroken: '{prefix} &7You broke a dispenser that was selected by
+    {player}'
+  selectingDone: '{prefix} &7You have now exited selecting mode, use /tntfill select
+    to enable it again'
+  selectionListItem: '&6{number}. &7Location: &6{location}&7, TNT-in: &6{amountFilled}'
+  selectionListNoDispensers: '&cYou have no dispensers selected!'
+  selectionListSuffix: '&7---------- &6By LeePMC &7----------'
+  selectionListTitle: '&7-----&r {prefix} &f: &6{0}''s Dispensers Selected &7-----'
+  selectionsCleared: '{prefix} &7Your selection(s) have been cleared!'
+  selectionUndone: '{prefix} &7Your previous selection has been undone!'
+  addedToSelecting: '{prefix} &7You can now &6left click &7 dispensers to select them!'
+  nullPlaceholder: '{prefix} &cThe placeholders required are null!'
+clear:
+  addedToSelecting: '{prefix} &7You can now &6left click &7 dispensers to select them!'
+  countDispenserTNT: '{prefix} &7There are {amount} TNT in {dispensers} dispensers
+    in a {radius} block radius of you!'
+  dispenserAlreadySelected: '{prefix} &cThat dispenser has already been selected,
+    please try another one!'
+  dispensersCleared: '{prefix} &aAll TNT has been cleared out of {2} dispensers in
+    a {1} block radius'
+  dispensersClearedFaction: '{prefix} &aTNT has been cleared out of {2} dispensers,
+    but some were in enemy territory!'
+  dispenserSelected: '{prefix} &7That dispenser has been selected!'
+  dispensersPartCleared: '{prefix} &aTNT cleared in a {1} block radius! but you didnt
+    have enough space to take all of it!'
+  error: '{prefix} &c{2} is not an accepted argument. Try /tntclear ?'
+  errorClearing: '{prefix} &cAn unknown error occured while clearing {2} dispensers,
+    contact staff imidietly!'
+  exitSelectMode: '{prefix} &cYou must exit select mode before you can break dispensers
+    in creative!'
+  helpError: '{prefix} &cThe help menu is currently unavailable, please contact staff
+    immediately'
+  limitedSpace: '{prefix} &cYou can only fit {3} more TNT, altering amount to clear!'
+  maxDispensersSelected: '{prefix} &cYou cannot select more than {dispensers} dispensers!'
+  maxRadius: '{prefix} &cThe radius {2} is too big! try using a radius smaller than
+    {1}'
+  noDispensers: '{prefix} &cThere are no dispensers within a {1} block radius'
+  noDispensersToClear: '{prefix} &cThere are no dispensers to clear, &7try &6Shift
+    Left Clicking &7a dispenser to select it!'
+  noSpace: '{prefix} &cYou do not have any space to clear TNT!'
+  nothingToClear: '{prefix} &cThere is nothing to clear!'
+  nothingToUndo: '{prefix} &cThere is nothing to undo!'
+  noTNT: '{prefix} &cThere is no TNT left to clear from the {2} dispensers!'
+  notNumber: '{prefix} &c{1} is not a number, please use a number greater than 0!'
+  notSelecting: '{prefix} &cYou must be in selecting mode to use that command!'
+  selectedDispenserBroken: '{prefix} &7You broke a dispenser that was selected by
+    {player}'
+  selectingDone: '{prefix} &7You have now exited selecting mode, use /tntclear select
+    to enable it again'
+  selectionListItem: '&6{number}. &7Location: &6{location}&7, TNT-in: &6{amountCleared}'
+  selectionListNoDispensers: '&cYou have no dispensers selected!'
+  selectionListSuffix: '&7---------- &6{1} Dispensers Total &7----------'
+  selectionListTitle: '&7-----&r {prefix} &f: &6{0}''s Dispensers Selected &7-----'
+  selectionsCleared: '{prefix} &7Your {1} selection(s) have been cleared!'
+  selectionUndone: '{prefix} &7Your previous selection ({1}, {2}, {3}) has been undone!'
+  nullPlaceholder: '{prefix} &cThe placeholders required are null!'
+quickFill:
+  countTNT: '{prefix} &7There is {1} TNT in that dispenser'
+  dispenserFilled: '{prefix} &7That dispenser has been filled with {1} TNT!'
+  failedFaction: '{prefix} &cThat dispenser is in enemy territory!'
+  helpError: '{prefix} &cThe help menu is currently unavailable, please contact staff
+    immediately'
+  notDispenser: '{prefix} &cThe block you are looking at must be a dispenser!'
+  notEnoughTNT: '{prefix} &cYou need {1} TNT to fill that dispenser'
+  noTNT: '{prefix} &cYou do not have any TNT to fill that dispenser, you need {1}
+    TNT!'
+  notNumber: '{prefix} &c{1} is not a valid number, please use a number greater than
+    0!'
+  unknownError: '{prefix} &cAn unknown error has occured filling that dispenser!'
+quickClear:
+  clearedNoSpace: '{prefix} &7That dispenser has been cleared (partly because you
+    have no space)'
+  countTNT: '{prefix} &7There is {1} TNT in that dispenser'
+  dispenserCleared: '{prefix} &7That dispenser has been cleared of {1} TNT!'
+  failedFaction: '{prefix} &cThat dispenser is in enemy territory!'
+  helpError: '{prefix} &cThe help menu is currently unavailable, please contact staff
+    immediately'
+  noSpace: '{prefix} &cYou do not have any space to fit TNT from that dispenser'
+  notDispenser: '{prefix} &cThe block you are looking at must be a dispenser!'
+  noTNT: '{prefix} &cThere is no TNT to clear from that dispenser!'
+  notNumber: '{prefix} &c{1} is not a valid number, please use a number greater than
+    0!'
+  partCleared: '{prefix} &7That dispenser has been cleared (partly)'
+  unknownError: '{prefix} &cAn unknownerror has occured clearing that dispenser!'
+normalFillHelp:
+- '&7--------- &8[&6TNT-Fill &f: &6Help&8]&7 -----------------'
+- '&6/tntfill <#>&7: Fills all dispensers in a {defaultRadius} block radius with the
+  specified amount of TNT (&6#&7)'
+- '&6/tntfill <#> [RADIUS]&7: Fills all dispensers in a specified block radius with
+  the specified amount of TNT (&6#&7)'
+- '&6/tntfill auto&7: Spreads all of your TNT equally into each dispenser in a {defaultRadius}
+  block radius'
+- '&6/tntfill auto [RADIUS]&7: Spreads all of your TNT equally into each dispenser
+  in a specified block radius'
+- '&6/tntfill count&7: Counts the amount of dispensers in a {defaultRadius} block
+  radius'
+- '&6/tntfill count [RADIUS]&7: Counts the amount of dispensers in a specified block
+  radius'
+- '&6/tntfill fill <#>&7: Fills all selected dispensers with the specified amount
+  of TNT (&6#&7)'
+- '&6/tntfill fill [auto/<#>]&7: Spreads all of your TNT equally into each selected
+  dispenser'
+- '&6/tntfill select ?&7: Display the help menu for all /tntfill select commands'
+- '&6/tntfill reload&7: Reload TNT-Fill configuration. DO NOT SPAM'
+- '&6Maximum Radius&7: Unlimited (try not to go over 100)'
+- '&6Maximum Radius&7: {maxFillRadius}'
+- '&6Legend&7: [] = Optional, <> = Required, CAPS/# = Number, Lower case = words'
+- '&6Aliases&7: tntfill, tf, fillaround, loadtnt'
+normalClearHelp:
+- '&7--------- &8[&6TNT-Fill &f: &6Help&8]&7 -----------------'
+- '&6/tntclear <#>&7: Clears all dispensers in a {defaultRadius} block radius'
+- '&6/tntclear <#> [RADIUS]&7: Clears specific amount of TNT (&6#&7) out of dispensers
+  in a specified block radius'
+- '&6/tntclear auto&7: Clears an equal amount of TNT from each dispenser in a {defaultRadius}
+  block radius to fit your inventory'
+- '&6/tntclear auto [RADIUS]&7: Clears an equal amount of TNT from each dispenser
+  in a specified block radius'
+- '&6/tntclear count&7: Counts the amount of TNT in dispensers in a {defaultRadius}
+  block radius'
+- '&6/tntclear count [RADIUS]&7: Counts the amount of TNT in dispensers in a specified
+  block radius'
+- '&6/tntclear clear<&7 <#>: Clears all selected dispensers with specified amount
+  of TNT (&6#&7)'
+- '&6/tntclear clear [auto/all/<#>]&7: Other options for clearing selected dispensers
+  of TNT!'
+- '&6/tntclear select ?&7: Displat the help menu for all /tntclear select commands'
+- '&6Maximum Radius&7: Unlimited (try not to go over 100)'
+- '&6Maximum Radius&7: {maxFillRadius}'
+- '&6Legend&7: [] = Optional, <> = Required, CAPS/# = Number, Lower case = words'
+- '&6Aliases&7: tntclear, tc, cleararound, cleartnt'
+quickFillHelp:
+- '&7----- &8[&6TNT-Fill &f: &aQuick-Fill &f: &6Help&8]&7 -----'
+- '&6/quickfill <#>&7: Fills a dispensers with the specified amount of TNT'
+- '&6/quickfill all&7: Fills the dispenser with all the TNT in your inventory'
+- '&6/quickfill count&7: Counts the amount of TNT in the dispenser'
+- '&6Legend&7: [] = Optional, <> = Required, CAPS/# = Number, Lower case = words'
+- '&6Aliases&7: quickf, qf, fill'
+quickClearHelp:
+- '&7----- &8[&6TNT-Clear &f: &aQuick-Clear &f: &6Help&8]&7 -----'
+- '&6/quickclear <#>&7: Clears a dispenser from a specified amoun of TNT'
+- '&6/quickclear all&7: Clears a dispenser of all the TNT inside it'
+- '&6/quickclear count&7: Counts the amount of TNT in the dispenser'
+- '&6Legend&7: [] = Optional, <> = Required, CAPS/# = Number, Lower case = words'
+- '&6Aliases&7: quickc, qf, clear'
+fillSelectHelp:
+- '&7--------- &8[&6TNT-Fill &f: &6Select Help&8]&7 -------------'
+- '&6/tntfill select&7: Enable select mode and select dispensers by left clicking
+  on them'
+- '&6/tntfill select clear&7: Clear all selected dispensers. CANNOT BE UNDONE!'
+- '&6/tntfill select undo&7: Undo your previously selected dispenser'
+- '&6/tntfill select done&7: Disable select mode, this will clear all currently selected
+  dispensers'
+- '&6/tntfill select list&7: List all currently selected dispensers and their locations
+  in selected order'
+- '&6Aliases&7: /tntfill [ select / sel / s ]'
+clearSelectHelp:
+- '&7--------- &8[&6TNT-Clear &f: &6Select Help&8]&7 -------------'
+- '&6/tntclear select&7: Enable select mode and select dispensers by shift left clicking
+  on them'
+- '&6/tntclear select clear&7: Clear all selected dispensers. CANNOT BE UNDONE!'
+- '&6/tntclear select undo&7: Undo your previously selected dispenser'
+- '&6/tntclear select done&7: Disable select mode, this will clear all currently selected
+  dispensers'
+- '&6/tntclear select list&7: List all currently selected dispensers and their locations
+  in selected order'
+- '&6Aliases&7: /tntclear [ select / sel / s ]'

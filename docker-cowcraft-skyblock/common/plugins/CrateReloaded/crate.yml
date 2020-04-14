@@ -1,0 +1,160 @@
+Ruby:
+    type: CSGOKEYCRATE
+    preview:
+        enabled: true
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        onOpen: ''                                    
+        broadcast: '&7&l%player% has opened a &c&lRuby Crate!'
+    key:
+        item: 'TRIPWIRE_HOOK'
+        enchantment: '34:10'
+        name: '&f&l[&c&lRuby Crate Key&f&l]'
+        lore: 
+            - '&7&m&l------------------------------'
+            - '&cType &f&n/warp crates&c to enter crates room.'
+            - '&f&nRight click &cRuby crate &fto open it!'
+            - '&7&m&l------------------------------'
+    effect:
+        onOpenEffects: 'firework, blaze'
+        dormantEffects: 'flame'
+    reward:
+        minimumRewards: 1
+        maximumRewards: 1
+        rewards:
+            - 'cmd:(/eco give %player% 1000), chance:(10), display:(266 1 &6$1000 &7Chance:_&a10%)'
+            - 'cmd:(/give %player% 383:92 2), chance:(20), display:(383:92 1 &62_cow_eggs &7Chance:_&a20%)'
+            - 'cmd:(/addcredits %player% 5), chance:(4), display:(175 1 &65_mcmmo_levels &7Chance:_&a4%)'
+            - 'cmd:(/give %player% 384 10), chance:(10), display:(384 1 &610_bottles_of_enchanting &7Chance:_&a10%)'
+            - 'cmd:(/eco give %player% 2000), chance:(5), display:(266 1 &6$2000 &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 265 3), chance:(10), display:(265 1 &63_iron_ingots &7Chance:_&a10%)'
+            - 'cmd:(/give %player% 266 3), chance:(10), display:(266 1 &63_gold_ingots &7Chance:_&a10%)'
+            - 'cmd:(/give %player% 264 3), chance:(5), display:(264 1 &63_diamonds &7Chance:_&a5%)'
+            - 'cmd:(/cr givekey %player% emerald 1), chance:(1), display:(131 1 &61_Emerald_Crate_Key &7Chance:_&a1%)'
+            - 'cmd:(/give %player% 4 300), chance:(10), display:(4 1 &6300_Cobblestone &7Chance:_&a10%)'
+            - 'cmd:(/cowcoinsadmin %player% add 5), chance:(4), display:(322:0 1 &65_Cowcoins &7Chance:_&a5%)'
+            - 'cmd:(/cr givekey %player% ruby 2), chance:(1), display:(131 1 &61_Ruby_Crate_Key &7Chance:_&a1%)'
+            - 'cmd:(/give %player% 295 10),cmd:(/give %player% 362 10),cmd:(/give %player% 363 10), chance:(10), display:(295 1 &630_Assorted_Seeds &7Chance:_&a10%)'
+
+
+
+
+
+Emerald:
+    type: CSGOKEYCRATE
+    preview:
+        enabled: true
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        onOpen: ''
+        broadcast: '&7&l%player% has opened a &a&lEmerald Crate&7&l!'
+    key:
+        item: 'TRIPWIRE_HOOK'
+        enchantment: '34:10'
+        name: '&f&l[&a&lEmerald Crate Key&f&l]'
+        lore: 
+            - '&7&m&l------------------------------'
+            - '&aType &f&n/warp crates&a to enter crates room.'
+            - '&f&nRight click&a Emerald crate &fto open it!'
+            - '&7&m&l------------------------------'
+    effect:
+        onOpenEffects: 'firework, blaze'
+        dormantEffects: 'flame'
+    reward:
+        minimumRewards: 1
+        maximumRewards: 1
+        rewards:
+            - 'cmd:(/eco give %player% 10000), chance:(10), display:(266 1 &6$10000 &7Chance:_&a10%)'
+            - 'cmd:(/give %player% 383:92 10), chance:(20), display:(383:92 1 &610_cow_eggs &7Chance:_&a20%)'
+            - 'cmd:(/addcredits %player% 25), chance:(5), display:(175 1 &625_mcmmo_levels &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 384 40), chance:(10), display:(384 1 &640_bottles_of_enchanting &7Chance:_&a10%)'
+            - 'cmd:(/give %player% 383:120 1), chance:(7), display:(383:120 1 &61_Villager_egg &7Chance:_&a7%)'
+            - 'cmd:(/give %player% 264 20), chance:(10), display:(264 1 &620_diamonds &7Chance:_&a10%)'
+            - 'cmd:(/cr givekey %player% diamond 1), chance:(1), display:(131 1 &61_Diamond_Crate_Key &7Chance:_&a1%)'
+            - 'cmd:(/eco give %player% 20000), chance:(4), display:(266 1 &6$20000 &7Chance:_&a4%)'
+            - 'cmd:(/give %player% 388 20), chance:(7), display:(388 1 &620_emeralds &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 403 2 Protection:4, chance:(5), display:(403 1 &62_P4_Books &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 276 1 sharpness:4 fireaspect:2), chance:(10), display:(276 1 &61_Sharpness_IV_Fire_II_Sword &7Chance:_&a10%)'
+            - 'cmd:(/give %player% 278 1 efficiency:4 unbreaking:3), chance(6), display:(278 1 &61_Efficiency_IV_Unbreaking_III_Pickaxe &7Chance:_&a6%)'
+            - 'cmd:(/give %player% 310 1 protection:2),cmd:(/give %player% 311 1 protection:2),cmd:(/give %player% 312 1 protection:2),cmd:(/give %player% 313 1 protection:2), chance:(5), display:(311 1 &6Full_set_of_P2_Armor &7Chance:_&a5%)'
+
+
+
+
+
+
+Diamond:
+    type: CSGOKEYCRATE
+    preview:
+        enabled: true
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        onOpen: ''
+        broadcast: '&7&l%player% has opened a &b&lDiamond Crate&7&l!'
+    key:
+        item: 'TRIPWIRE_HOOK'
+        enchantment: '34:10'
+        name: '&f&l[&b&lDiamond Crate Key&f&l]'
+        lore: 
+            - '&bType &f&n/warp crates&b to enter crates room.'
+
+            - '&f&nRight click &bDiamond crate &fto open it!'
+            - '&7&m&l------------------------------'                      
+    effect:
+        onOpenEffects: 'firework, blaze'
+        dormantEffects: 'flame'
+    reward:
+        minimumRewards: 1
+        maximumRewards: 1
+        rewards:
+            - 'cmd:(/eco give %player% 25000), chance:(10), display:(266 1 &6$25000 &7Chance:_&a10%)'
+            - 'cmd:(/addcredits %player% 30), chance:(9), display:(175 1 &630_mcmmo_levels &7Chance:_&a9%)'
+            - 'cmd:(/addcredits %player% 50), chance:(5), display:(175 1 &650_mcmmo_levels &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 384 128), chance:(10), display:(384 1 &6128_bottles_of_enchanting &7Chance:_&a10%)'
+            - 'cmd:(/give %player% 276 1 sharpness:6 unbreaking:4 fireaspect:2), chance(5), display:(276 1 &6Sharp_VI_Fire_II_Unbreaking_IV &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 383:120 2), chance:(7), display:(383:120 1 &62_Villager_eggs &7Chance:_&a7%)'
+            - 'cmd:(/give %player% 264 40), chance:(10), display:(264 1 &640_diamonds &7Chance:_&a10%)'
+            - 'cmd:(/cr givekey %player% diamond 2), chance:(4), display:(131 1 &62_Diamond_Crate_Keys &7Chance:_&a4%)'
+            - 'cmd:(/eco give %player% 50000), chance:(5), display:(266 1 &6$50000 &7Chance:_&a4%)'
+            - 'cmd:(/give %player% 388 40), chance:(5), display:(388 1 &640_emeralds &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 403 4 Protection:4, chance:(5), display:(403 1 &64_P4_Books &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 278 1 efficiency:6 unbreaking:4 silktouch:1), chance(5), display:(278 1 &6Efficiency_VI_Unbreaking_IV_Silk_I_Pickaxe &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 261 1 power:6 unbreaking:4 flame:2), chance(5), display:(261 1 &6Power_VI_Unbreaking_IV_Flame_II_Bow &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 310 1 protection:4),cmd:(/give %player% 311 1 protection:4),cmd:(/give %player% 312 1 protection:4),cmd:(/give %player% 313 1 protection:4), chance:(5), display:(311 1 &6Full_set_of_P4_Armor &7Chance:_&a5%)'
+
+
+
+FoodCrate:
+    type: SUPPLYCRATE
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        onOpen: ''
+        broadcast: ''
+    item:
+        name: '&f&l[ &a&lFood Crate &f&l]'
+        lore: 
+            - '&7Open the crate by placing it on the ground!'
+    effect:
+        onOpenEffects: 'firework'
+        dormantEffects: 'DISABLED FOR NON-KEY CRATES'
+    reward:
+        minimumRewards: 3
+        maximumRewards: 15
+        rewards:
+            - 'item:(apple 3), chance:(25)'
+            - 'item:(bread 3), chance:(25)'
+            - 'item:(pork 2), chance:(25)'
+            - 'item:(carrot 2), item:(cake 1), chance:(25)'
+            - 'item:(wheat 4), item:(sugar 4), chance:(25)'
+            - 'item:(349:1 2), chance:(25)'
+            - 'item:(349:2 2), chance:(25)'
+            - 'item:(349:3 2), chance:(25)'
+            - 'item:(357 2), chance:(40)'

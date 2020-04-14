@@ -1,0 +1,32 @@
+# 
+# set to 0 to disable economy
+blankchance: 0.5
+map-id: 1
+card-cost: 10
+winning-action: nothing
+losing-action: nothing
+options:
+  xmas-particles: true
+messages:
+  player-only: '&cSorry, but that command can only be run by a player!'
+  not-a-number: '&cYou need to specify a number, not a word.'
+  no-permissions: '&cYou don''t have permission for that!'
+  title-won: '&6You have won!'
+  subtitle-won: '%item%'
+  title-lost: '&cYou haven''t won anything :('
+  subtitle-lost: '&cBetter luck next time!'
+  scratch-tutorial: '&aHold shift and move your cursor to scratch the gray area free!'
+  card-received: '&aYou''ve received a scratch card!'
+  card-bought: '&aYou''ve bought a scratch card!'
+  not-enough-money: '&cYou don''t have enough money!'
+  already-scratching: '&cYou have already a scratch card open! Click again to use
+    this scratch card (The other one will be deleted!).'
+carditem:
+  ==: org.bukkit.inventory.ItemStack
+  type: PAPER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §eScratch Card
+    lore:
+    - §7Right click to use the scratch card!

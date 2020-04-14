@@ -1,0 +1,23 @@
+ {
+	"name": "Local_Kitpvp_Ranks",
+	"priority": 2,
+	"groups": [
+ 
+ 
+ 
+ {
+            "name": "kitpvp_rank1",
+            "permissions": {
+                "cowcraft.kitpvp.rank1": true
+            },
+            "priority": 1000,
+            "displayName": "Kitpvp VIP",
+            "isDefault": false
+        }
+   
+		
+		
+		
+		
+		]
+}	

@@ -1,0 +1,23 @@
+# vim: ft=yaml et ts=2 sts=2 sw=2
+entityManager:
+  enabled: false
+validityManager:
+  enabled: false
+screeningManager:
+  enabled: false
+heuristicsManager:
+  enabled: false
+  debugEnabled: false
+  certainCommands:
+    - 'kick %1$s [MCPerf] Cheating: %2$s'
+proxyManager:
+  enabled: true
+  whitelist: # Usernames; must be all-lowercase
+    - exabit         # Using VPN cause shit internet - Edy
+    - unf0rgettable  # Using some shitty internet - Edy
+pluginMessageManager:
+  enabled: true
+monitorManager:
+  enabled: true
+toxicityManager:
+  enabled: false

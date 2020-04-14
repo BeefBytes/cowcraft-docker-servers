@@ -1,0 +1,184 @@
+
+cowcraft.local.default:
+  default: true
+  children:
+    askyblock.craft.enderchest: true
+    auction.start: true
+    auction.bid: true
+    askyblock.coop: true
+    askyblock.settings.*: true
+    ifs.user.sell: true
+    ifs.user.buy: true
+    ifs.user.useSellAll: true
+    ifs.user.useBuyAll: true
+    ChestShop.shop.*: true
+    askyblock.island.*: true
+    askyblock.team.create: true
+    askyblock.team.kick: true
+    askyblock.team.makeleader: true
+    askyblock.team.join: true
+    askyblock.intopten: true
+    askyblock.island.controlpanel: true
+    redeemMCMMO.rmhelp: false
+    is.player: true
+    mobarena.use.join: true
+    mobarena.use.leave: true
+    mobarena.use.spec: true
+    mobarena.use.arenalist: true
+    mobarena.use.playerlist: true
+    mobarena.use.notready: true
+    mobarena.use.class: true
+    essentials.warps.shop: true
+    skyblock.player.accept: true
+    skyblock.player.create: false
+    skyblock.player.decline: true
+    skyblock.player.home: true
+    skyblock.player.invite: true
+    skyblock.player.kick: true
+    skyblock.player.leave: true
+    skyblock.player.lock: true
+    skyblock.player.party: true
+    skyblock.player.restart: false
+    essentials.pay: true
+    justshop.base: true
+    justshop.buy: true
+    justshop.sell: true
+    essentials.kit: true
+    essentials.warp: true
+    essentials.warps.pvp: true
+    essentials.warps.pvparena: true
+    essentials.warps.mobarena: true
+    essentials.home: true
+    essentials.delhome: true
+    essentials.sethome: true
+    essentials.tpa: true
+    essentials.tpaccept: true
+    essentials.tpahere: true
+    essentials.tpdeny: true
+    deadbolt.user.*: true
+    whatisit.use: true
+    auction.start: true
+    auction.bid: true
+
+cowcraft.skyblock.rank1:
+  default: false
+  children:
+    animatednames.group.default: false
+    animatednames.group.donor: true
+    puffix.prefix.rank1: true
+    cowcraft.skyblock.default: true
+    essentials.kits.noble: true
+    libsdisguises.disguise.chicken: true
+    libsdisguises.disguise.cow: true
+    libsdisguises.disguise.pig: true
+    libsdisguises.disguise.sheep: true
+    essentials.kits.iron: true
+    essentials.kits.leather: true
+    essentials.hat: true
+    essentials.ptime: true
+    essentials.feed: true
+    essentials.workbench: true
+    essentials.sethome.multiple: true
+    essentials.sethome.multiple.rank1: true
+    essentials.signs.create.mail: true
+    essentials.signs.create.disposal: true
+    essentials.signs.create.heal: true
+    essentials.signs.color: true
+
+
+cowcraft.skyblock.rank2:
+  default: false
+  children:
+    puffix.prefix.rank2: true
+    cowcraft.skyblock.rank1: true
+    essentials.kits.titan: true
+    essentials.near: true
+    libsdisguises.disguise.wolf: true
+    libsdisguises.disguise.creeper: true
+    libsdisguises.disguise.zombie: true
+    libsdisguises.disguise.skeleton: true
+    essentials.kits.gold: true
+    essentials.kits.redstone: true
+    essentials.repair: true
+    essentials.repair.armor: true
+    essentials.enderchest: true
+    essentials.heal: true
+    essentials.sethome.multiple.rank2: true
+    libsdisguises.disguise.chicken: true
+    libsdisguises.disguise.cow: true
+    libsdisguises.disguise.horse: true
+    libsdisguises.disguise.ocelot: true
+    libsdisguises.disguise.pig: true
+    libsdisguises.disguise.sheep: true
+    libsdisguises.disguise.bat: true
+    libsdisguises.disguise.mooshroom: true
+    libsdisguises.disguise.squid: true
+    libsdisguises.disguise.villager: true
+    essentials.signs.color: true
+    essentials.signs.magic: true
+
+
+cowcraft.skyblock.rank3:
+  default: false
+  children:
+    puffix.prefix.rank3: true
+    cowcraft.skyblock.rank2: true
+    essentials.kits.skylord: true
+    libsdisguises.disguise.slime: true
+    libsdisguises.disguise.blaze: true
+    libsdisguises.disguise.pigzombie: true
+    libsdisguises.disguise.witch: true
+    libsdisguises.disguise.irongolem: true
+    libsdisguises.disguise.snowgolem: true
+    libsdisguises.disguise.magmacube: true
+    libsdisguises.disguise.guardian: true
+    libsdisguises.disguise.rabbit: true
+    essentials.god: true 
+    essentials.nick.color: true
+    essentials.nick: true
+    essentials.kits.diamond: true
+    essentials.fly: true
+    essentials.sethome.multiple.rank3: true
+    essentials.keepxp: true
+    essentials.back: true
+    justshop.base: true
+    justshop.buy: true
+    justshop.sell: true
+
+
+cowcraft.skyblock.perm.essentials.fly:
+  default: false
+  children:
+    essentials.fly: true
+
+cowcraft.skyblock.perm.essentials.warps.spawner:
+  default: false
+  children:
+    essentials.warps.spawner: true
+    group.skyblock_spawner: true
+
+
+cowcraft.skyblock.mod:
+  default: false
+  children:
+    is.admin: true
+    is.admin.command.goto: true
+    is.admin.command.help: true
+    is.admin.command.info: true
+    is.admin.command.list: true
+    is.admin.command.version: true
+    is.admin.bypasscooldown: true
+    is.command.admin: true
+    is.admin.move: true
+    is.admin.kill: true
+    is.admin.build: true
+    is.command.admin.help: true
+    essentials.gamemode: true
+    essentials.gamemode.creative: true
+    essentials.gamemode.survival: true
+
+cowcraft.skyblock.helper:
+  default: false
+  children:
+    essentials.vanish: true
+

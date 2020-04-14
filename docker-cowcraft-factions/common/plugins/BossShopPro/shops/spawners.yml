@@ -1,0 +1,214 @@
+ShopName: Spawners
+signs:
+  text: '[Spawners]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8&lMob Spawner Shop'
+Command: Spawners
+shop:
+  Skeleton:
+    MenuItem:
+    - name:&f%shopitemname% Spawner
+    - 'lore:&7Price $&b%price%'
+    - 'lore:&8Click to buy'
+    - type:SKULL_ITEM:0
+    - amount:1
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% %shopitemname% 1
+    PriceType: MONEY
+    Price: 50000.0
+    InventoryLocation: 0
+  Zombie:
+    MenuItem:
+    - name:&f%shopitemname% Spawner
+    - 'lore:&7Price $&b%price%'
+    - 'lore:&8Click to buy'
+    - type:SKULL_ITEM:2
+    - amount:1
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% %shopitemname% 1
+    PriceType: MONEY
+    Price: 50000.0
+    InventoryLocation: 0
+#  Creeper:
+#    MenuItem:
+#    - name:&f%shopitemname% Spawner
+#    - 'lore:&7Price $&b%price%'
+#    - 'lore:&8Click to buy'
+#    - type:SKULL_ITEM:4
+#    - amount:1
+#    RewardType: COMMAND
+#    Reward:
+#    - spawner give %player% %shopitemname% 1
+#    PriceType: MONEY
+#    Price: 750000.0
+#    InventoryLocation: 0
+  Blaze:
+    MenuItem:
+    - name:&f%shopitemname% Spawner
+    - 'lore:&7Price $&b%price%'
+    - 'lore:&8Click to buy'
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ==
+    - amount:1
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% %shopitemname% 1
+    PriceType: MONEY
+    Price: 350000.0
+    InventoryLocation: 0
+  ZombiePigman:
+    MenuItem:
+    - name:&f%shopitemname% Spawner
+    - 'lore:&7Price $&b%price%'
+    - 'lore:&8Click to buy'
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRlOWM2ZTk4NTgyZmZkOGZmOGZlYjMzMjJjZDE4NDljNDNmYjE2YjE1OGFiYjExY2E3YjQyZWRhNzc0M2ViIn19fQ==
+    - amount:1
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% %shopitemname% 1
+    PriceType: MONEY
+    Price: 750000.0
+    InventoryLocation: 0
+  Enderman:
+    MenuItem:
+    - name:&f%shopitemname% Spawner
+    - 'lore:&7Price $&b%price%'
+    - 'lore:&8Click to buy'
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0=
+    - amount:1
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% %shopitemname% 1
+    PriceType: MONEY
+    Price: 500000.0
+    InventoryLocation: 0
+#  Witch:
+#    MenuItem:
+#    - name:&f%shopitemname% Spawner
+#    - 'lore:&7Price $&b%price%'
+#    - 'lore:&8Click to buy'
+#    - type:SKULL_ITEM:3
+#    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmUxMzkxMzBkN2VmZDQxZmJhZDUzNzM1ZjY0ZjhhZmYyNjViZDdjNTQ5NzcxODljMDJiYWJiZWM0YjBkMDdiIn19fQ==
+#    - amount:1
+#    RewardType: COMMAND
+#    Reward:
+#    - spawner give %player% %shopitemname% 1
+#    PriceType: MONEY
+#    Price: 750000.0
+#    InventoryLocation: 0
+  Spider:
+    MenuItem:
+    - name:&f%shopitemname% Spawner
+    - 'lore:&7Price $&b%price%'
+    - 'lore:&8Click to buy'
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ==
+    - amount:1
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% %shopitemname% 1
+    PriceType: MONEY
+    Price: 40000.0
+    InventoryLocation: 0
+  Slime:
+    MenuItem:
+    - name:&f%shopitemname% Spawner
+    - 'lore:&7Price $&b%price%'
+    - 'lore:&8Click to buy'
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZhZDIwZmMyZDU3OWJlMjUwZDNkYjY1OWM4MzJkYTJiNDc4YTczYTY5OGI3ZWExMGQxOGM5MTYyZTRkOWI1In19fQ==
+    - amount:1
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% %shopitemname% 1
+    PriceType: MONEY
+    Price: 500000.0
+    InventoryLocation: 0
+  Chicken:
+    MenuItem:
+    - name:&f%shopitemname% Spawner
+    - 'lore:&7Price $&b%price%'
+    - 'lore:&8Click to buy'
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYzODQ2OWE1OTljZWVmNzIwNzUzNzYwMzI0OGE5YWIxMWZmNTkxZmQzNzhiZWE0NzM1YjM0NmE3ZmFlODkzIn19fQ==
+    - amount:1
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% %shopitemname% 1
+    PriceType: MONEY
+    Price: 10000.0
+    InventoryLocation: 0
+  Rabbit:
+    MenuItem:
+    - name:&f%shopitemname% Spawner
+    - 'lore:&7Price $&b%price%'
+    - 'lore:&8Click to buy'
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmYxNTU5MTk0YTE3NTkzNWI4YjRmZWE2NjE0YmVjNjBiZjgxY2Y1MjRhZjZmNTY0MzMzYzU1NWU2NTdiYyJ9fX0=
+    - amount:1
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% %shopitemname% 1
+    PriceType: MONEY
+    Price: 20000.0
+    InventoryLocation: 0
+  Pig:
+    MenuItem:
+    - name:&f%shopitemname% Spawner
+    - 'lore:&7Price $&b%price%'
+    - 'lore:&8Click to buy'
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0=
+    - amount:1
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% %shopitemname% 1
+    PriceType: MONEY
+    Price: 20000.0
+    InventoryLocation: 0
+  Sheep:
+    MenuItem:
+    - name:&f%shopitemname% Spawner
+    - 'lore:&7Price $&b%price%'
+    - 'lore:&8Click to buy'
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjMxZjljY2M2YjNlMzJlY2YxM2I4YTExYWMyOWNkMzNkMThjOTVmYzczZGI4YTY2YzVkNjU3Y2NiOGJlNzAifX19
+    - amount:1
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% %shopitemname% 1
+    PriceType: MONEY
+    Price: 20000.0
+    InventoryLocation: 0
+  Cow:
+    MenuItem:
+    - name:&f%shopitemname% Spawner
+    - 'lore:&7Price $&b%price%'
+    - 'lore:&8Click to buy'
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ2YzZlZGE5NDJmN2Y1ZjcxYzMxNjFjNzMwNmY0YWVkMzA3ZDgyODk1ZjlkMmIwN2FiNDUyNTcxOGVkYzUifX19
+    - amount:1
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% %shopitemname% 1
+    PriceType: MONEY
+    Price: 150000.0
+    InventoryLocation: 0
+  IronGolem:
+    MenuItem:
+    - name:&f%shopitemname% Spawner
+    - 'lore:&7Price $&b%price%'
+    - 'lore:&8Click to buy'
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkwOTFkNzllYTBmNTllZjdlZjk0ZDdiYmE2ZTVmMTdmMmY3ZDQ1NzJjNDRmOTBmNzZjNDgxOWE3MTQifX19
+    - amount:1
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% %shopitemname% 1
+    PriceType: MONEY
+    Price: 2000000.0
+    InventoryLocation: 0

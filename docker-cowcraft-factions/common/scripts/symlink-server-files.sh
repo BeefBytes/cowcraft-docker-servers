@@ -1,0 +1,76 @@
+#!/bin/bash 
+source /home/mc/server/scripts/functions.sh
+
+arrPluginJars=(
+	"AntiRoofCannon"
+	"BattleArena"
+	"BattleTracker"
+	"BossShopPro"
+	"CombatTagPlus"
+	"CompatNoCheatPlus"
+	"CrateReloaded"
+	"EndBedrock"
+	"Enderpearl"
+	"Factions"
+	"FactionsTop"
+	"GenBuckets"
+	"GuiRedeemMcmmo"
+	"HolographicDisplays"
+	"ImmoovableEnderEgg"
+	"JustShop"
+	"KoTH"
+	"LeaderHeads"
+	"MergedMob"
+	"MobArena"
+	"Multiverse-Portals"
+	"NoDamage"
+	"ObsidianAuctions"
+	"ObsidianDestroyer"
+	"PlayerVaults"
+	"SilkSpawners"
+	"TrophyHeads"
+	"UltimateCasino"
+	"ViaVersion"
+	"WildX"
+	"factions-flight"
+	"hcGapple"
+	"1.8/mcMMO-1.8"
+	"1.8/worldguard-1.8"
+	"1.8/ProtocolSupport-1.8"
+	"1.8/LibsDisguises-1.8"
+)
+
+arrPluginFiles=(
+	"BossShopPro/data"
+	"BossShopPro/ItemDataStorage.yml"
+	"BossShopPro/BugFinder.yml"
+	"CrateReloaded/storage.yml"
+	"CrateReloaded/block.yml"
+	"Factions/factions.json"
+	"Factions/board.json"
+	"Factions/players.json"
+	"FactionsTop/database.mv.db"
+	"HolographicDisplays/database.yml"
+	"JustShop/signs.yml"
+	"KoTH/schedule.json"
+	"KoTH/loot.json"
+	"KoTH/koths.json"
+	"UltimateCasino/storage.yml"
+	"NoCheatPlus/nocheatplus.log"
+	"BattleArena/saves"
+	"FeatherBoard/data"
+	"LeaderHeads/data"
+	"ObsidianDestroyer/data"
+	"PlayerVaults/uuidvaults"
+	"mcMMO/flatfile"
+	"mcMMO/backup"
+)
+
+arrPluginFolders=(
+	"..."
+)
+
+# Execute functions
+symlinkPluginJars
+symlinkPluginFiles
+#symlinkPluginFolders

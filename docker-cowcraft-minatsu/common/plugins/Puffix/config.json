@@ -1,0 +1,61 @@
+{
+   "prefix": "[Puffix]",
+   "defaultPlaceholder": "puffix",
+   "tags": [
+
+
+      {
+         "string": "&4[Executive] &f",
+         "permission": "puffix.prefix.staff3",
+         "priority": 330
+      },
+      {
+         "string": "&c[Advisor] &f",
+         "permission": "puffix.prefix.staff2",
+         "priority": 320
+      },
+      {
+         "string": "&d[Supervisor] &f",
+         "permission": "puffix.prefix.staff1",
+         "priority": 310
+      },
+
+
+
+      {
+         "string": "&2[Master] &f",
+         "permission": "puffix.prefix.builder4",
+         "priority": 240
+      },
+      {
+         "string": "&2[Senior] &f",
+         "permission": "puffix.prefix.builder3",
+         "priority": 230
+      },
+      {
+         "string": "&a[Junior] &f",
+         "permission": "puffix.prefix.builder2",
+         "priority": 220
+      },
+      {
+         "string": "&a[Trialist] &f",
+         "permission": "puffix.prefix.builder1",
+         "priority": 210
+      },
+
+
+
+      {
+         "string": "&5[Client] &f",
+         "permission": "puffix.prefix.client",
+         "priority": 120
+      },
+      {
+         "string": "&8[Guest] &f",
+         "permission": "puffix.prefix.default",
+         "priority": 110
+      }
+
+
+   ]
+}

@@ -1,0 +1,20 @@
+#----------------------------------------
+# KoTH
+# SubSide's King of the Hill minigame plugin
+# https://www.spigotmc.org/resources/koth-king-of-the-hill.7689/
+#----------------------------------------
+
+# DO NOT EDIT THIS CONFIG VERSION!
+config: 1
+
+
+# Do you want to enable this event hook?
+# Enabling this hook will trigger scoreboard
+# when the KoTH game starts or stops
+# for all players on the server
+enabled: false
+
+# scoreboard to trigger
+scoreboard: 'koth'
+
+

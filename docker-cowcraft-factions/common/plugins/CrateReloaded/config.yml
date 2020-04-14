@@ -1,0 +1,91 @@
+# Thanks for the Purchase!
+
+#################################################
+# +--------------------------------------------+#
+# |  Config.YML Revision 04 by Bart/Dinosawrs  |#
+# +--------------------------------------------+#
+#################################################
+
+
+
+#################################################
+# +--------------------------------------------+#
+# |                  IMPORTANT                 |#
+# +--------------------------------------------+#
+#################################################
+
+# Developer Notes
+# There are an few noted minor bugs via Known Cavaets.
+# Please read them and notify your players!
+# Enjoy the plugin!~!~!
+
+#################################################
+# +--------------------------------------------+#
+# |              Admininistration              |#
+# +--------------------------------------------+#
+#################################################
+
+# Prefix
+# The prefix before every message
+prefix: '&7[&bMooCrates&7] '
+
+# Language (Please view the website on how to translate to your own language)
+# Currently Supports: en, fr
+locale: en
+
+# Updater (Developer Note: Disabled. ETA: N/A)
+# Do you wish to check for updates?
+updater: false
+
+# Debugger (Developer Note: Disabled. ETA: N/A)
+# Developing Use Only. Disable, if you do not want to recieve debug messages.
+debug: false
+
+#################################################
+# +--------------------------------------------+#
+# |                   Crates                   |#
+# +--------------------------------------------+#
+#################################################
+
+# Menu Display Settings
+# This sets the items for the virtual GUI type crates.
+menu:
+    name: 'Crate Menu'
+    amountDisplay: 
+        item: 'chest 1 %gold%Crate %white%You_have_%camount%_left.'
+    openCrateDisplay: 
+        item: 'diamond_block 1 %green%Open_Crate'
+    keyDisplay: 
+        item: 'tripwire_hook 1 %gold%Keys %white%You_have_%kamount%_left.'
+
+display:
+  chanceFormat: '#'
+
+usage:
+  cooldown: 1
+
+#################################################
+# +--------------------------------------------+#
+# |                  Pushback                  |#
+# +--------------------------------------------+#
+#################################################
+pushback:
+    enabled: true
+    modifiers:
+        x: 1.0
+        y: 1.0
+        z: 1.0
+
+        
+#################################################
+# +--------------------------------------------+#
+# |               Roulette/CSGO                |#
+# +--------------------------------------------+#
+#################################################
+
+roulette:
+    length: 5
+csgo:
+    length: 7
+    topPrizeDisplay: 'REDSTONE_TORCH_ON 1 &6Prize!'
+    botPrizeDisplay: 'REDSTONE_TORCH_ON 1 &6Prize!'

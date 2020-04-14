@@ -1,0 +1,115 @@
+# ObsidianDestoyer by drtshock and squidicuzz
+# For information and updates visit https://mcexchange.org/resources/obsidiandestroyer.3/
+# Join irc for live support http://webchat.esper.net/?channels=drtshock&prompt=1
+# Or use our issue tracker @ https://github.com/drtshock/ObsidianDestroyer/issues
+
+# Made with love <3
+
+# Do not touch this line. It will rewrite your config. 
+# The old config will be saved as 'config.yml.old-VERSION'
+Version: 4.4.11-SNAPSHOT
+
+
+# Enables debug output
+Debug: false
+Verbose: false
+
+# List of worlds that the plugin will not interact with.
+# Example: DisabledOnWorlds: [world_survival, world_creative]
+DisabledOnWorlds: []
+
+
+# INDIVIDUAL DURABILITY SETTINGS ARE IN THE MATERIALS.YML FILE
+
+DurabilityGlobal:
+  # Allows the durability of materials to gradually regenerate over time.
+  # Requires:  'MATERIAL.Durability.ResetEnabled: true'  in materials.yml and adjustment of timings.
+  # Example Timing Adjustment: 'OBSIDIAN.Durability.ResetAfter: 60000' for obsidian to regenerate 1 durability every minute
+  RegeneratesOverTime: false
+
+  # The item used to check the durability of blocks
+  # Permission node: 'obsidiandestroyer.check'
+  CheckItem: POTATO_ITEM
+
+  # Effects that are displayed when materials take damage
+  Effects:
+    Enabled: true
+    Chance: 0.12
+
+
+Explosions:
+  # The explosion radius that will be checked. Blocks in this radius will be affected.
+  # Must be greater than zero and not above ten. Will create lag with high radius
+  # See 'MATERIAL.BlastRadius' in materials.yml for custom distance.
+  # This radius is the global max. MATERIAL.BlastRadius must be equal to or lower than this number
+  Radius: 3
+
+  # False means that water and lava won't protect industructable materials from explosions.
+  # Only applies if the material is enabled in materials.yml
+  # This is a fix for the handling of blocks like obsidian that are not normally destroyable,
+  #  but become destroyed in water with this disabled.
+  FluidsProtectIndustructables: true
+
+  # Enables a bypass to allow explosions to affect ALL blocks under / next to liquids.
+  # This will bypass ALL blocks and override 'FluidsProtectIndustructables' above.
+  # Destroys fluid blocks and other blocks within explosion radius.
+  BypassAllFluidProtection: false
+
+  # Allows fluids to have explosion dampening applied without fluid protection bypass
+  ApplyFluidDampening: true
+
+  # Protects "TNT cannons" from being destroyed when used. 
+  # This doesn't do anything unless the 'BypassAllFluidProtection' option is true.
+  TNTCannonsProtected: true
+
+  # Fixes explosion interactions between layered blocks of various strength
+  # Blocks the damage to the blocks behind a block damaged
+  DisableDamageBleeding: true
+  # Adjust the chance of the next block to take damage on the blocking blocks destruction (0 none, 1.0 always)
+  NextLevelDamageChance: 0.5
+
+  # Toggles handling of explosions that are not created by an entity. Set to true to ignore null detonators
+  IgnoreUnhandledTypes: false
+
+# Works directly with Factions for extended event processing; adds the ability
+#  for durability multipliers based on the online status of a faction.
+# Works with most versions of Factions
+Factions:
+  # Enable Hooking - enabling will allow obsidian destroyer to pass interactions directly to factions.
+  Enabled: false
+  # Toggles explosion features between ObsidianDestroyer and Factions.
+  HandleExplosions: true
+
+  # Enable this to only damage blocks when Faction power is low
+  UseFactionPowerLevel: false
+
+  # Toggle to manage an offline faction. (Override & Multiplier)
+  # Enables an override that will allow [managed] blocks to be destroyed for a protected offline faction.
+  HandleOffline: false
+  # Protect factions that offline instead of applying damage
+  ProtectOffline: false
+  # Multiplier to use for changing the durability of an offline faction.
+  OfflineDurabilityMultiplier: 1.0
+  # Toggle to manage an online faction. (Multiplier)
+  HandleOnline: false
+  # Multiplier to use for changing the durability of an online faction.
+  OnlineDurabilityMultiplier: 1.0
+
+
+WorldsEdge:
+  # When bedrock destruction is enabled, this prevents holes into the void and top of the nether.
+  # HOLY CRAP DON'T TURN THIS OFF
+  ProtectBedrockBorders: true
+
+  # Levels to protect bedrock.
+  # If you have the above value set to true, this is important because people will be able to
+  # blow up bedrock ABOVE/BELOW this Y level. Don't blame us if you set it too low and people start
+  # falling through your world or blowing holes in the top of your nether.
+  BorderToProtect:
+    # Regular world type. Default is 5.
+    World: 5
+    # Should be obvious. Default is 123.
+    Nether: 123
+
+
+# Thats it :3

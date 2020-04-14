@@ -1,0 +1,367 @@
+ShopName: Ranks
+DisplayName: 'Ranks'
+signs:
+  text: '[Ranks]'
+  NeedPermissionToCreateSign: true
+Command: ranks
+shop:
+  1:
+    RewardType: close
+    MenuItem:
+    - type:PAPER
+    - amount:1
+    - 'name:&8[&5Supporter&8]'
+    - 'lore:&cClick to view all of kits and perks'
+    - 'lore:&bPerks:'
+    - 'lore:&a[v] &7/kit supporter'
+    - 'lore:&a[v] &7/kit armor1 &8use /showkit'
+    - 'lore:&a[v] &73 homes &8/sethome'
+    - 'lore:&a[v] &7/back'
+    - 'lore:&a[v] &7/fly &8in faction territory'
+    - 'lore:&a[v] &7/feed'
+    - 'lore:&a[v] &7/hat'
+    - 'lore:&a[v] &7/ptime'
+    - 'lore:&a[v] &7/workbench'
+    - 'lore:&a[v] &7Ability to mine all spawners!'
+    - 'lore:&a[v] &7/disguise &8chicken, cow, horse, ocelot, pig, sheep, mooshroom, squid, villager, wolf'
+
+    - 'lore:&c&lx &c[&7/kit elite&c]'
+    - 'lore:&c&lx &c[&7/kit armor2 &8use /showkit&c]'
+    - 'lore:&c&lx &c[&7/enderchest&c]'
+    - 'lore:&c&lx &c[&7/heal&c]'
+    - 'lore:&c&lx &c[&7Sign Colors&c]'
+    - 'lore:&c&lx &c[&7/ext&c]'
+
+    - 'lore:&c&lx &c[&7/kit cowgod&c]'
+    - 'lore:&c&lx &c[&7/kit armor3 &8use /showkit&c]'
+    - 'lore:&c&lx &c[&7/kit cannon&c]'
+    - 'lore:&c&lx &c[&7/nick &8change display name&c]'
+    - 'lore:&c&lx &c[&7Keep EXP &8keep your EXP when you die&c]'
+    - 'lore:&c&lx &c[&7/near &8list players within 100 blocks&c]'
+    - 'lore:&c&lx &c[&7/nd toggle explosion&c]'
+    - 'lore:&c&lx &c[&7/fix &8ability to repair gear&c]'
+    - 'lore:&c&lx &c[&7/kit gapple &8use /showkit&c]'
+
+    - 'lore:&c&lx &c[&7/kit titan&c]'
+    - 'lore:&c&lx &c[&7/kit armor4 &8use /showkit&c]'
+    - 'lore:&c&lx &c[&7/kit ores&c]'
+    - 'lore:&c&lx &c[&7Bold Nicknames!&c]'
+    - 'lore:&c&lx &c[&7/nd toggle fire&c]'
+
+    - 'lore:&c&lx &c[&7/kit overlord&c]'
+    - 'lore:&c&lx &c[&7/kit armor5 &8use /showkit&c]'
+    - 'lore:&c&lx &c[&7/pv 1 &8personal vault&c]'
+    - 'lore:&c&lx &c[&7/kit creeper&c]'
+    - 'lore:&c&lx &c[&7/kit cratekeys &8every week&c]'
+    - 'lore:&c&lx &c[&7/nd toggle drowning&c]'
+    - 'lore:&c&lx &c[&7/nd toggle fall&c]'
+    - 'lore:&c&lx &c[&7/kit overlordmcmmo &81 mcmmo credit daily&c]'
+
+    - 'lore:&c&lx &c[&7/kit mythic&c]'
+    - 'lore:&c&lx &c[&7/kit armor6 &8use /showkit&c]'
+    - 'lore:&c&lx &c[&7/pv 2 &8additional personal vault&c]'
+    - 'lore:&c&lx &c[&7/kit mythicmcmmo &82 mcmmo credits daily&c]'
+
+    Message: '&e&lSee full perks list here &e&l» &7http://goo.gl/KX7eml &e&l«'
+    InventoryLocation: 1
+    ExtraPermission: ''
+  2:
+    RewardType: close
+    MenuItem:
+    - type:PAPER
+    - amount:1
+    - name:&8[&6Elite&8]
+    - 'lore:&cClick to view all of kits and perks'
+    - 'lore:&bPerks:'
+    - 'lore:&a[v] &7/kit supporter'
+    - 'lore:&c&lx &c[&7/kit armor1 &8use /showkit&c]'
+    - 'lore:&a[v] &75 homes &8/sethome'
+    - 'lore:&a[v] &7/back'
+    - 'lore:&a[v] &7/fly &8in faction territory'
+    - 'lore:&a[v] &7/feed'
+    - 'lore:&a[v] &7/hat'
+    - 'lore:&a[v] &7/ptime'
+    - 'lore:&a[v] &7/workbench'
+    - 'lore:&a[v] &7Ability to mine all spawners!'
+    - 'lore:&a[v] &7/disguise &8all supporter plus: blaze, creeper, skeleton, slime, zombie, witch'
+
+    - 'lore:&a[v] &7/kit elite'
+    - 'lore:&a[v] &7/kit armor2 &8use /showkit'
+    - 'lore:&a[v] &7/enderchest'
+    - 'lore:&a[v] &7/heal'
+    - 'lore:&a[v] &7Sign Colors'
+    - 'lore:&a[v] &7/ext'
+
+    - 'lore:&c&lx &c[&7/kit cowgod&c]'
+    - 'lore:&c&lx &c[&7/kit armor3 &8use /showkit&c]'
+    - 'lore:&c&lx &c[&7/kit cannon&c]'
+    - 'lore:&c&lx &c[&7/nick &8change display name&c]'
+    - 'lore:&c&lx &c[&7Keep EXP &8keep your EXP when you die&c]'
+    - 'lore:&c&lx &c[&7/near &8list players within 100 blocks&c]'
+    - 'lore:&c&lx &c[&7/nd toggle explosion&c]'
+    - 'lore:&c&lx &c[&7/fix &8ability to repair gear&c]'
+    - 'lore:&c&lx &c[&7/kit gapple &8use /showkit&c]'
+
+    - 'lore:&c&lx &c[&7/kit titan&c]'
+    - 'lore:&c&lx &c[&7/kit armor4 &8use /showkit&c]'
+    - 'lore:&c&lx &c[&7/kit ores&c]'
+    - 'lore:&c&lx &c[&7Bold Nicknames!&c]'
+    - 'lore:&c&lx &c[&7/nd toggle fire&c]'
+
+    - 'lore:&c&lx &c[&7/kit overlord&c]'
+    - 'lore:&c&lx &c[&7/kit armor5 &8use /showkit&c]'
+    - 'lore:&c&lx &c[&7/pv 1 &8personal vault&c]'
+    - 'lore:&c&lx &c[&7/kit creeper&c]'
+    - 'lore:&c&lx &c[&7/kit cratekeys &8every week&c]'
+    - 'lore:&c&lx &c[&7/nd toggle drowning&c]'
+    - 'lore:&c&lx &c[&7/nd toggle fall&c]'
+    - 'lore:&c&lx &c[&7/kit overlordmcmmo &81 mcmmo credit daily&c]'
+
+    - 'lore:&c&lx &c[&7/kit mythic&c]'
+    - 'lore:&c&lx &c[&7/kit armor6 &8use /showkit&c]'
+    - 'lore:&c&lx &c[&7/pv 2 &8additional personal vault&c]'
+    - 'lore:&c&lx &c[&7/kit mythicmcmmo &82 mcmmo credits daily&c]'
+
+    Message: '&e&lSee full perks list here &e&l» &7http://goo.gl/KX7eml &e&l«'
+    InventoryLocation: 2
+    ExtraPermission: ''
+  3:
+    RewardType: close
+    MenuItem:
+    - type:PAPER
+    - amount:1
+    - name:&8[&9Cow&fGod&8]
+    - 'lore:&cClick to view all of kits and perks'
+    - 'lore:&bPerks:'
+    - 'lore:&a[v] &7/kit supporter'
+    - 'lore:&c&lx &c[&7/kit armor1 &8use /showkit&c]'
+    - 'lore:&a[v] &77 homes &8/sethome'
+    - 'lore:&a[v] &7/back'
+    - 'lore:&a[v] &7/fly &8in faction territory'
+    - 'lore:&a[v] &7/feed'
+    - 'lore:&a[v] &7/hat'
+    - 'lore:&a[v] &7/ptime'
+    - 'lore:&a[v] &7/workbench'
+    - 'lore:&a[v] &7Ability to mine all spawners!'
+    - 'lore:&a[v] &7/disguise &8all elite plus: pigzombie, irongolem, snowman, magmacube, guardian, rabbit'
+
+    - 'lore:&a[v] &7/kit elite'
+    - 'lore:&c&lx &c[&7/kit armor2 &8use /showkit&c]'
+    - 'lore:&a[v] &7/enderchest'
+    - 'lore:&a[v] &7/heal'
+    - 'lore:&a[v] &7Sign Colors'
+    - 'lore:&a[v] &7/ext'
+
+    - 'lore:&a[v] &7/kit cowgod'
+    - 'lore:&a[v] &7/kit armor3 &8use /showkit'
+    - 'lore:&a[v] &7/kit cannon'
+    - 'lore:&a[v] &7/nick &8change display name'
+    - 'lore:&a[v] &7Keep EXP &8keep your EXP when you die'
+    - 'lore:&a[v] &7/near &8list players within 100 blocks'
+    - 'lore:&a[v] &7/nd toggle explosion'
+    - 'lore:&a[v] &7/fix &8ability to repair gear'
+    - 'lore:&a[v] &7/kit gapple &8use /showkit'
+
+    - 'lore:&c&lx &c[&7/kit titan&c]'
+    - 'lore:&c&lx &c[&7/kit armor4 &8use /showkit&c]'
+    - 'lore:&c&lx &c[&7/kit ores&c]'
+    - 'lore:&c&lx &c[&7Bold Nicknames!&c]'
+    - 'lore:&c&lx &c[&7/nd toggle fire&c]'
+
+    - 'lore:&c&lx &c[&7/kit overlord&c]'
+    - 'lore:&c&lx &c[&7/kit armor5 &8use /showkit&c]'
+    - 'lore:&c&lx &c[&7/pv 1 &8personal vault&c]'
+    - 'lore:&c&lx &c[&7/kit creeper&c]'
+    - 'lore:&c&lx &c[&7/kit cratekeys &8every week&c]'
+    - 'lore:&c&lx &c[&7/nd toggle drowning&c]'
+    - 'lore:&c&lx &c[&7/nd toggle fall&c]'
+    - 'lore:&c&lx &c[&7/kit overlordmcmmo &81 mcmmo credit daily&c]'
+
+    - 'lore:&c&lx &c[&7/kit mythic&c]'
+    - 'lore:&c&lx &c[&7/kit armor6 &8use /showkit&c]'
+    - 'lore:&c&lx &c[&7/pv 2 &8additional personal vault&c]'
+    - 'lore:&c&lx &c[&7/kit mythicmcmmo &82 mcmmo credits daily&c]'
+
+    Message: '&e&lSee full perks list here &e&l» &7http://goo.gl/KX7eml &e&l«'
+    InventoryLocation: 3
+    ExtraPermission: ''
+  4:
+    RewardType: close
+    MenuItem:
+    - type:PAPER
+    - amount:1
+    - name:&8[&e&lTitan&8]
+    - 'lore:&cClick to view all of kits and perks'
+    - 'lore:&bPerks:'
+    - 'lore:&a[v] &7/kit supporter'
+    - 'lore:&c&lx &c[&7/kit armor1 &8use /showkit&c]'
+    - 'lore:&a[v] &710 homes &8/sethome'
+    - 'lore:&a[v] &7/back'
+    - 'lore:&a[v] &7/fly &8in faction territory'
+    - 'lore:&a[v] &7/feed'
+    - 'lore:&a[v] &7/hat'
+    - 'lore:&a[v] &7/ptime'
+    - 'lore:&a[v] &7/workbench'
+    - 'lore:&a[v] &7Ability to mine all spawners!'
+    - 'lore:&a[v] &7/disguise &8all cowgod plus: giant'
+
+    - 'lore:&a[v] &7/kit elite'
+    - 'lore:&c&lx &c[&7/kit armor2 &8use /showkit&c]'
+    - 'lore:&a[v] &7/enderchest'
+    - 'lore:&a[v] &7/heal'
+    - 'lore:&a[v] &7Sign Colors'
+    - 'lore:&a[v] &7/ext'
+
+    - 'lore:&a[v] &7/kit cowgod'
+    - 'lore:&c&lx &c[&7/kit armor3 &8use /showkit&c]'
+    - 'lore:&a[v] &7/kit cannon'
+    - 'lore:&a[v] &7/nick &8change display name'
+    - 'lore:&a[v] &7Keep EXP &8keep your EXP when you die'
+    - 'lore:&a[v] &7/near &8list players within 100 blocks'
+    - 'lore:&a[v] &7/nd toggle explosion'
+    - 'lore:&a[v] &7/fix &8ability to repair gear'
+    - 'lore:&a[v] &7/kit gapple &8use /showkit'
+
+    - 'lore:&a[v] &7/kit titan'
+    - 'lore:&a[v] &7/kit armor4 &8use /showkit'
+    - 'lore:&a[v] &7/kit ores'
+    - 'lore:&a[v] &7Bold Nicknames!'
+    - 'lore:&a[v] &7/nd toggle fire'
+
+    - 'lore:&c&lx &c[&7/kit overlord&c]'
+    - 'lore:&c&lx &c[&7/kit armor5 &8use /showkit&c]'
+    - 'lore:&c&lx &c[&7/pv 1 &8personal vault&c]'
+    - 'lore:&c&lx &c[&7/kit creeper&c]'
+    - 'lore:&c&lx &c[&7/kit cratekeys &8every week&c]'
+    - 'lore:&c&lx &c[&7/nd toggle drowning&c]'
+    - 'lore:&c&lx &c[&7/nd toggle fall&c]'
+    - 'lore:&c&lx &c[&7/kit overlordmcmmo &81 mcmmo credit daily&c]'
+
+    - 'lore:&c&lx &c[&7/kit mythic&c]'
+    - 'lore:&c&lx &c[&7/kit armor6 &8use /showkit&c]'
+    - 'lore:&c&lx &c[&7/pv 2 &8additional personal vault&c]'
+    - 'lore:&c&lx &c[&7/kit mythicmcmmo &82 mcmmo credits daily&c]'
+
+    Message: '&e&lSee full perks list here &e&l» &7http://goo.gl/KX7eml &e&l«'
+    InventoryLocation: 4
+    ExtraPermission: ''
+  5:
+    RewardType: close
+    MenuItem:
+    - type:PAPER
+    - amount:1
+    - name:&8[&4&kI&c&lOverlord&4&kI&8]
+    - 'lore:&cClick to view all of kits and perks'
+    - 'lore:&bPerks:'
+    - 'lore:&a[v] &7/kit supporter'
+    - 'lore:&c&lx &c[&7/kit armor1 &8use /showkit&c]'
+    - 'lore:&a[v] &720 homes &8/sethome'
+    - 'lore:&a[v] &7/back'
+    - 'lore:&a[v] &7/fly &8in faction territory'
+    - 'lore:&a[v] &7/feed'
+    - 'lore:&a[v] &7/hat'
+    - 'lore:&a[v] &7/ptime'
+    - 'lore:&a[v] &7/workbench'
+    - 'lore:&a[v] &7Ability to mine all spawners!'
+    - 'lore:&a[v] &7/disguise &8all cowgod plus: giant'
+
+    - 'lore:&a[v] &7/kit elite'
+    - 'lore:&c&lx &c[&7/kit armor2 &8use /showkit&c]'
+    - 'lore:&a[v] &7/enderchest'
+    - 'lore:&a[v] &7/heal'
+    - 'lore:&a[v] &7Sign Colors'
+    - 'lore:&a[v] &7/ext'
+
+    - 'lore:&a[v] &7/kit cowgod'
+    - 'lore:&c&lx &c[&7/kit armor3 &8use /showkit&c]'
+    - 'lore:&a[v] &7/kit cannon'
+    - 'lore:&a[v] &7/nick &8change display name'
+    - 'lore:&a[v] &7Keep EXP &8keep your EXP when you die'
+    - 'lore:&a[v] &7/near &8list players within 100 blocks'
+    - 'lore:&a[v] &7/nd toggle explosion'
+    - 'lore:&a[v] &7/fix &8ability to repair gear'
+    - 'lore:&a[v] &7/kit gapple &8use /showkit'
+
+    - 'lore:&a[v] &7/kit titan'
+    - 'lore:&c&lx &c[&7/kit armor4 &8use /showkit&c]'
+    - 'lore:&a[v] &7/kit ores'
+    - 'lore:&a[v] &7Bold Nicknames!'
+    - 'lore:&a[v] &7/nd toggle fire'
+
+    - 'lore:&a[v] &7/kit overlord'
+    - 'lore:&a[v] &7/kit armor5 &8use /showkit'
+    - 'lore:&a[v] &7/pv 1 &8personal vault'
+    - 'lore:&a[v] &7/kit creeper'
+    - 'lore:&a[v] &7/kit cratekeys &8every week'
+    - 'lore:&a[v] &7/nd toggle drowning'
+    - 'lore:&a[v] &7/nd toggle fall'
+    - 'lore:&a[v] &7/kit overlordmcmmo &81 mcmmo credit daily'
+
+    - 'lore:&c&lx &c[&7/kit mythic&c]'
+    - 'lore:&c&lx &c[&7/kit armor6 &8use /showkit&c]'
+    - 'lore:&c&lx &c[&7/pv 2 &8additional personal vault&c]'
+    - 'lore:&c&lx &c[&7/kit mythicmcmmo &82 mcmmo credits daily&c]'
+
+    Message: '&e&lSee full perks list here &e&l» &7http://goo.gl/KX7eml &e&l«'
+    InventoryLocation: 5
+    ExtraPermission: ''
+  6:
+    RewardType: close
+    MenuItem:
+    - type:PAPER
+    - amount:1
+    - 'name:&8[&9&kI&3&lM&b&ly&f&lth&b&li&3&lc&9&kI&8]'
+    - 'lore:&cClick to view all of kits and perks'
+    - 'lore:&bPerks:'
+    - 'lore:&a[v] &7/kit supporter'
+    - 'lore:&c&lx &c[&7/kit armor1 &8use /showkit&c]'
+    - 'lore:&a[v] &730 homes &8/sethome'
+    - 'lore:&a[v] &7/back'
+    - 'lore:&a[v] &7/fly &8in faction territory'
+    - 'lore:&a[v] &7/feed'
+    - 'lore:&a[v] &7/hat'
+    - 'lore:&a[v] &7/ptime'
+    - 'lore:&a[v] &7/workbench'
+    - 'lore:&a[v] &7Ability to mine all spawners!'
+    - 'lore:&a[v] &7/disguise &8all cowgod plus: giant'
+
+    - 'lore:&a[v] &7/kit elite'
+    - 'lore:&c&lx &c[&7/kit armor2 &8use /showkit&c]'
+    - 'lore:&a[v] &7/enderchest'
+    - 'lore:&a[v] &7/heal'
+    - 'lore:&a[v] &7Sign Colors'
+    - 'lore:&a[v] &7/ext'
+
+    - 'lore:&a[v] &7/kit cowgod'
+    - 'lore:&c&lx &c[&7/kit armor3 &8use /showkit&c]'
+    - 'lore:&a[v] &7/kit cannon'
+    - 'lore:&a[v] &7/nick &8change display name'
+    - 'lore:&a[v] &7Keep EXP &8keep your EXP when you die'
+    - 'lore:&a[v] &7/near &8list players within 100 blocks'
+    - 'lore:&a[v] &7/nd toggle explosion'
+    - 'lore:&a[v] &7/fix &8ability to repair gear'
+    - 'lore:&a[v] &7/kit gapple &8use /showkit'
+
+    - 'lore:&a[v] &7/kit titan'
+    - 'lore:&c&lx &c[&7/kit armor4 &8use /showkit&c]'
+    - 'lore:&a[v] &7/kit ores'
+    - 'lore:&a[v] &7Bold Nicknames!'
+    - 'lore:&a[v] &7/nd toggle fire'
+
+    - 'lore:&a[v] &7/kit overlord'
+    - 'lore:&c&lx &c[&7/kit armor5 &8use /showkit&c]'
+    - 'lore:&a[v] &7/pv 1 &8personal vault'
+    - 'lore:&a[v] &7/kit creeper'
+    - 'lore:&a[v] &7/kit cratekeys &8every week'
+    - 'lore:&a[v] &7/nd toggle drowning'
+    - 'lore:&a[v] &7/nd toggle fall'
+    - 'lore:&c&lx &c[&7/kit overlordmcmmo &81 mcmmo credit daily&c]'
+
+    - 'lore:&a[v] &7/kit mythic'
+    - 'lore:&a[v] &7/kit armor6 &8use /showkit'
+    - 'lore:&a[v] &7/pv 2 &8additional personal vault'
+    - 'lore:&a[v] &7/kit mythicmcmmo &82 mcmmo credits daily'
+
+    Message: '&e&lSee full perks list here &e&l» &7http://goo.gl/KX7eml &e&l«'
+    InventoryLocation: 6
+    ExtraPermission: ''

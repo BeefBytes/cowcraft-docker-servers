@@ -1,0 +1,75 @@
+#################################################################
+#              WildX [1.7-1.12] (PvPingMC remake)               #
+#                       Created by Tox                          #
+#    USER: https://www.spigotmc.org/members/toxthecat.111618/   #
+#                                                               #
+#           Sounds 1.9+: http://tinyurl.com/1-9-sounds          #           
+#         Sounds 1.7 or 1.8: http://tinyurl.com/sounds1-8       #
+#################################################################
+
+messages:
+  only-players: "&c&l(!) &cOnly players can execute this command."
+  no-permission: "&c&l(!) &cYou do not have access to do that command."
+  not-enough-money: "&c&l(!) &cYou do not have enough money to random teleport."
+  teleport-success: "&a&l(!) &aYou have been &2&nsuccessfully&a been randomly teleported."
+  menu-opened: "&a&l(!) &aPlease select a distance to randomly teleport."
+  money-taken: "&c&l- $%amount%"
+  reload-success: "&a&l(!) &aYou have successfully reloaded WildX."
+  player-offline: "&c&l(!) &cThe player you entered is invalid or offline."
+  forcetp-success: "&a&l(!) &aYou have &2&nforcefully&a randomly teleported %player%"
+  
+options: 
+  # This world must be the same as the one you want to teleport in. (Name is case sensitive)
+  teleport-world: normal
+  # Sound must be available to the version your running the plugin on. 
+  sound-open-menu: CHEST_OPEN
+  # Enable or disable the use of the sound played on the opening of the random teleport menu
+  use-open-sound: true
+  # How long in seconds the player should have anti fall damage after teleporting. (Is disabled if teleport-on-ground is true)
+  anti-damage-time: 15 
+  # Should players get teleport on ground level or in the sky
+  teleport-on-ground: false   
+
+menu:
+  title: "&8Choose a distance to teleport."
+  border:
+    id: STAINED_GLASS_PANE
+    data: 7
+    name: " "
+    lore:
+  small:
+    id: STAINED_GLASS_PANE
+    data: 4
+    name: "&f&l** &e&l&nSmall Random Teleport &f&l**"
+    lore:
+      - "&f"
+      - "&e&lTeleport Options"
+      - "&f"
+      - "&6* &e&lRadius &71000 &ex &71000"
+      - "&6* &e&lCost &7$500"
+    price: 500
+    distance: 1000
+  medium:
+    id: STAINED_GLASS_PANE
+    data: 1
+    name: "&f&l** &6&l&nMedium Random Teleport &f&l**"
+    lore:
+      - "&f"
+      - "&e&lTeleport Options"
+      - "&f"
+      - "&6* &e&lRadius &73000 &ex &73000"
+      - "&6* &e&lCost &7$2000"
+    price: 2000
+    distance: 3000
+  large:
+    id: STAINED_GLASS_PANE
+    data: 14
+    name: "&f&l** &c&l&nLarge Random Teleport &f&l**"
+    lore:
+      - "&f"
+      - "&e&lTeleport Options"
+      - "&f"
+      - "&6* &e&lRadius &76000 &ex &76000"
+      - "&6* &e&lCost &7$5000"
+    price: 5000
+    distance: 6000

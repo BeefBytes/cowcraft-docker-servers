@@ -1,0 +1,675 @@
+# Kits permission is: sg.kits.<kitname>
+# Usage: 'ItemID : Amount'
+# You can also add extra enchantments, names, lores by doing this
+# 'ItemID : Amount : Extra'
+# Enchanting is done like this: enchant:enchantment:level
+# Naming is done like this: name:name
+# Adding a lore is done like this: lore:lore
+# List of enchantments you can use: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+# List of colors you can use as a dye: BLACK, AQUA, BLUE, FUCHSIA, GRAY, GREEN, LIME, MAROON, NAVY, OLIVE, ORANGE, PURPLE, RED, SILVER, TEAL, WHITE, YELLOW
+# You can also control the durability of items by doing this 'ItemID:Durability : Amount'
+# Example '267:50 : 1 : enchant:DAMAGE_ALL:2 : name:&4GOD SWORD : lore:&b its a cool sword!'
+# This will create an iron sword with a durability of 50 and sharpness 2 enchantment on it and the name of 'GOD SWORD' with a dark red color and a lore that says 'Its a cool sword' in an aqua color
+# Please note that ur kit name must be lowercase!
+# 
+# Potion effects format: 'POTION_ENUM : DURATION : LEVEL'
+# For a list of potions you can use visit this website https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
+# Example 'SPEED : 99999 : 1' this will give unlimited speed 1
+
+Kits:
+  knight:
+    permission: false
+    permission-name: sg.kits.default
+    buyable: true
+    price: 15
+    position: 1
+    item: '268'
+    armor:
+      helmet: '0'
+      chestplate: '303'
+      leggings: '0'
+      boots: '0'
+    items:
+    - '268 : 1 : name:&bKnights Dagger : lore:&a Dagger used by knights of the past.'
+    - '320 : 2 : name:&bKnights Meal : lore:&a Meal fresh from the farm.'
+    description:
+    - '&7Become a knight of the olden days!'
+    - ''
+    - '&fKit items'
+    - '&71 x chainmail chestplate'
+    - '&71 x wooden sword'
+    - '&72 x cooked porkchop'
+  archer:
+    permission: false
+    permission-name: sg.kits.default
+    buyable: true
+    price: 15
+    position: 2
+    item: '261 : enchant:ARROW_DAMAGE:1'
+    armor:
+      helmet: '0'
+      chestplate: '299 : enchant:PROTECTION_ENVIRONMENTAL:1 : dye:OLIVE'
+      leggings: '0'
+      boots: '301 : dye:OLIVE'
+    items:
+    - '261 : 1 : enchant:ARROW_DAMAGE:1 : name:&4Archers Bow : lore:&a Bow used by
+      archers of the past.'
+    - '262 : 10'
+    - '319 : 2 : name:&4Archers Game : lore:&a The hunt ended with some dinner for
+      the archer.'
+    description:
+    - '&7Become an archer of the past!'
+    - ''
+    - '&fKit items'
+    - '&71 x &aprotection 1 &7leather chestplate'
+    - '&71 x leather boots'
+    - '&71 x &apower 1 &7bow'
+    - '&710 x arrows'
+    - '&72 x raw porkchop'
+  grandpa:
+    permission: false
+    permissions-name: sg.kits.default
+    buyable: true
+    price: 15
+    position: 3
+    item: '280'
+    armor:
+      helmet: '298'
+      chestplate: '299'
+      leggings: '300'
+      boots: '301'
+    items:
+    - '319 : 2 : name:&eGrandpas Meat : lore:&a Gramps has to get his strength from
+      somewhere.'
+    - '280 : 1 : enchant:KNOCKBACK:2 : name:&bGrandpas Cane : lore:&a This is how
+      we dealt with kids back then.'
+    description:
+    - '&7Become old in an instant and teach kids a lesson!'
+    - ''
+    - '&fKit items'
+    - '&afull leather armor'
+    - '&71 x &aknockback 2 &7stick'
+    - '&72 x raw porkchop'
+  scout:
+    permission: false
+    permissions-name: sg.kits.default
+    buyable: true
+    price: 15
+    position: 4
+    item: '322'
+    armor:
+      helmet: '0'
+      chestplate: '315'
+      leggings: '0'
+      boots: '0'
+    items:
+    - '319 : 2 : name:&bScouts Prey : lore:&a Didnt have much time to cook it cause
+      you kept running.'
+    - '332 : 30 : name:&bSnowballs : lore:&a This is the secret weapon to slowing
+      everyone down.'
+    - '373:8194 : 1 : name:&bScouts Secret Weapon : lore:&a This is how scout was
+      able to catch that poor pig.'
+    description:
+    - '&7Ever wanted to outrun a pig?'
+    - ''
+    - '&fKit items'
+    - '&71 x gold chestplate'
+    - '&730 x snowballs'
+    - '&71 x swiftness potion'
+    - '&72 x raw porkchop'
+  fisherman:
+    permission: false
+    permissions-name: sg.kits.default
+    buyable: true
+    price: 15
+    position: 6
+    item: '346'
+    armor:
+      helmet: '0'
+      chestplate: '299'
+      leggings: '300'
+      boots: '0'
+    items:
+    - '346 : 1 : name:&3Fishermans Rod : lore:&3 This rod was used to catch the average
+      of the fish!'
+    - '322 : 1 : name:&6Fishermans Loot : lore:&3 As a new fisherman, this is an exquisite
+      meal.'
+    description:
+    - '&7Gotta fish to support yourself and your urge to kill.'
+    - ''
+    - '&fKit items'
+    - '&71 x leather chestplate'
+    - '&71 x leather boots'
+    - '&71 x fishingrod'
+    - '&71 x golden apple'
+  tank:
+    permission: false
+    permissions-name: sg.kits.default
+    buyable: true
+    price: 15
+    position: 7
+    item: '307'
+    armor:
+      helmet: '0'
+      chestplate: '307'
+      leggings: '0'
+      boots: '0'
+    items:
+    - '364 : 4 : name:&4Beef : lore:&b Big guy needs big food.'
+    description:
+    - '&7Ever wanted to eat food and damage?'
+    - ''
+    - '&fKit items'
+    - '&71 x iron chestplate'
+    - '&74 x steak'
+  chemist:
+    permission: false
+    permissions-name: sg.kits.default
+    buyable: true
+    price: 15
+    position: 8
+    item: '379'
+    armor:
+      helmet: '0'
+      chestplate: '307'
+      leggings: '0'
+      boots: '0'
+    items:
+    - '373:8194 : 1'
+    - '373:16385 : 1'
+    - '373:16424 : 1'
+    - '319 : 2 : name:&3Failed Experiment : lore:&5 Cant let failed experiments go
+      to waste.'
+    description:
+    - '&7Mad scientist doesnt have to be bad.'
+    - ''
+    - '&fKit items'
+    - '&71 x swiftness potion'
+    - '&71 x regeneration potion'
+    - '&71 x weakness potion'
+    - '&72 x raw porkchop'
+  lumberjack:
+    permission: false
+    permissions-name: sg.kits.default
+    buyable: true
+    price: 15
+    position: 9
+    item: '258'
+    armor:
+      helmet: '0'
+      chestplate: '299'
+      leggings: '0'
+      boots: '301'
+    items:
+    - '258 : 1 : name:&2Jacks Axe : lore:&a Jack was able to use this for work and
+      game.'
+    description:
+    - '&7Because cutting down trees wasnt enough.'
+    - ''
+    - '&fKit items'
+    - '&71 x leather chestplate'
+    - '&71 x leather boots'
+    - '&71 x iron axe'
+  knight+:
+    permission: true
+    permission-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 1
+    item: '268'
+    armor:
+      helmet: '302'
+      chestplate: '303'
+      leggings: '0'
+      boots: '0'
+    items:
+    - '268 : 1 : name:&bKnights Blade : lore:&a Blade used by knights of today.'
+    - '319 : 2 : name:&bKnights Meal : lore:&a Meal fresh from the farm.'
+    description:
+    - '&7Become a knight of today!'
+    - ''
+    - '&fKit items'
+    - '&71 x chainmail helmet'
+    - '&71 x chainmail chestplate'
+    - '&71 x wooden sword'
+    - '&72 x raw prokchop'
+    - '&cVIP required'
+  archer+:
+    permission: true
+    permission-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 2
+    item: '261 : enchant:ARROW_DAMAGE:2'
+    armor:
+      helmet: '0'
+      chestplate: '299 : enchant:PROTECTION_ENVIRONMENTAL:1 : dye:OLIVE'
+      leggings: '0'
+      boots: '301 : dye:OLIVE'
+    items:
+    - '261 : 1 : enchant:ARROW_DAMAGE:2 : name:&4Archers Valiant Bow : lore:&a Bow
+      used by archers of today.'
+    - '262 : 10'
+    - '319 : 2 : name:&4Archers Game : lore:&a The hunt ended with some dinner for
+      the archer.'
+    description:
+    - '&7Become an archer of today!'
+    - ''
+    - '&fKit items'
+    - '&71 x &aprotection 1 &7leather chestplate'
+    - '&71 x leather boots'
+    - '&71 x &apower 2 &7bow'
+    - '&715 x arrows'
+    - '&72 x raw porkchop'
+    - '&cVIP required'
+  grandpa+:
+    permission: true
+    permission-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 3
+    item: '280'
+    armor:
+      helmet: '298'
+      chestplate: '299'
+      leggings: '300'
+      boots: '301'
+    items:
+    - '319 : 2 : name:&eGrandpas Meat : lore:&a Gramps has to get his strength from
+      somewhere.'
+    - '280 : 1 : enchant:KNOCKBACK:3 : name:&bGrandpas New Cane : lore:&a This is
+      how we deal with kids now.'
+    description:
+    - '&7Become old in an instant and teach kids a lesson!'
+    - ''
+    - '&fKit items'
+    - '&afull leather armor'
+    - '&71 x &aknockback 3 &7stick'
+    - '&72 x raw porkchop'
+    - '&cVIP required'
+  scout+:
+    permission: true
+    permission-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 4
+    item: '322'
+    armor:
+      helmet: '0'
+      chestplate: '315'
+      leggings: '0'
+      boots: '0'
+    items:
+    - '319 : 2 : name:&bScouts Prey : lore:&a Didnt have much time to cook it cause
+      you kept running.'
+    - '332 : 30 : name:&bSnowballs : lore:&a This is the secret weapon to slowing
+      everyone down.'
+    - '373:8290 : 1 : name:&bScouts Super Secret Weapon : lore:&a This is how scout
+      was able to catch that poor pig.'
+    description:
+    - '&7Ever wanted to outrun more than one pig?'
+    - ''
+    - '&fKit items'
+    - '&71 x gold chestplate'
+    - '&730 x snowballs'
+    - '&71 x swiftness 2 potion'
+    - '&72 x raw porkchop'
+    - '&cVIP required'
+  assassin+:
+    permission: true
+    permission-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 5
+    item: '368'
+    armor:
+      helmet: '0'
+      chestplate: '0'
+      leggings: '0'
+      boots: '301 : enchant:PROTECTION_FALL:3'
+    items:
+    - '319 : 2 : name:&3Assassins Food : lore:&5 Assassins dont really need much food
+      to be satisfied.'
+    - '368 : 3 : name:&3Assassins Pearls : lore:&5 Move from place to place just like
+      an assassin!'
+    - '268 : 1 : name:&3Assassins Blade : lore:&5 In order to assassinate properly,
+      the user must be one with their blade.'
+    description:
+    - '&7Shhhh... dont tell them I am here.'
+    - ''
+    - '&fKit items'
+    - '&71 x &afeather falling 3 &7boots'
+    - '&71 x wooden sword'
+    - '&73 x enderpearls'
+    - '&72 x raw porkchop'
+    - '&cVIP required'
+  fisherman+:
+    permission: true
+    permissions-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 6
+    item: '346'
+    armor:
+      helmet: '0'
+      chestplate: '303'
+      leggings: '304'
+      boots: '0'
+    items:
+    - '346 : 1 : name:&3Fishermans Trusty Rod : lore:&3 This rod was used to catch
+      the best of the fish!'
+    - '322 : 2 : name:&6Fishermans Loot : lore:&3 As a skilled fisherman, this is
+      a basic meal.'
+    description:
+    - '&7Gotta fish to support yourself and your urge to kill.'
+    - ''
+    - '&fKit items'
+    - '&71 x chainmail chestplate'
+    - '&71 x chainmail leggings'
+    - '&71 x fishingrod'
+    - '&72 x golden apple'
+    - '&cVIP required'
+  tank+:
+    permission: true
+    permissions-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 7
+    item: '307'
+    armor:
+      helmet: '0'
+      chestplate: '307'
+      leggings: '0'
+      boots: '0'
+    items:
+    - '267 : 1 : name:&4Charger : lore:&b Big guy needs big weapons.'
+    - '364 : 4 : name:&4Beef : lore:&b Big guy needs big food.'
+    description:
+    - '&7Ever wanted to eat food and damage?'
+    - ''
+    - '&fKit items'
+    - '&71 x iron chestplate'
+    - '&71 x iron sword'
+    - '&74 x steak'
+    - '&cVIP required'
+  chemist+:
+    permission: true
+    permissions-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 8
+    item: '379'
+    armor:
+      helmet: '0'
+      chestplate: '307'
+      leggings: '0'
+      boots: '0'
+    items:
+    - '373:8194 : 1'
+    - '373:16385 : 1'
+    - '373:16424 : 1'
+    - '373:16396 : 2'
+    - '319 : 2 : name:&3Failed Experiment : lore:&5 Cant let failed experiments go
+      to waste.'
+    description:
+    - '&7Mad scientist doesnt have to be bad.'
+    - ''
+    - '&fKit items'
+    - '&71 x swiftness potion'
+    - '&71 x regeneration potion'
+    - '&71 x weakness potion'
+    - '&72 x harming 2 potions'
+    - '&72 x raw porkchop'
+    - '&cVIP required'
+  lumberjack+:
+    permission: true
+    permission-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 9
+    item: '258'
+    armor:
+      helmet: '298'
+      chestplate: '299'
+      leggings: '0'
+      boots: '301'
+    items:
+    - '258 : 1 : name:&2Jacks Hatchet : lore:&a Jack was able to use this for hatchet
+      throwing.'
+    description:
+    - '&7Because cutting down trees wasnt enough.'
+    - ''
+    - '&fKit items'
+    - '&71 x leather helmet'
+    - '&71 x leather chestplate'
+    - '&71 x leather boots'
+    - '&71 x iron axe'
+    - '&cVIP required'
+  shadow:
+    permission: true
+    permission-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 10
+    item: 373:8270
+    armor:
+      helmet: '0'
+      chestplate: '0'
+      leggings: '0'
+      boots: '0'
+    items:
+    - '320 : 1 : name:&8Dark Pork : lore:&a Tastes just like regular pork, but your
+      dark soul touched it.'
+    - '373:16462 : 1 : name:&8Ghost Potion! : lore:&a Yay for ghosts!.'
+    description:
+    - '&7Become a ghost in-game just like in real life!'
+    - ''
+    - '&fKit items'
+    - '&71 x invisibillity potion'
+    - '&71 x cooked porkchop'
+    - '&cVIP required'
+  brute:
+    permission: true
+    permission-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 11
+    item: '276'
+    armor:
+      helmet: '298'
+      chestplate: '299'
+      leggings: '300'
+      boots: '301'
+    items:
+    - '320 : 2 : name:&bHuge Pork : lore:&aHuge pork for huge people.'
+    - '272 : 1 : name:&bBrutes Saber : lore:&a The brute always carries his trusty
+      saber.'
+    - '373:8197 : 1'
+    description:
+    - '&7This guy has a legacy that isnt ogre yet'
+    - ''
+    - '&fKit items'
+    - '&afull leather armor'
+    - '&71 x stone sword'
+    - '&71 x healing potion'
+    - '&72 x cooked porkchop'
+    - '&cVIP required'
+  mismatch:
+    permission: true
+    permission-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 12
+    item: '401'
+    armor:
+      helmet: '306'
+      chestplate: '299'
+      leggings: '304'
+      boots: '317'
+    items:
+    - '320 : 2'
+    - '268 : 1 : enchant:KNOCKBACK:1 : name:&bMismatch Sword : lore:&a Yea, when you
+      want to kill, knockback isnt the best.'
+    description:
+    - '&7Yea, not the best combo.'
+    - ''
+    - '&fKit items'
+    - '&71 x &aknockback 1 &7wooden sword'
+    - '&71 x iron helmet'
+    - '&71 x leather chestplate'
+    - '&71 x chainmail leggings'
+    - '&71 x gold boots'
+    - '&72 x cooked porkchop'
+    - '&cVIP required'
+  foodfighter:
+    permission: true
+    permission-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 13
+    item: '364'
+    armor:
+      helmet: '0'
+      chestplate: '307'
+      leggings: '0'
+      boots: '0'
+    items:
+    - '364 : 3 : enchant:DAMAGE_ALL:2 : name:&bMeat Beater : lore:&aUse this meat
+      to beat people up.'
+    description:
+    - '&7Ever wanted to beat people with your meat?'
+    - ''
+    - '&fKit items'
+    - '&73 x &asharpness 2 &7steaks'
+    - '&71 x iron chestplate'
+    - '&cVIP required'
+  bull:
+    permission: true
+    permission-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 14
+    item: '367'
+    armor:
+      helmet: '0'
+      chestplate: '307'
+      leggings: '0'
+      boots: '313'
+    items:
+    - '391 : 2 : name:&bCarrot : lore:&a This was your prize for being in that bull
+      run.'
+    description:
+    - '&7Live life as a bull after the famous bull run!'
+    - ''
+    - '&fKit items'
+    - '&71 x iron chestplate'
+    - '&71 x diamond boots'
+    - '&72 x carrots'
+    - '&cVIP required'
+  horse:
+    permission: true
+    permission-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 15
+    item: 383:100
+    armor:
+      helmet: '0'
+      chestplate: '0'
+      leggings: '0'
+      boots: '0'
+    items:
+    - '353 : 20'
+    - '383:100 : 1'
+    description:
+    - '&7Horse riding time?'
+    - ''
+    - '&fKit items'
+    - '&71 x horse spawn egg'
+    - '&720 x sugar'
+    - '&cVIP required'
+  wolf:
+    permission: true
+    permission-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 16
+    item: 383:95
+    armor:
+      helmet: '0'
+      chestplate: '0'
+      leggings: '0'
+      boots: '0'
+    items:
+    - '383:95 : 1'
+    - '352 : 10 : name:&bDog Bones : lore:&a Use these to tame your very own dog.'
+    description:
+    - '&7Mans best friend kit'
+    - ''
+    - '&fKit items'
+    - '&71 x wolf spawn egg'
+    - '&710 x bones'
+    - '&cVIP required'
+  cactus:
+    permission: true
+    permission-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 17
+    item: '81'
+    armor:
+      helmet: '298 : enchant:THORNS:1'
+      chestplate: '299 : enchant:THORNS:1'
+      leggings: '300 : enchant:THORNS:1'
+      boots: '301 : enchant:THORNS:1'
+    items:
+    - '319 : 2'
+    description:
+    - '&7Hurt others as they hurt you!'
+    - ''
+    - '&fKit items'
+    - '&afull thorns 1 leather armor'
+    - '&72 x raw porkchop'
+    - '&cVIP required'
+  lucky:
+    permission: true
+    permission-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 18
+    item: '311'
+    armor:
+      helmet: '0'
+      chestplate: '0'
+      leggings: '0'
+      boots: '0'
+    items:
+    - '130 : 4 : name:&cCarepackage!'
+    description:
+    - '&7You have to risk it for the biscuit.'
+    - ''
+    - '&fKit items'
+    - '&a4 x carepackages'
+    - '&cVIP required'
+  blaze:
+    permission: true
+    permission-name: sg.kits.vip
+    buyable: true
+    price: 10
+    position: 19
+    item: '369'
+    armor:
+      helmet: '298'
+      chestplate: '299'
+      leggings: '300'
+      boots: '301'
+    items:
+    - '258 : 1'
+    - '369 : 1 : enchant:FIRE_ASPECT:2 : name: &c&lEnflame : lore: &3Have Fun'
+    description:
+    - '&7Scorch your opponents with your very own burning shovel!'
+    - ''
+    - '&fKit items'
+    - '&afull leather armor'
+    - '&71 x &afire aspect 2 &7blaze rod'
+    - '&cVIP required'

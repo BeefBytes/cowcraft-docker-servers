@@ -1,0 +1,14 @@
+settings:
+  cooldown:  
+    gapple_timer: 60
+  messages:
+    still_message: '&eYou cannot eat another &6&lGapple &efor another &l%minutes%:%seconds%&e!'
+    eat_message:
+    - "&2&l\u2589\u2589&0&l\u2589&0&l\u2589&2&l\u2589\u2589\u2589\u2589"
+    - "&2&l\u2589\u2589\u2589&0&l\u2589&2&l\u2589\u2589\u2589\u2589"
+    - "&2&l\u2589\u2589&6&l\u2589\u2589\u2589\u2589&2&l\u2589\u2589 &6Super Golden Apple:"
+    - "&2&l\u2589&6&l\u2589\u2589&f&l\u2589&6&l\u2589\u2589\u2589&2&l\u2589 &2Consumed"
+    - "&2&l\u2589&6&l\u2589&f&l\u2589&6&l\u2589\u2589\u2589\u2589&2&l\u2589"
+    - "&2&l\u2589&6&l\u2589\u2589\u2589\u2589\u2589\u2589&2&l\u2589"
+    - "&2&l\u2589&6&l\u2589\u2589\u2589\u2589\u2589\u2589&2&l\u2589"
+    - "&2&l\u2589\u2589&6&l\u2589\u2589\u2589\u2589&2&l\u2589\u2589"

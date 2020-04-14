@@ -1,0 +1,158 @@
+Vote:
+    type: KEYCRATE
+    displayName: '&8&lVote Crate'
+    holographic:
+        - '&7╔&m═════════&7╗'
+        - '&f&lVOTE CRATE'
+        - '&e/vote'
+        - '&7╚&m═════════&7╝'
+    preview:
+        enabled: true
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        onOpen: '%prefix%You have opened a &8flVote Crate'
+        broadcast: '&7&l%player% has opened a &f&lVote crate!'
+    key:
+        item: 'Tripwire_Hook'
+        enchantment: '300:1'
+        name: '&8&lVote &7&lCrate Key'
+        lore:
+            - '&7Right click a key chest to obtain rewards at &b/warp crates'
+    effect:
+        onOpenEffects: 'firework, DRINK'
+        dormantEffects: 'happyVillager'
+        dormantRoulette: 'WOOD_CLICK'
+        onRouletteEnd: 'BAT_TAKEOFF'
+    reward:
+        minimumRewards: 1
+        maximumRewards: 1
+        rewards:
+            - 'cmd:(/eco give %player% 2000), chance:(10), display:(gold_ingot 1 &b$2000 &7Chance:_&b%chance%)'
+            - 'cmd:(/eco give %player% 5000), chance:(10), display:(gold_ingot 1 &b$5000 &7Chance:_&b%chance%)'
+            - 'cmd:(/eco give %player% 10000), chance:(10), display:(gold_ingot 1 &b$10000 &7Chance:_&b%chance%)'
+            - 'cmd:(/eco give %player% 20000), chance:(10), display:(gold_ingot 1 &b$20000 &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 49 64), chance:(15), display:(obsidian 64 &b64_Obsidian &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 41 2), chance:(15), display:(gold_block 2 &b2_Gold_Blocks &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 57 3), chance:(15), display:(diamond_block 2 &b3_Diamond_Blocks &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 322:1 1), chance:(15), display:(golden_apple:1 1 &b1_Golden_Apple &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 322:1 3), chance:(8), display:(golden_apple:1 3 &b3_Golden_Apple &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 383:50 1), chance:(15), display:(monster_egg:50 1 &b1_Creeper_egg &7Chance:_&b%chance%)'
+            - 'cmd:(/silkspawner give %player% zombie 1), chance:(15), display:(mob_spawner 1 &b1_Zombie_Spawner &7Chance:_&b%chance%)'
+            - 'cmd:(/silkspawner give %player% skeleton 1), chance:(15), display:(mob_spawner 1 &b1_Skeleton_Spawner &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 310 1 protection:2), cmd:(/give %player% 311 1 protection:2), cmd:(/give %player% 312 1 protection:2), cmd:(/give %player% 313 1 protection:2), chance:(15), display:(diamond_chestplate 1 &bProtection_II_Armor_Set &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 310 1 protection:3), cmd:(/give %player% 311 1 protection:3), cmd:(/give %player% 312 1 protection:3), cmd:(/give %player% 313 1 protection:3), chance:(8), display:(diamond_chestplate 1 &bProtection_III_Armor_Set &7Chance:_&b%chance%)'
+            - 'cmd:(/perms player %player% addpermission cowcraft.local.fly), cmd:(/broadcast %player% has won permanent /fly!), onetime:(cowcraft.local.fly), chance:(2), display:(339 1 &b/fly_command &7Chance:_&b%chance%%line%&7Lets_you_fly_in_your_own_claims!)'
+
+
+
+
+
+Gold:
+    type: KEYCRATE
+    displayName: '&b&lGold Crate'
+    holographic:
+        - '&7╔&m═════════════&7╗'
+        - '&6&lGOLD CRATE'
+        - '&edonate.cowcraft.net'
+        - '&7╚&m═════════════&7╝'
+    preview:
+        enabled: true
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        onOpen: '%prefix%You have opened a &6&lGold Crate'
+        broadcast: '&7&l%player% has opened a &6&lGold crate!'
+    key:
+        item: 'Tripwire_Hook'
+        enchantment: '300:1'
+        name: '&6&lGold &7Crate Key'
+        lore:
+            - '&7Right click a key chest to obtain rewards at &b/warp crates'
+    effect:
+        onOpenEffects: 'firework, DRINK'
+        dormantEffects: 'happyVillager'
+        dormantRoulette: 'WOOD_CLICK'
+        onRouletteEnd: 'BAT_TAKEOFF'
+    reward:
+        minimumRewards: 1
+        maximumRewards: 1
+        rewards:
+            - 'cmd:(/eco give %player% 5000), chance:(10), display:(gold_ingot 1 &b$5000 &7Chance:_&b%chance%)'
+            - 'cmd:(/eco give %player% 7500), chance:(10), display:(gold_ingot 1 &b$7500 &7Chance:_&b%chance%)'
+            - 'cmd:(/eco give %player% 10000), chance:(10), display:(gold_ingot 1 &b$10000 &7Chance:_&b%chance%)'
+            - 'cmd:(/eco give %player% 15000), chance:(10), display:(gold_ingot 1 &b$15000 &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 384 640), chance:(15), display:(exp_bottle 1 &b640_EXP_Bottles &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 41 32), chance:(15), display:(gold_block 32 &b32_Gold_Blocks &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 57 16), chance:(15), display:(diamond_block 16 &b16_Diamond_Blocks &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 310 1 protection:3 unbreaking:2), cmd:(/give %player% 311 1 protection:3 unbreaking:2), cmd:(/give %player% 312 1 protection:3 unbreaking:2), cmd:(/give %player% 313 1 protection:3 unbreaking:2), chance:(15), display:(diamond_chestplate 1 &bEnchant_Armor_Set &7Chance:_&b%chance%_%line%%line%&7Protection_III%line%&7Unbreaking_II)'
+            - 'cmd:(/give %player% 310 1 protection:4 unbreaking:3), cmd:(/give %player% 311 1 protection:4 unbreaking:3), cmd:(/give %player% 312 1 protection:4 unbreaking:3), cmd:(/give %player% 313 1 protection:4 unbreaking:3), chance:(15), display:(diamond_chestplate 1 &bEnchant_Armor_Set &7Chance:_&b%chance%_%line%%line%&7Protection_IV%line%&7Unbreaking_III)'
+            - 'cmd:(/give %player% 322:1 15), chance:(5), display:(golden_apple:1 5 &b5_Golden_Apple &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 383:50 10), chance:(10), display:(monster_egg:50 10 &b10_Creeper_egg &7Chance:_&b%chance%)'
+            - 'cmd:(/silkspawner give %player% creeper 1), chance:(8), display:(mob_spawner 1 &b1_Creeper_Spawner &7Chance:_&b%chance%)'
+            - 'cmd:(/silkspawner give %player% pigzombie 1), chance:(6), display:(mob_spawner 1 &b1_Pig_Zombie_Spawner &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 261 1 power:5 infinity:1 punch:2 flame:1 unbreaking:3), chance:(15), display:(Bow 1 &bEnchanted_Bow &7Chance:_&b%chance%_%line%%line%&7Power_5%line%&7Infinity_1%line%&7Punch_2%line%&7Flame_1%line%&7Unbreaking_3)'
+            - 'cmd:(/give %player% 278 1 efficiency:7), chance:(15), display:(diamond_pickaxe 1 &bEfficiency_7_Pickaxe &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 276 1 sharpness:6 unbreaking:3), chance:(15), display:(diamond_sword 1 &bEnchanted_Sword &7Chance:_&b%chance%_%line%%line%&7Sharpness_VI%line%&7Unbreaking_III)'
+
+
+
+
+
+
+
+
+Diamond:
+    type: KEYCRATE
+    displayName: '&b&lDiamond Crate'
+    holographic:
+        - '&7╔&m═════════════&7╗'
+        - '&b&lDIAMOND CRATE'
+        - '&edonate.cowcraft.net'
+        - '&7╚&m═════════════&7╝'
+    preview:
+        enabled: true
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        onOpen: '%prefix%You have opened a &b&lDiamond Crate'
+        broadcast: '&7&l%player% has opened a &b&lDiamond crate!'
+    key:
+        item: 'Tripwire_Hook'
+        enchantment: '300:1'
+        name: '&b&lDiamond &7Crate Key'
+        lore:
+            - '&7Right click a key chest to obtain rewards at &b/warp crates'
+    effect:
+        onOpenEffects: 'firework, DRINK'
+        dormantEffects: 'happyVillager'
+        dormantRoulette: 'WOOD_CLICK'
+        onRouletteEnd: 'BAT_TAKEOFF'
+    reward:
+        minimumRewards: 1
+        maximumRewards: 1
+        rewards:
+            - 'cmd:(/permissions player %player% addgroup factions_rank6), chance:(1), display:(nether_star 1 &8[&9&kI&3&lM&b&ly&f&lth&b&li&3&lc&9&kI&8]_&brank &7Chance:_&b1%)'
+            - 'cmd:(/eco give %player% 10000), chance:(18), display:(gold_ingot 1 &b$10000 &7Chance:_&b%chance%)'
+            - 'cmd:(/eco give %player% 25000), chance:(16), display:(gold_ingot 1 &b$25000 &7Chance:_&b%chance%)'
+            - 'cmd:(/eco give %player% 50000), chance:(9), cmd:(/broadcast %player% has won $50000!), display:(gold_ingot 1 &b$50000 &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 384 1280), chance:(8), display:(exp_bottle 1 &b1280_EXP_Bottles &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 41 32), chance:(18), display:(gold_block 32 &b32_Gold_Blocks &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 57 32), chance:(18), display:(diamond_block 32 &b32_Diamond_Blocks &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 310 1 protection:4 unbreaking:4), cmd:(/give %player% 311 1 protection:4 unbreaking:4), cmd:(/give %player% 312 1 protection:4 unbreaking:4), cmd:(/give %player% 313 1 protection:4 unbreaking:4), chance:(18), display:(diamond_chestplate 1 &bEnchanted_Armor_Set &7Chance:_&b%chance%_%line%%line%&7Protection_IV%line%&7Unbreaking_IV)'
+            - 'cmd:(/give %player% 310 1 protection:5 unbreaking:5), cmd:(/give %player% 311 1 protection:5 unbreaking:5), cmd:(/give %player% 312 1 protection:5 unbreaking:5), cmd:(/give %player% 313 1 protection:5 unbreaking:5), cmd:(/broadcast %player% has won the protection 5 unbreaking 5 set!), chance:(11), display:(diamond_chestplate 1 &bEnchanted_Armor_Set &7Chance:_&b%chance%_%line%%line%&7Protection_V%line%&7Unbreaking_V)'
+            - 'cmd:(/give %player% 278 1 efficiency:10), chance:(18), display:(diamond_pickaxe 1 &bEfficiency_10_Pickaxe &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 261 1 power:6 infinity:1 punch:3 flame:1 unbreaking:3), chance:(11), display:(Bow 1 &bEnchanted_Bow &7Chance:_&b%chance%_%line%%line%&7Power_IV%line%&7Infinity_I%line%&7Punch_III%line%&7Flame_1%line%&7Unbreaking_III)'
+            - 'cmd:(/give %player% 276 1 sharpness:6 unbreaking:3 fire:2), chance:(10), display:(diamond_sword 1 &bEnchanted_Sword &7Chance:_&b%chance%_%line%%line%&7Sharpness_VI%line%&7Unbreaking_III%line%&7Fire_Aspect_II)'
+            - 'cmd:(/give %player% 383:50 32), chance:(18), display:(monster_egg:50 32 &b32_Creeper_egg &7Chance:_&b%chance%)'
+            - 'cmd:(/silkspawner give %player% creeper 2), chance:(18), cmd:(/broadcast %player% has won the 2x creeper spawner!), display:(mob_spawner 2 &b2_Creeper_Spawner &7Chance:_&b%chance%)'
+            - 'cmd:(/silkspawner give %player% pigzombie 2), cmd:(/broadcast %player% has won the 2x pigzombie spawner!), chance:(13), display:(mob_spawner 2 &b2_Pig_Zombie_Spawner &7Chance:_&b%chance%)'
+            - 'cmd:(/silkspawner give %player% irongolem 1), cmd:(/broadcast %player% has won the 1x Iron Golem spawner!), chance:(10), display:(mob_spawner 1 &b1_IronGolem_Spawner &7Chance:_&b%chance%)'
+            - 'cmd:(/give %player% 322:1 16), chance:(8), cmd:(/broadcast %player% has won 16 God Apples!), display:(golden_apple:1 16 &b16_Golden_Apple &7Chance:_&b%chance%)'
+            - 'cmd:(/perms player %player% addpermission cowcraft.factions.perm.sethome), onetime:(essentials.sethome.multiple.unlimited), cmd:(/broadcast %player% has won the &c&lUNLIMITED SETHOMES &aGG everyone!), chance:(3), display:(339 1 &bUnlimited_Homes &7Chance:_&b%chance%)'
+            - 'cmd:(/addcredits %player% 100), cmd:(/broadcast %player% has won 100 mcmmo credits!), chance:(11), display:(175 1 &b100_mcmmo_credits &7Chance:_&b%chance%)'
+            - 'cmd:(/addcredits %player% 200), cmd:(/broadcast %player% has won 200 mcmmo credits!), chance:(8), display:(175 1 &b200_mcmmo_credits &7Chance:_&b%chance%)'
+            - 'cmd:(/perms player %player% addpermission nodamage.fall), cmd:(/broadcast %player% has won the Jelly Legs!), onetime:(nodamage.fall), chance:(8), display:(313 1 &bJelly_Legs &7Chance:_&b%chance%%line%&7Gives_you_access_to_&b/nd_fall%line%&7to_disable_fall_damage)'

@@ -1,0 +1,245 @@
+# GuiRedeemMCMMO
+# http://www.spigotmc.org/resources/guiredeemmcmmo.6784
+
+Messages:
+  Credits:
+    CreditsLeft: '&7You have &b%Credits% &7MCMMO Credits left.'
+    NoCreditsLeft: '&7You have &c0 &7MCMMO Credits left.'
+    OtherPlayer:
+      CreditsLeft: '&b%Player% &7has &c%Credits% &7MCMMO Credits left.'
+      NoCreditsLeft: '&b%Player% &7has &b0 &7MCMMO Credits left.'
+  SendCredits:
+    CreditsLeft: '&7You have &b%Credits% &7MCMMO Credits left.'
+    AmountTooLow: '&7Amount specified is too low. Amount must be higher than 0.'
+    NotEnoughCredits: '&7You tried to send %Amount% credits, but you only have %Credits%.'
+    WrongCommandUsage: '&7Wrong command usage. Use &b/grm &7for help.'
+    CannotSendYourselfCredits: '&7You cannot send credits to yourself.'
+    SentSuccessfully:
+      ToSender: '&7You sent %Amount% credits to %Receiver%.'
+      ToReceiver: '&7You received %Amount% credits from %Sender%.'
+  Redeem:
+    AlreadyRedeeming: '&7You''re already redeeming credits to &b%Skill%&7. Type in
+      chat how many you want to redeem, write 0 to cancel.'
+    TriedToRedeemInvalidSkill: '&b%Skill% &7is not a valid skill. Do &c/stats &7to
+      see all skills.'
+    NoCredits: '&cYou don''t have any credits to redeem. Redeeming cancelled.'
+    NotEnoughCredits: '&cYou don''t have enough credits to redeem. Redeeming cancelled.'
+    TypeHowMany: '&aType in chat how many credits you want to redeem. Write 0 to cancel.'
+    NotANumber: '&cWhat you wrote was not recognized as a number. Redeeming cancelled.'
+    MustBePositive: '&cTo redeem credits you must provide a positive number. Redeeming
+      cancelled.'
+    PlayerCancelled: '&cYou''re no longer redeeming credits.'
+    ReachedSkillCap: '&cYou tried to get to level %Level% in %Skill%, but the cap
+      is %Cap%.'
+    RedeemSuccess: '&aYou''ve added %Redeemed% levels to %Skill%.'
+  AddCredits:
+    PlayerGivingCredits: '&7You have given &b%Player% &7%Amount% MCMMO Credits.'
+    PlayerReceivingCredits:
+    - '&7You have just received &b%Amount% &7MCMMO Credits.'
+    - '&7New MCMMO Credit balance: &b%Credits%'
+    - '&7Do &b/redeem &7to redeem your credits!'
+  TakeCredits:
+    PlayerTakingCredits: '&7You took &b%Amount% &7MCMMO Credits from &b%Player%'
+    PlayerLosingCredits:
+    - '&c%Amount% &7MCMMO Credits were taken from you.'
+    - '&7New MCMMO Credit balance: &b%Credits%'
+Settings:
+  GuiTitle: '&b&lMooCredits'
+  NoSkillCapText: '&cnone'
+  IgnoreFromChat: '[x]'
+  DisabledSkills:
+    Enabled: false
+    ReplaceItemInGUI:
+      Enabled: true
+      Item: 55
+    SkillsToDisable:
+    - Unarmed
+    - Swords
+    - Axes
+  Gui:
+    ItemNames:
+      Mining: '&bMINING'
+      Woodcutting: '&6WOODCUTTING'
+      Herbalism: '&aHERBALISM'
+      Fishing: '&9FISHING'
+      Excavation: '&7EXCAVATION'
+      Unarmed: '&fUNARMED'
+      Archery: '&eARCHERY'
+      Swords: '&cSWORDS'
+      Axes: '&4AXES'
+      Taming: '&3TAMING'
+      Repair: '&2REPAIR'
+      Acrobatics: '&5ACROBATICS'
+      Alchemy: '&dALCHEMY'
+      Credits: '&7Credits: &6%Credits%'
+    ItemLores:
+      Mining:
+      - '&7Click to assign levels to &bMINING'
+      - '&7Level cap: %Cap%'
+      Woodcutting:
+      - '&7Click to assign levels to &6WOODCUTTING'
+      - '&7Level cap: %Cap%'
+      Herbalism:
+      - '&7Click to assign levels to &aHERBALISM'
+      - '&7Level cap: %Cap%'
+      Fishing:
+      - '&7Click to assign levels to &9FISHING'
+      - '&7Level cap: %Cap%'
+      Excavation:
+      - '&7Click to assign levels to &7EXCAVATION'
+      - '&7Level cap: %Cap%'
+      Unarmed:
+      - '&7Click to assign levels to &fUNARMED'
+      - '&7Level cap: %Cap%'
+      Archery:
+      - '&7Click to assign levels to &eARCHERY'
+      - '&7Level cap: %Cap%'
+      Swords:
+      - '&7Click to assign levels to &cSWORDS'
+      - '&7Level cap: %Cap%'
+      Axes:
+      - '&7Click to assign levels to &4AXES'
+      - '&7Level cap: %Cap%'
+      Taming:
+      - '&7Click to assign levels to &3TAMING'
+      - '&7Level cap: %Cap%'
+      Repair:
+      - '&7Click to assign levels to &2REPAIR'
+      - '&7Level cap: %Cap%'
+      Acrobatics:
+      - '&7Click to assign levels to &5ACROBATICS'
+      - '&7Level cap: %Cap%'
+      Alchemy:
+      - '&7Click to assign levels to &dALCHEMY'
+      - '&7Level cap: %Cap%'
+    ItemLores2:
+      Mining: '&7Click to assign levels to &bMINING'
+      Woodcutting: '&7Click to assign levels to &6WOODCUTTING'
+      Herbalism: '&7Click to assign levels to &aHERBALISM'
+      Fishing: '&7Click to assign levels to &9FISHING'
+      Excavation: '&7Click to assign levels to &7EXCAVATION'
+      Unarmed: '&7Click to assign levels to &fUNARMED'
+      Archery: '&7Click to assign levels to &eARCHERY'
+      Swords: '&7Click to assign levels to &cSWORDS'
+      Axes: '&7Click to assign levels to &4AXES'
+      Taming: '&7Click to assign levels to &3TAMING'
+      Repair: '&7Click to assign levels to &2REPAIR'
+      Acrobatics: '&7Click to assign levels to &5ACROBATICS'
+      Alchemy: '&7Click to assign levels to &dALCHEMY'
+Storage:
+  fa0225d6-ca6c-4dff-9818-07a3a3384818:
+    Credits: 111
+  849b0842-88d6-40d7-92a8-0820bfc95c3d:
+    Credits: 2832
+  1225cdbc-2469-4960-86e8-6b637cf72bf4:
+    Credits: 1
+  de09f42f-0880-4635-8866-305a96a48545:
+    Credits: 3
+  a9247911-d628-482c-8806-946e2dc19912:
+    Credits: 108
+  d5190b84-cda9-482a-900f-475324c2d321:
+    Credits: 12
+  8a00a30e-cb35-4cf0-b5f5-8e5dae36e02f:
+    Credits: 12
+  1a8bd5e7-e62e-4f0b-a6bc-0df7c3e6f78a:
+    Credits: 0
+  c3b8990a-c566-42fb-9518-fd22696115cb:
+    Credits: 0
+  44b81482-864c-4ea0-9100-88c6b6ddeb1c:
+    Credits: 200
+  94bdff14-c28b-4e6e-ac3a-7c94d9b3abdc:
+    Credits: 602
+  21140efa-dc23-41a6-9ead-eb77b1c3d80a:
+    Credits: 0
+  0cbe493d-ab3f-4dc7-ad6b-f4c44f2eb96b:
+    Credits: 0
+  e144185e-84eb-42c6-9cb7-8b4a1a5262d6:
+    Credits: 0
+  85dc4f9e-c5b7-4c69-8cf4-63e72c15df0e:
+    Credits: 1
+  ed817302-8e8d-4f3f-b813-ddcda1dc95d8:
+    Credits: 103
+  b3dca047-0d2f-4649-986a-e430cf0d84c7:
+    Credits: 4
+  8cea4c5c-fede-425f-9df9-7f559baf6384:
+    Credits: 0
+  11e0e704-05bc-4234-8bdc-f9ab12ad2d2c:
+    Credits: 4
+  aac3a21c-28ab-4abc-b636-cee0e50beffe:
+    Credits: 113
+  4aaed1d8-e04d-4bab-9213-fcdb0190f57d:
+    Credits: 200
+  59e02297-1255-42a7-8465-edd98b272670:
+    Credits: 0
+  d76929be-aaf3-4d19-a55f-ac9850c5abc5:
+    Credits: 2
+  83e74cf9-e330-42de-9bf7-f052b314b335:
+    Credits: 1
+  17f394aa-c25a-4570-9ae5-1661489e0d0e:
+    Credits: 2
+  090c0131-37c5-4fb5-8cba-a1869e074f5e:
+    Credits: 2
+  9c5d188b-0d2c-4433-855a-b259443a434c:
+    Credits: 1
+  a0f501e4-b738-49d3-9fbf-50f4e03e909b:
+    Credits: 2
+  b7bd271f-1345-4b71-9e3d-c50998030e99:
+    Credits: 100
+  ec79eed2-05e2-4ee3-a09b-38fbc889c568:
+    Credits: 1
+  eeb09718-b188-4d05-b297-cc487faec20a:
+    Credits: 33
+  300030e8-58cf-4060-98db-ffc34d0f2d59:
+    Credits: 204
+  fc2958cc-139b-4d3e-a7b5-9c5842f1a44a:
+    Credits: 201
+  6bc2573c-5f1c-42e2-a88a-727155b6d74a:
+    Credits: 0
+  5be35512-0c78-45c6-927e-fa8d07caac21:
+    Credits: 2
+  fdfce884-1215-4e0e-832a-4083e33784e5:
+    Credits: 1
+  15066843-2bce-4bbb-a8da-d4dd7f486921:
+    Credits: 2
+  f755d3c8-6579-4ef1-bd05-bf68edbcfe5e:
+    Credits: 4
+  5883f32d-fb08-4184-ad24-1e164444e214:
+    Credits: 0
+  51071ea3-da56-4b3f-8b37-68757773ce35:
+    Credits: 203
+  3012c593-03d3-4cc8-bda3-0423af3a3fb8:
+    Credits: 0
+  ecd9016c-41a2-4254-b8ed-cb4e424c752d:
+    Credits: 1
+  5787525a-76b1-4c1b-bfab-7c81e3ac8d21:
+    Credits: 1
+  2a613a84-c788-4b1f-9a59-4735ced3d6c1:
+    Credits: 0
+  6c13eee5-3124-4996-af00-0a2f49722824:
+    Credits: 0
+  bc8a54b6-a19a-4e66-a6db-5e7bf4cc7ba8:
+    Credits: 98
+  5b3390d9-d1f4-4777-becd-f4e72945125f:
+    Credits: 1
+  cf1dafe0-9886-4716-9b6e-d4f89a6d7f70:
+    Credits: 2
+  47efab31-1de9-43a3-8188-00e70ea46c8d:
+    Credits: 2
+  73444a6d-9f68-4d3f-880e-0f30e3e22374:
+    Credits: 600
+  63a8a2d7-4106-41ca-93da-fcb60cd6c9ef:
+    Credits: 100
+  8d8d79f7-e51a-43f9-afd9-a603e0f28aad:
+    Credits: 2
+  5b734a86-e743-4850-9af1-2a34bcb68245:
+    Credits: 2800
+  c4b46b3c-061d-4aae-ad88-7849d10ac050:
+    Credits: 500
+  a035aa38-c144-440a-8923-166494da873b:
+    Credits: 1
+  abfd02dd-e674-484f-8b6f-fbe557afeca6:
+    Credits: 1
+  aef447d0-7926-4100-bcf5-8ddc906fbfd1:
+    Credits: 0
+  e622aad9-82fc-4972-b2d5-2ffbd613f28f:
+    Credits: 0

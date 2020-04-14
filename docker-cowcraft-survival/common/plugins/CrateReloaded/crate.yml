@@ -1,0 +1,152 @@
+Iron:
+    type: CSGOKEYCRATE
+    displayName: '&f[&fIron Crate&f]'
+    displayItem: 'chest 1 %cratename%'
+    preview:
+        enabled: true
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        onOpen: ''                                    
+        broadcast: '&7&l%player% has opened a &f&lIron Crate!'
+    key:
+        item: 'TRIPWIRE_HOOK'
+        enchantment: '34:10'
+        name: '&f&l[&f&lIron Crate Key&f&l]'
+        lore: 
+            - '&7&m&l------------------------------'
+            - '&fType &f&n/warp crates&f to enter crates room.'
+            - '&f&nRight click &fIron crate &fto open it!'
+            - '&7&m&l------------------------------'
+    effect:
+        onOpenEffects: 'firework, blaze'
+        dormantEffects: 'flame'
+    reward:
+        minimumRewards: 1
+        maximumRewards: 1
+        rewards:
+            - 'cmd:(/eco give %player% 1000), chance:(10), display:(266 1 &6$1000 &7Chance:_&a10%)'
+            - 'cmd:(/give %player% 383:92 5), chance:(5), display:(383:92 1 &65_cow_eggs &7Chance:_&a5%)'
+            #- 'cmd:(/addcredits %player% 5), chance:(4), display:(175 1 &65_mcmmo_levels &7Chance:_&a4%)'
+            - 'cmd:(/give %player% 384 20), chance:(10), display:(384 1 &620_bottles_of_enchanting &7Chance:_&a10%)'
+            - 'cmd:(/eco give %player% 2000), chance:(5), display:(266 1 &6$2000 &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 265 10), chance:(10), display:(265 1 &610_iron_ingots &7Chance:_&a10%)'
+            - 'cmd:(/give %player% 266 10), chance:(10), display:(266 1 &610_gold_ingots &7Chance:_&a10%)'
+            - 'cmd:(/give %player% 264 5), chance:(5), display:(264 1 &65_diamonds &7Chance:_&a5%)'
+            - 'cmd:(/cr givekey %player% gold 1), chance:(1), display:(131 1 &61_Gold_Crate_Key &7Chance:_&a1%)'
+            #- 'cmd:(/cowcoinsadmin %player% add 5), chance:(4), display:(322:0 1 &65_Cowcoins &7Chance:_&a5%)'
+            - 'cmd:(/cr givekey %player% iron 1), chance:(1), display:(131 1 &61_Iron_Crate_Key &7Chance:_&a1%)'
+            - 'cmd:(/give %player% 383:120 1), chance:(5), display:(383:120 1 &61_Villager_egg &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 383:96 2), chance:(5), display:(383:96 1 &62_Mooshroom_eggs &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 354 2), chance:(10), display:(354 1 &62_Cakes &7Chance:_&a10%)'
+            - 'cmd:(/give %player% 383:98 1), chance:(5), display:(383:98 1 &61_Ocelot_egg &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 383:100 1), chance:(5), display:(383:100 1 &61_Horse_egg &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 383:95 1), chance:(5), display:(383:95 1 &61_Wolf_egg &7Chance:_&a5%)'
+
+
+
+
+Gold:
+    type: CSGOKEYCRATE
+    displayName: '&f[&6Gold Crate&f]'
+    displayItem: 'chest 1 %cratename%'
+    preview:
+        enabled: true
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        onOpen: ''
+        broadcast: '&7&l%player% has opened a &6&lGold Crate&7&l!'
+    key:
+        item: 'TRIPWIRE_HOOK'
+        enchantment: '34:10'
+        name: '&f&l[&6&lGold Crate Key&f&l]'
+        lore: 
+            - '&7&m&l------------------------------'
+            - '&6Type &f&n/warp crates&6 to enter crates room.'
+            - '&f&nRight click&6 Gold crate &fto open it!'
+            - '&7&m&l------------------------------'
+    effect:
+        onOpenEffects: 'firework, blaze'
+        dormantEffects: 'flame'
+    reward:
+        minimumRewards: 1
+        maximumRewards: 1
+        rewards:
+            - 'cmd:(/eco give %player% 10000), chance:(10), display:(266 1 &6$10000 &7Chance:_&a10%)'
+            - 'cmd:(/give %player% 383:92 20), chance:(5), display:(383:92 1 &620_cow_eggs &7Chance:_&a5%)'
+            #- 'cmd:(/addcredits %player% 25), chance:(2), display:(175 1 &625_mcmmo_levels &7Chance:_&a2%)'
+            - 'cmd:(/give %player% 384 64), chance:(6), display:(384 1 &664_bottles_of_enchanting &7Chance:_&a6%)'
+            - 'cmd:(/give %player% 383:120 1), chance:(7), display:(383:120 1 &61_Villager_egg &7Chance:_&a7%)'
+            - 'cmd:(/give %player% 264 40), chance:(5), display:(264 1 &640_diamonds &7Chance:_&a5%)'
+            - 'cmd:(/cr givekey %player% diamond 1), chance:(1), display:(131 1 &61_Diamond_Crate_Key &7Chance:_&a1%)'
+            - 'cmd:(/eco give %player% 20000), chance:(2), display:(266 1 &6$20000 &7Chance:_&a2%)'
+            #- 'cmd:(/give %player% 403 4 Unbreaking:2, chance:(5), display:(403 1 &64_Unbreaking_II_Books &7Chance:_&a5%)'
+            #- 'cmd:(/give %player% 403 1 Sharpness:5, chance:(5), display:(403 1 &61_Sharpness_V_Book &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 276 1 sharpness:4 fireaspect:2 unbreaking:3), chance:(5), display:(276 1 &61_Sharpness_IV_Fire_II_Unbreaking_III_Sword &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 278 1 efficiency:4 unbreaking:3), chance(10), display:(278 1 &61_Efficiency_IV_Unbreaking_III_Pickaxe &7Chance:_&a10%)'
+            - 'cmd:(/give %player% 310 1 protection:3),cmd:(/give %player% 311 1 protection:3),cmd:(/give %player% 312 1 protection:3),cmd:(/give %player% 313 1 protection:3), chance:(9), display:(311 1 &6Full_set_of_P3_Armor &7Chance:_&a9%)'
+            - 'cmd:(/give %player% 265 60), chance:(10), display:(265 1 &660_iron_ingots &7Chance:_&a10%)'
+            - 'cmd:(/give %player% 266 60), chance:(10), display:(266 1 &660_gold_ingots &7Chance:_&a10%)'
+            - 'cmd:(/give %player% 322:1 2), chance:(5), display:(322:1 1 &62_God_Apples &7Chance:_&a5%)'
+            - 'cmd:(/silkspawner give %player% cavespider 1), chance(5), display:(52 1 &61_Cave_Spider_Spawner &7Chance:_&a5%)'
+            - 'cmd:(/silkspawner give %player% zombie 1), chance(3), display:(52 1 &61_Zombie_Spawner &7Chance:_&a3%)'
+            - 'cmd:(/silkspawner give %player% skeleton 1), chance(2), display:(52 1 &61_Skeleton_Spawner &7Chance:_&a2%)'
+
+
+
+
+
+Diamond:
+    type: CSGOKEYCRATE
+    displayName: '&f[&bDiamond Crate&f]'
+    displayItem: 'chest 1 %cratename%'
+    preview:
+        enabled: true
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        onOpen: ''
+        broadcast: '&7&l%player% has opened a &b&lDiamond Crate&7&l!'
+    key:
+        item: 'TRIPWIRE_HOOK'
+        enchantment: '34:10'
+        name: '&f&l[&b&lDiamond Crate Key&f&l]'
+        lore: 
+            - '&7&m&l------------------------------'
+            - '&bType &f&n/warp crates&b to enter crates room.'
+            - '&f&nRight click &bDiamond crate &fto open it!'
+            - '&7&m&l------------------------------'                      
+    effect:
+        onOpenEffects: 'firework, blaze'
+        dormantEffects: 'flame'
+    reward:
+        minimumRewards: 1
+        maximumRewards: 1
+        rewards:
+            - 'cmd:(/eco give %player% 25000), chance:(12), display:(266 1 &6$25000 &7Chance:_&a12%)'
+            #- 'cmd:(/addcredits %player% 30), chance:(6), display:(175 1 &630_mcmmo_levels &7Chance:_&a6%)'
+            #- 'cmd:(/addcredits %player% 50), chance:(4), display:(175 1 &650_mcmmo_levels &7Chance:_&a4%)'
+            - 'cmd:(/silkspawner give %player% blaze 1), chance(4), display:(52 1 &61_Blaze_Spawner &7Chance:_&a4%)'
+            - 'cmd:(/give %player% 276 1 sharpness:6 unbreaking:4 fireaspect:2), chance(2), display:(276 1 &6Sharp_VI_Fire_II_Unbreaking_IV &7Chance:_&a2%)'
+            - 'cmd:(/cr givekey %player% diamond 2), chance:(1), display:(131 1 &62_Diamond_Crate_Keys &7Chance:_&a1%)'
+            - 'cmd:(/eco give %player% 50000), chance:(3), display:(266 1 &6$50000 &7Chance:_&a3%)'
+            #- 'cmd:(/give %player% 403 4 protection:4, chance:(10), display:(403 1 &64_P4_Books &7Chance:_&a10%)'
+            - 'cmd:(/give %player% 278 1 efficiency:6 unbreaking:4 silktouch:1), chance(4), display:(278 1 &6Efficiency_VI_Unbreaking_IV_Silk_I_Pickaxe &7Chance:_&a4%)'
+            - 'cmd:(/give %player% 42 20), chance:(5), display:(42 1 &620_Iron_Blocks &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 278 1 efficiency:6 unbreaking:4 fortune:4), chance(2), display:(278 1 &6Efficiency_VI_Unbreaking_IV_Fortune_IV_Pickaxe &7Chance:_&a2%)'
+            - 'cmd:(/give %player% 57 10), chance:(5), display:(57 1 &610_Diamond_Blocks &7Chance:_&a5%)'
+            - 'cmd:(/give %player% 279 1 efficiency:6 unbreaking:3 sharpness:6), chance(2), display:(279 1 &6Efficiency_VI_Sharpness_VI_Unbreaking_III_Silk_I_Pickaxe &7Chance:_&a2%)'
+            - 'cmd:(/cr givekey %player% iron 8), chance:(5), display:(131 1 &68_Iron_Crate_Keys &7Chance:_&a5%)'
+            - 'cmd:(/cr givekey %player% gold 3), chance:(3), display:(131 1 &63_Gold_Crate_Keys &7Chance:_&a3%)'
+            - 'cmd:(/eco give %player% 100000), chance:(2), display:(266 1 &6$100000 &7Chance:_&a2%)'
+            - 'cmd:(/give %player% 41 20), chance:(5), display:(41 1 &620_Gold_Blocks &7Chance:_&a5%)'
+            - 'cmd:(/silkspawner give %player% skeleton 2), chance(5), display:(52 1 &62_Skeleton_Spawners &7Chance:_&a5%)'
+            - 'cmd:(/silkspawner give %player% zombie 2), chance(5), display:(52 1 &62_Zombie_Spawners &7Chance:_&a5%)'
+            - 'cmd:(/silkspawner give %player% cavespider 3), chance(11), display:(52 1 &63_Cave_Spider_Spawner &7Chance:_&a11%)'
+            - 'cmd:(/silkspawner give %player% cow 5), chance(2), display:(52 1 &65_Cow_Spawners &7Chance:_&a2%)'
+            - 'cmd:(/silkspawner give %player% creeper 1), chance(1), display:(52 1 &61_Creeper_Spawner &7Chance:_&a1%)'
+            - 'cmd:(/silkspawner give %player% witch 1), chance(1), display:(52 1 &61_Witch_Spawner &7Chance:_&a1%)'

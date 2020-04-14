@@ -1,0 +1,21 @@
+prefix: ''
+
+# SQLite section
+sqlite:
+  # Should SQLite be used?
+  use: true
+  # The file to use
+  db: "storage"
+
+# MySQL section
+mysql:
+  # Should MySQL be used?
+  use: false
+  host: "mysql"
+  port: "3306"
+  user: "mc_admin_rw"
+  password: "MYSQL_USER_PASS"
+  database: "MYSQL_PLOTSQUARED_DB"
+  # Set additional properties: https://goo.gl/wngtN8
+  properties: 
+  - "useSSL=false"

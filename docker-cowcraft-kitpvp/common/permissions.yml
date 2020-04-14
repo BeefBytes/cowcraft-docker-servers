@@ -1,0 +1,18 @@
+
+cowcraft.local.default:
+  default: true
+  children:
+    stuff.stuff: true
+
+cowcraft.local.helper:
+  default: false
+  children:
+    essentials.vanish: true
+    essentials.fly: true
+
+cowcraft.kitpvp.rank1:
+  default: false
+  children:
+    animatednames.group.default: false
+    animatednames.group.donor: true
+    puffix.prefix.rank1: true

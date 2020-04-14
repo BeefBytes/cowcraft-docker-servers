@@ -1,0 +1,171 @@
+# Broadcast prefix.
+prefix: '&8[&3CowKits&8]'
+
+# The amount of seconds to wait before changing to the next map
+mapChange: 900
+
+# Duel spawn points
+duel:
+  '1':
+    x: -770
+    y: 67
+    z: 582
+    pitch: 0
+    yaw: -90
+    world: kitpvp
+  '2':
+    x: -844
+    y: 67
+    z: 582
+    pitch: 0
+    yaw: 90
+    world: kitpvp
+
+# Map Name List
+arenas:
+  - arena1
+  - arena2
+  - arena3
+#  - arena4
+#  - arena5
+  - arena6
+  - arena7
+  - arena8
+  - arena9
+#  - arena10
+  - arena11
+  - arena12
+  - arena13
+  - arena14
+  - arena15
+  - arena16
+arena:
+  arena1:
+    name: 'Bridges'
+    x: -557
+    y: 78
+    z: 577
+    pitch: 0
+    yaw: 0
+    world: arena1
+  arena2:
+    name: 'Old West'
+    x: -557
+    y: 75
+    z: 577
+    pitch: 0.1
+    yaw: 90
+    world: arena2
+  arena3:
+    name: 'Wooden'
+    x: -555
+    y: 62
+    z: 574
+    pitch: 1.4
+    yaw: 70
+    world: arena3
+  arena4:
+    name: 'Skytop'
+    x: -556
+    y: 95
+    z: 577
+    pitch: 2
+    yaw: 175
+    world: arena4
+  arena5:
+    name: 'Temple'
+    x: -563
+    y: 105
+    z: 592
+    pitch: 2
+    yaw: 90
+    world: arena5
+  arena6:
+    name: 'Glacier'
+    x: -556
+    y: 59
+    z: 613
+    pitch: 1
+    yaw: 90
+    world: arena6
+  arena7:
+    name: 'Rushmore'
+    x: -556
+    y: 55
+    z: 577
+    pitch: 0
+    yaw: 0.0
+    world: arena7
+  arena8:
+    name: 'Lava'
+    x: -556
+    y: 89
+    z: 577
+    pitch: 0
+    yaw: 0.0
+    world: arena8
+  arena9:
+    name: 'Desert'
+    x: -472
+    y: 33
+    z: -131
+    pitch: 0
+    yaw: 0.0
+    world: arena9
+  arena10:
+    name: 'Space'
+    x: -555
+    y: 97
+    z: 577
+    pitch: 0
+    yaw: 0.0
+    world: arena10
+  arena11:
+    name: 'Nordic Farm'
+    x: -519
+    y: 85
+    z: 556
+    pitch: 0
+    yaw: 0.0
+    world: arena11
+  arena12:
+    name: 'China'
+    x: 21
+    y: 81
+    z: -57
+    pitch: 0
+    yaw: 0.0
+    world: arena12
+  arena13:
+    name: 'Library'
+    x: 8
+    y: 26
+    z: 7
+    pitch: 0
+    yaw: 0.0
+    world: arena13
+  arena14:
+    name: 'Valley'
+    x: 52
+    y: 87
+    z: -8
+    pitch: 0
+    yaw: 0.0
+    world: arena14
+  arena15:
+    name: 'Tree of life'
+    x: 46
+    y: 70
+    z: -12
+    pitch: 0
+    yaw: 0.0
+    world: arena15
+  arena16:
+    name: 'Highrise'
+    x: 5
+    y: 104
+    z: -44
+    pitch: 0
+    yaw: 0.0
+    world: arena16
+

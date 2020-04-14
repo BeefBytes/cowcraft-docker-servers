@@ -1,0 +1,61 @@
+GBucket:
+  '1':
+    Name: '&8[&cGen&7Bucket&8] &7- &cCobblestone'
+    Lore:
+    - '&a&lRight click the side of a block to make a cobblestone 1x1 down to the ground.'
+    - '&c1 TIME USE!'
+    Block: COBBLESTONE
+    Price: 100
+    AllowPhysics: true
+    BlocksPerSecond: 2
+    BucketType: LAVA_BUCKET
+    ParticleEffect: MOBSPAWNER_FLAMES
+  '2':
+    Name: '&8[&cGen&7Bucket&8] &7- &cObsidian'
+    Lore:
+    - '&a&lRight click the side of a block to make a obsidian 1x1 down to the ground.'
+    - '&c1 TIME USE!'
+    Block: OBSIDIAN
+    Price: 1000
+    AllowPhysics: true
+    BlocksPerSecond: 1
+    BucketType: WATER_BUCKET
+    ParticleEffect: ENDER_SIGNAL
+  '3':
+    Name: '&8[&cGen&7Bucket&8] &7- &cSand'
+    Lore:
+    - '&a&lRight click the side of a block to make a sand 1x1 down to the ground.'
+    - '&c1 TIME USE!'
+    Block: SAND
+    Price: 50
+    AllowPhysics: false
+    BlocksPerSecond: 4
+    BucketType: WATER_BUCKET
+    ParticleEffect: SMOKE
+Messages:
+  GivenBucket: '&8[&cGen&7Bucket&8] &bYou have given %player%&b a %type% &cGen&7Bucket!'
+  ReceivedBucket: '&8[&cGen&7Bucket&8] &bYou have received a &d%type% &cGen&7Bucket!'
+  NoPerms: '&8[&cGen&7Bucket&8] &cNo permission!'
+  NotEnoughMoney: '&8[&cGen&7Bucket&8] &cNot Enough Money!!'
+  TransactionFailed: '&8[&cGen&7Bucket&8] &cTransaction Failed!'
+  BoughtGenBucket: '&8[&cGen&7Bucket&8] &aBought &cGen&7Bucket!'
+  AdminMessage: '&8[&cGen&7Bucket&8] &c(AdminView) %player%&c placed a &b%type% &cgen
+    bucket.'
+  ReloadedConfig: '&8[&cGen&7Bucket&8] &aConfig Reloaded!'
+  InvalidArguments: '&8[&cGen&7Bucket&8] &cInvalid Arguments, Please type the command
+    properly.'
+Config:
+  MessageAdmins: true
+  PrintToConsole: true
+  SpongesDisableGenning: true
+  RefreshChunksOnGen: false
+Shop:
+  ShopTitle: '&8[&cGen&7Bucket&8] &aShop'
+  ItemLores:
+  - '&e&l* &6&lPrice:&f&l $%price%'
+  - '&e&l* &6&lAmount:&f&l 1x'
+  - '&e&l* &6&lType:&f&l %type%'
+  BackgroundName: '&8--'
+  GlassPaneDurability: 15
+  BoughtSound: LEVEL_UP
+  NotEnoughMoneySound: WOOD_CLICK

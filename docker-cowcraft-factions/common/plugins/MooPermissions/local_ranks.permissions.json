@@ -1,0 +1,113 @@
+ {
+	"name": "Local_Factions_Ranks",
+	"priority": 2,
+	"groups": [
+ 
+ 
+ 
+ {
+            "name": "factions_rank1",
+            "permissions": {
+                "cowcraft.factions.rank1": true,
+                "puffix.prefix.rank1": true
+            },
+            "priority": 1000,
+            "displayName": "Supporter",
+            "isDefault": false
+        },
+   
+   
+        {
+            "name": "factions_rank2",
+            "permissions": {
+                "cowcraft.factions.rank2": true,
+                "puffix.prefix.rank2": true
+            },
+            "priority": 2000,
+            "displayName": "Elite",
+            "isDefault": false
+        },
+   
+   
+        {
+            "name": "factions_rank3",
+            "permissions": {
+                "cowcraft.factions.rank3": true,
+                "puffix.prefix.rank3": true
+            },
+            "priority": 3000,
+            "displayName": "CowGod",
+            "isDefault": false
+        },
+ 
+ 
+         {
+            "name": "factions_rank4",
+            "permissions": {
+                "cowcraft.factions.rank4": true
+            },
+            "priority": 4000,
+            "displayName": "Titan",
+            "isDefault": false
+        },
+ 
+ 
+         {
+            "name": "factions_rank5",
+            "permissions": {
+                "cowcraft.factions.rank5": true
+            },
+            "priority": 5000,
+            "displayName": "Overlord",
+            "isDefault": false
+        },
+
+
+         {
+            "name": "factions_rank6",
+            "permissions": {
+                "cowcraft.factions.rank6": true
+            },
+            "priority": 6000,
+            "displayName": "Mythic",
+            "isDefault": false
+        },
+ 
+ 
+ 
+        {
+            "name": "factions_free_rank1",
+            "permissions": {
+                "cowcraft.factions.free.rank1": true
+            },
+            "priority": 10,
+            "displayName": "Respected",
+            "isDefault": false
+        },
+ 
+        {
+            "name": "factions_free_rank2",
+            "permissions": {
+                "cowcraft.factions.free.rank2": true
+            },
+            "priority": 20,
+            "displayName": "VIP",
+            "isDefault": false
+        },
+ 
+        {
+            "name": "factions_free_rank3",
+            "permissions": {
+                "cowcraft.factions.free.rank3": true
+            },
+            "priority": 30,
+            "displayName": "SuperVIP",
+            "isDefault": false
+        }
+		
+		
+		
+		
+		
+		]
+}	

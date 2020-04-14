@@ -1,0 +1,281 @@
+ShopName: diamond
+DisplayName: 'Diamond Crate'
+signs:
+  text: '[diamond]'
+  NeedPermissionToCreateSign: true
+shop:
+  1:
+    RewardType: nothing
+    MenuItem:
+    - type:gold_ingot
+    - amount:1
+    - 'name:&b$100000'
+    - 'lore:&7Chance: &b7%'
+    InventoryLocation: 1
+    ExtraPermission: ''
+    
+  2:
+    RewardType: nothing
+    MenuItem:
+    - type:gold_ingot
+    - amount:1
+    - 'name:&b$250000'
+    - 'lore:&7Chance: &b6%'
+    InventoryLocation: 2
+    ExtraPermission: ''
+
+  3:
+    RewardType: nothing
+    MenuItem:
+    - type:gold_ingot
+    - amount:1
+    - 'name:&b$500000'
+    - 'lore:&7Chance: &b3%'
+    InventoryLocation: 3
+    ExtraPermission: ''
+
+  4:
+    RewardType: nothing
+    MenuItem:
+    - type:experience_bottle
+    - amount:1
+    - 'name:&b1280 EXP Bottles'
+    - 'lore:&7Chance: &b2%'
+    InventoryLocation: 4
+    ExtraPermission: ''
+
+  5:
+    RewardType: nothing
+    MenuItem:
+    - type:gold_block
+    - amount:1
+    - 'name:&b32 Gold Blocks'
+    - 'lore:&7Chance: &b7%'
+    InventoryLocation: 5
+    ExtraPermission: ''
+
+  6:
+    RewardType: nothing
+    MenuItem:
+    - type:diamond_block
+    - amount:1
+    - 'name:&b32 Diamond Blocks'
+    - 'lore:&7Chance: &b7%'
+    InventoryLocation: 6
+    ExtraPermission: ''
+
+  7:
+    RewardType: nothing
+    MenuItem:
+    - type:diamond_chestplate
+    - amount:1
+    - 'name:&bEnchanted Armor Set'
+    - 'lore:&7Chance: &b7%'
+    InventoryLocation: 7
+    ExtraPermission: ''
+
+  8:
+    RewardType: nothing
+    MenuItem:
+    - type:diamond_chestplate
+    - amount:1
+    - 'name:&bEnchanted Armor Set'
+    - 'lore:&7Chance: &b4%'
+    InventoryLocation: 8
+    ExtraPermission: ''
+
+  9:
+    RewardType: nothing
+    MenuItem:
+    - type:diamond_pickaxe
+    - amount:1
+    - 'name:&bEfficiency 10 Pickaxe'
+    - 'lore:&7Chance: &b7%'
+    InventoryLocation: 9
+    ExtraPermission: ''
+
+  10:
+    RewardType: nothing
+    MenuItem:
+    - type:bow
+    - amount:1
+    - 'name:&bEnchanted Bow'
+    - 'lore:&7Chance: &b4%'
+    InventoryLocation: 10
+    ExtraPermission: ''
+
+  11:
+    RewardType: nothing
+    MenuItem:
+    - type:diamond_sword
+    - amount:1
+    - 'name:&bEnchanted Sword'
+    - 'lore:&7Chance: &b3%'
+    InventoryLocation: 11
+    ExtraPermission: ''
+
+
+  12:
+    RewardType: nothing
+    MenuItem:
+    - type:spawn_egg:50
+    - amount:16
+    - 'name:&b16 Creeper Eggs'
+    - 'lore:&7Chance: &b7%'
+    InventoryLocation: 12
+    ExtraPermission: ''
+
+  13:
+    RewardType: nothing
+    MenuItem:
+    - type:mob_spawner
+    - amount:2
+    - 'name:&b2 Creeper Spawners'
+    - 'lore:&7Chance: &b7%'
+    InventoryLocation: 13
+    ExtraPermission: ''
+
+  14:
+    RewardType: nothing
+    MenuItem:
+    - type:mob_spawner
+    - amount:2
+    - 'name:&b2 Pig Zombie Spawners'
+    - 'lore:&7Chance: &b4%'
+    InventoryLocation: 14
+    ExtraPermission: ''
+
+  15:
+    RewardType: nothing
+    MenuItem:
+    - type:mob_spawner
+    - amount:2
+    - 'name:&b2 Iron Golem Spawners'
+    - 'lore:&7Chance: &b3%'
+    InventoryLocation: 15
+    ExtraPermission: ''
+
+  16:
+    RewardType: nothing
+    MenuItem:
+    - type:golden_apple:1
+    - amount:32
+    - 'name:&b32 Golden Apples'
+    - 'lore:&7Chance: &b2%'
+    InventoryLocation: 16
+    ExtraPermission: ''
+
+  17:
+    RewardType: nothing
+    MenuItem:
+    - type:paper
+    - amount:1
+    - 'name:&bElite Rank'
+    - 'lore:&7Chance: &b2%'
+    InventoryLocation: 17
+    ExtraPermission: ''
+
+
+  18:
+    RewardType: nothing
+    MenuItem:
+    - type:paper
+    - amount:1
+    - 'name:&bCowGod Rank'
+    - 'lore:&7Chance: &b2%'
+    InventoryLocation: 18
+    ExtraPermission: ''
+
+  19:
+    RewardType: nothing
+    MenuItem:
+    - type:paper
+    - amount:1
+    - 'name:&bTitan Rank'
+    - 'lore:&7Chance: &b1%'
+    InventoryLocation: 19
+    ExtraPermission: ''
+
+  20:
+    RewardType: nothing
+    MenuItem:
+    - type:paper
+    - amount:1
+    - 'name:&bOverlord Rank'
+    - 'lore:&7Chance: &b1%'
+    InventoryLocation: 20
+    ExtraPermission: ''
+
+  21:
+    RewardType: nothing
+    MenuItem:
+    - type:paper
+    - amount:1
+    - 'name:&bMythic Rank'
+    - 'lore:&7Chance: &b1%'
+    - 'lore:&6&lOnly available from the diamond crate!'
+    - 'lore:&5Higher than Overlord!'
+    InventoryLocation: 21
+    ExtraPermission: ''
+
+  22:
+    RewardType: nothing
+    MenuItem:
+    - type:paper
+    - amount:1
+    - 'name:&bUnlimited Homes'
+    - 'lore:&7Chance: &b1%'
+    InventoryLocation: 22
+    ExtraPermission: ''
+
+  23:
+    RewardType: nothing
+    MenuItem:
+    - type:tripwire_hook
+    - amount:3
+    - 'name:&6&lGold&r Key x3'
+    - 'lore:&7Chance: &b4%'
+    InventoryLocation: 23
+    ExtraPermission: ''
+
+  24:
+    RewardType: nothing
+    MenuItem:
+    - type:tripwire_hook
+    - amount:2
+    - 'name:&b&lDiamond&r Key x2'
+    - 'lore:&7Chance: &b2%'
+    InventoryLocation: 24
+    ExtraPermission: ''
+
+  25:
+    RewardType: nothing
+    MenuItem:
+    - type:double_flower
+    - amount:1
+    - 'name:&b200 McMMO Credits'
+    - 'lore:&7Chance: &b4%'
+    InventoryLocation: 25
+    ExtraPermission: ''
+
+  26:
+    RewardType: nothing
+    MenuItem:
+    - type:double_flower
+    - amount:1
+    - 'name:&b400 McMMO Credits'
+    - 'lore:&7Chance: &b2%'
+    InventoryLocation: 26
+    ExtraPermission: ''
+
+  27:
+    RewardType: nothing
+    MenuItem:
+    - type:diamond_boots
+    - amount:1
+    - 'name:&bJelly Legs'
+    - 'lore:&7Chance: &b1%'
+    - 'lore:&7Gives you acces to /nd fall'
+    - 'lore:&7to disable fall damage'
+    InventoryLocation: 27
+    ExtraPermission: ''

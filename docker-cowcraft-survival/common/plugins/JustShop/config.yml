@@ -1,0 +1,1591 @@
+#         ,---._
+#       .-- -.' \                             ___      .--.--.     ,---,
+#       |    |   :                          ,--.'|_   /  /    '. ,--.' |              ,-.----.
+#       :    ;   |         ,--,             |  | :,' |  :  /`. / |  |  :       ,---.  \    /  \
+#       :        |       ,'_ /|   .--.--.   :  : ' : ;  |  |--`  :  :  :      '   ,'\ |   :    |
+#       |    :   :  .--. |  | :  /  /    '.;__,'  /  |  :  ;_    :  |  |,--. /   /   ||   | .\ :
+#       :         ,'_ /| :  . | |  :  /`./|  |   |    \  \    `. |  :  '   |.   ; ,. :.   : |: |
+#       |    ;   ||  ' | |  . . |  :  ;_  :__,'| :     `----.   \|  |   /' :'   | |: :|   |  \ :
+#   ___ l         |  | ' |  | |  \  \    `. '  : |__   __ \  \  |'  :  | | |'   | .; :|   : .  |
+# /    /\    J   ::  | : ;  ; |   `----.   \|  | '.'| /  /`--'  /|  |  ' | :|   :    |:     |`-'
+#/  ../  `..-    ,'  :  `--'   \ /  /`--'  /;  :    ;'--'.     / |  :  :_:,' \   \  / :   : :
+#\    \         ; :  ,      .-./'--'.     / |  ,   /   `--'---'  |  | ,'      `----'  |   | :
+# \    \      ,'   `--`----'      `--'---'   ---`-'              `--''                `---'.|
+#  "---....--'                                                                          `---`                                                                                                                                                                                    |___/
+General-Settings:
+  Prefix: "&7[&5JustShop&7]&f "
+Default-Settings:
+  Lore:
+    - "&l&m---------------------"
+    - "&a&nLeft click&a to buy: &a&l${buy-price}"
+    - ""
+    - "&c&nRight click&c to sell: &c&l${sell-price}"
+    - "&l&m---------------------"
+GUI-Settings:
+  Title: "JustShop GUI Shop"
+  # The configuration for the back button in the inventory.
+  Back-Button:
+    Icon: "Paper"
+    Name: "&r"
+    Lore:
+      - "&c&nLeft click&c to go back to the categories"
+      - ""
+    Glowing: true
+  # You can't use the default settings for this section.
+  Categories:
+    - ID: 1
+      Icon: "grass"
+      Name: "&f&lBlocks"
+      Lore:
+        - "&7&nLeft click&7 to choose category"
+    - ID: 2
+      Name: "&f&lBlocks"
+      Icon: "dirt"
+      Lore:
+        - "&7&nLeft click&7 to choose category"
+    - ID: 3
+      Name: "&f&lPlants"
+      Icon: "lilypad"
+      Lore:
+        - "&7&nLeft click&7 to choose category"
+    - ID: 4
+      Name: "&f&lRedstone"
+      Icon: "redstone"
+      Lore:
+        - "&7&nLeft click&7 to choose category"
+    - ID: 5
+      Name: "&f&lFood"
+      Icon: "beef"
+      Lore:
+        - "&7&nLeft click&7 to choose category"
+    - ID: 6
+      Name: "&f&lDrops"
+      Icon: "bone"
+      Lore:
+        - "&7&nLeft click&7 to choose category"
+    - ID: 7
+      Name: "&f&lSpecial"
+      Icon: "record_13"
+      Lore:
+        - "&7&nLeft click&7 to choose category"
+    - ID: 8
+      Name: "&f&lResources"
+      Icon: "bucket"
+      Lore:
+        - "&7&nLeft click&7 to choose category"
+
+Stock:
+# =======================================
+# Possible options:
+# 
+# Durability: 2 (for items like wool:2)
+#
+# Name: "Name" (Define own name)
+#
+# Lore:
+#   - "Custom lore"
+# 
+# Glowing: true
+#
+# Permission: "my.custom.permission"
+# =======================================
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     BLOCKS CATEGORY                  | #
+# +------------------------------------------------------+ #
+############################################################
+
+  - Icon: "stone"
+    Category: 1
+    Buy-Price: 2
+    Sell-Price: 1.5
+
+  - Icon: "grass"
+    Category: 1
+    Buy-Price: 2
+    Sell-Price: 1
+
+  - Icon: "dirt"
+    Category: 1
+    Buy-Price: 1
+    Sell-Price: 0.25
+
+  - Icon: "dirt"
+    Durability: 2
+    Category: 1
+    Buy-Price: 7.5
+    Sell-Price: 1.5
+
+  - Icon: "cobblestone"
+    Category: 1
+    Buy-Price: 2
+    Sell-Price: 1
+
+  - Icon: "sand"
+    Category: 1
+    Buy-Price: 2
+    Sell-Price: 1
+
+  - Icon: "sand"
+    Durability: 1
+    Category: 1
+    Buy-Price: 2
+    Sell-Price: 1
+
+  - Icon: "gravel"
+    Category: 1
+    Buy-Price: 2
+    Sell-Price: 1
+
+  - Icon: "quartz_block"
+    Category: 1
+    Buy-Price: 20
+    Sell-Price: 0
+
+  - Icon: "quartz_block"
+    Durability: 1
+    Category: 1
+    Buy-Price: 30
+    Sell-Price: 0
+
+  - Icon: "quartz_block"
+    Durability: 2
+    Category: 1
+    Buy-Price: 40
+    Sell-Price: 0
+
+  - Icon: "sponge"
+    Category: 1
+    Buy-Price: 75
+    Sell-Price: 15
+
+  - Icon: "glass"
+    Category: 1
+    Buy-Price: 4
+    Sell-Price: 0
+
+  - Icon: "sandstone"
+    Category: 1
+    Buy-Price: 8
+    Sell-Price: 1
+
+  - Icon: "red_sandstone"
+    Category: 1
+    Buy-Price: 8
+    Sell-Price: 0
+
+  - Icon: "packed_ice"
+    Category: 1
+    Buy-Price: 10
+    Sell-Price: 1
+
+  - Icon: "ice"
+    Category: 1
+    Buy-Price: 6
+    Sell-Price: 0.5
+
+  - Icon: "mossy_cobblestone"
+    Category: 1
+    Buy-Price: 5
+    Sell-Price: 1.5
+
+  - Icon: "obsidian"
+    Category: 1
+    Buy-Price: 80
+    Sell-Price: 4
+
+  - Icon: "snow"
+    Category: 1
+    Buy-Price: 3
+    Sell-Price: 0
+
+  - Icon: "clayblock"
+    Category: 1
+    Buy-Price: 4
+    Sell-Price: 1
+
+  - Icon: "netherrack"
+    Category: 1
+    Buy-Price: 2
+    Sell-Price: 0.25
+
+  - Icon: "soul_sand"
+    Category: 1
+    Buy-Price: 6
+    Sell-Price: 1
+
+  - Icon: "glowstone"
+    Category: 1
+    Buy-Price: 32
+    Sell-Price: 2
+
+  - Icon: "stonebrick"
+    Category: 1
+    Buy-Price: 8
+    Sell-Price: 1.5
+
+  - Icon: "nether_brick"
+    Category: 1
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "mycelium"
+    Category: 1
+    Buy-Price: 7.5
+    Sell-Price: 1.5
+
+  - Icon: "end_stone"
+    Category: 1
+    Buy-Price: 15
+    Sell-Price: 0.5
+
+  - Icon: "slime"
+    Category: 1
+    Buy-Price: 540
+    Sell-Price: 18
+
+  - Icon: "sandstone"
+    Category: 1
+    Buy-Price: 16
+    Sell-Price: 0
+
+  - Icon: "sandstone"
+    Durability: 1
+    Category: 1
+    Buy-Price: 16
+    Sell-Price: 0
+
+  - Icon: "sandstone"
+    Durability: 2
+    Category: 1
+    Buy-Price: 24
+    Sell-Price: 0
+
+  - Icon: "red_sandstone"
+    Durability: 1
+    Category: 1
+    Buy-Price: 16
+    Sell-Price: 0
+
+  - Icon: "red_sandstone"
+    Durability: 2
+    Category: 1
+    Buy-Price: 24
+    Sell-Price: 0
+
+  - Icon: "brick_block"
+    Category: 1
+    Buy-Price: 20
+    Sell-Price: 0
+
+  - Icon: "stonebrick"
+    Durability: 1
+    Category: 1
+    Buy-Price: 12
+    Sell-Price: 4
+
+  - Icon: "stonebrick"
+    Durability: 2
+    Category: 1
+    Buy-Price: 12
+    Sell-Price: 4
+
+  - Icon: "stone"
+    Durability: 1
+    Category: 1
+    Buy-Price: 4
+    Sell-Price: 1
+
+  - Icon: "stone"
+    Durability: 2
+    Category: 1
+    Buy-Price: 16
+    Sell-Price: 0
+
+  - Icon: "stone"
+    Durability: 3
+    Category: 1
+    Buy-Price: 4
+    Sell-Price: 1
+
+  - Icon: "stone"
+    Durability: 4
+    Category: 1
+    Buy-Price: 16
+    Sell-Price: 0
+
+  - Icon: "stone"
+    Durability: 5
+    Category: 1
+    Buy-Price: 4
+    Sell-Price: 1
+
+  - Icon: "stone"
+    Durability: 6
+    Category: 1
+    Buy-Price: 16
+    Sell-Price: 0
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    BLOCKS 2 CATEGORY                 | #
+# +------------------------------------------------------+ #
+############################################################
+
+  - Icon: "hardened_clay"
+    Category: 2
+    Buy-Price: 20
+    Sell-Price: 3
+
+  - Icon: "stained_hardened_clay"
+    Category: 2
+    Buy-Price: 25
+    Sell-Price: 1
+
+  - Icon: "stained_hardened_clay"
+    Durability: 1
+    Category: 2
+    Buy-Price: 25
+    Sell-Price: 1
+
+  - Icon: "stained_hardened_clay"
+    Durability: 2
+    Category: 2
+    Buy-Price: 25
+    Sell-Price: 1
+
+  - Icon: "stained_hardened_clay"
+    Durability: 3
+    Category: 2
+    Buy-Price: 25
+    Sell-Price: 1
+
+  - Icon: "stained_hardened_clay"
+    Durability: 4
+    Category: 2
+    Buy-Price: 25
+    Sell-Price: 1
+
+  - Icon: "stained_hardened_clay"
+    Durability: 5
+    Category: 2
+    Buy-Price: 25
+    Sell-Price: 1
+
+  - Icon: "stained_hardened_clay"
+    Durability: 6
+    Category: 2
+    Buy-Price: 25
+    Sell-Price: 1
+
+  - Icon: "stained_hardened_clay"
+    Durability: 7
+    Category: 2
+    Buy-Price: 25
+    Sell-Price: 1
+
+  - Icon: "stained_hardened_clay"
+    Durability: 8
+    Category: 2
+    Buy-Price: 25
+    Sell-Price: 1
+
+  - Icon: "stained_hardened_clay"
+    Durability: 9
+    Category: 2
+    Buy-Price: 25
+    Sell-Price: 1
+
+  - Icon: "stained_hardened_clay"
+    Durability: 10
+    Category: 2
+    Buy-Price: 25
+    Sell-Price: 1
+
+  - Icon: "stained_hardened_clay"
+    Durability: 11
+    Category: 2
+    Buy-Price: 25
+    Sell-Price: 1
+
+  - Icon: "stained_hardened_clay"
+    Durability: 12
+    Category: 2
+    Buy-Price: 25
+    Sell-Price: 1
+
+  - Icon: "stained_hardened_clay"
+    Durability: 13
+    Category: 2
+    Buy-Price: 25
+    Sell-Price: 1
+
+  - Icon: "stained_hardened_clay"
+    Durability: 14
+    Category: 2
+    Buy-Price: 25
+    Sell-Price: 1
+
+  - Icon: "stained_hardened_clay"
+    Durability: 15
+    Category: 2
+    Buy-Price: 25
+    Sell-Price: 1
+
+  - Icon: "wool"
+    Category: 2
+    Buy-Price: 8
+    Sell-Price: 1
+
+  - Icon: "wool"
+    Durability: 1
+    Category: 2
+    Buy-Price: 12
+    Sell-Price: 1
+
+  - Icon: "wool"
+    Durability: 2
+    Category: 2
+    Buy-Price: 12
+    Sell-Price: 1
+
+  - Icon: "wool"
+    Durability: 3
+    Category: 2
+    Buy-Price: 12
+    Sell-Price: 1
+
+  - Icon: "wool"
+    Durability: 4
+    Category: 2
+    Buy-Price: 12
+    Sell-Price: 1
+
+  - Icon: "wool"
+    Durability: 5
+    Category: 2
+    Buy-Price: 12
+    Sell-Price: 1
+
+  - Icon: "wool"
+    Durability: 6
+    Category: 2
+    Buy-Price: 12
+    Sell-Price: 1
+
+  - Icon: "wool"
+    Durability: 7
+    Category: 2
+    Buy-Price: 12
+    Sell-Price: 1
+
+  - Icon: "wool"
+    Durability: 8
+    Category: 2
+    Buy-Price: 12
+    Sell-Price: 1
+
+  - Icon: "wool"
+    Durability: 9
+    Category: 2
+    Buy-Price: 12
+    Sell-Price: 1
+
+  - Icon: "wool"
+    Durability: 10
+    Category: 2
+    Buy-Price: 12
+    Sell-Price: 1
+
+  - Icon: "wool"
+    Durability: 11
+    Category: 2
+    Buy-Price: 12
+    Sell-Price: 1
+
+  - Icon: "wool"
+    Durability: 12
+    Category: 2
+    Buy-Price: 12
+    Sell-Price: 1
+
+  - Icon: "wool"
+    Durability: 13
+    Category: 2
+    Buy-Price: 12
+    Sell-Price: 1
+
+  - Icon: "wool"
+    Durability: 14
+    Category: 2
+    Buy-Price: 12
+    Sell-Price: 1
+
+  - Icon: "wool"
+    Durability: 15
+    Category: 2
+    Buy-Price: 12
+    Sell-Price: 1
+
+  - Icon: "log"
+    Category: 2
+    Buy-Price: 4
+    Sell-Price: 2
+
+  - Icon: "log"
+    Durability: 1
+    Category: 2
+    Buy-Price: 4
+    Sell-Price: 2
+
+  - Icon: "log"
+    Durability: 2
+    Category: 2
+    Buy-Price: 4
+    Sell-Price: 2
+
+  - Icon: "log"
+    Durability: 3
+    Category: 2
+    Buy-Price: 4
+    Sell-Price: 2
+
+  - Icon: "log2"
+    Category: 2
+    Buy-Price: 4
+    Sell-Price: 2
+
+  - Icon: "log2"
+    Durability: 1
+    Category: 2
+    Buy-Price: 4
+    Sell-Price: 2
+
+  - Icon: "coal_block"
+    Category: 2
+    Buy-Price: 36
+    Sell-Price: 9
+
+  - Icon: "hay_block"
+    Category: 2
+    Buy-Price: 90
+    Sell-Price: 18
+
+  - Icon: "sea_lantern"
+    Category: 2
+    Buy-Price: 1850
+    Sell-Price: 0
+
+  - Icon: "prismarine"
+    Category: 2
+    Buy-Price: 240
+    Sell-Price: 0
+
+  - Icon: "prismarine"
+    Durability: 1
+    Category: 2
+    Buy-Price: 360
+    Sell-Price: 0
+
+  - Icon: "prismarine"
+    Durability: 2
+    Category: 2
+    Buy-Price: 325
+    Sell-Price: 0
+
+  - Icon: "planks"
+    Category: 2
+    Buy-Price: 1
+    Sell-Price: 0.5
+
+  - Icon: "planks"
+    Durability: 1
+    Category: 2
+    Buy-Price: 1
+    Sell-Price: 0.5
+
+  - Icon: "planks"
+    Durability: 2
+    Category: 2
+    Buy-Price: 1
+    Sell-Price: 0.5
+
+  - Icon: "planks"
+    Durability: 3
+    Category: 2
+    Buy-Price: 1
+    Sell-Price: 0.5
+
+  - Icon: "planks"
+    Durability: 4
+    Category: 2
+    Buy-Price: 1
+    Sell-Price: 0.5
+
+  - Icon: "planks"
+    Durability: 5
+    Category: 2
+    Buy-Price: 1
+    Sell-Price: 0.5
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     PLANTS CATEGORY                  | #
+# +------------------------------------------------------+ #
+############################################################
+
+  - Icon: "cactus"
+    Category: 3
+    Buy-Price: 4
+    Sell-Price: 1
+
+  - Icon: "sapling"
+    Category: 3
+    Buy-Price: 12
+    Sell-Price: 0
+
+  - Icon: "sapling"
+    Durability: 1
+    Category: 3
+    Buy-Price: 12
+    Sell-Price: 0
+
+  - Icon: "sapling"
+    Durability: 2
+    Category: 3
+    Buy-Price: 12
+    Sell-Price: 0
+
+  - Icon: "sapling"
+    Durability: 3
+    Category: 3
+    Buy-Price: 24
+    Sell-Price: 0
+
+  - Icon: "sapling"
+    Durability: 4
+    Category: 3
+    Buy-Price: 12
+    Sell-Price: 0
+
+  - Icon: "sapling"
+    Durability: 5
+    Category: 3
+    Buy-Price: 12
+    Sell-Price: 0
+
+  - Icon: "leaves"
+    Category: 3
+    Buy-Price: 2
+    Sell-Price: 0
+
+  - Icon: "leaves"
+    Durability: 1
+    Category: 3
+    Buy-Price: 2
+    Sell-Price: 0
+
+  - Icon: "leaves"
+    Durability: 2
+    Category: 3
+    Buy-Price: 2
+    Sell-Price: 0
+
+  - Icon: "leaves"
+    Durability: 3
+    Category: 3
+    Buy-Price: 2
+    Sell-Price: 0
+
+  - Icon: "leaves2"
+    Category: 3
+    Buy-Price: 2
+    Sell-Price: 0
+
+  - Icon: "leaves2"
+    Durability: 1
+    Category: 3
+    Buy-Price: 2
+    Sell-Price: 0
+
+  - Icon: "tallgrass"
+    Durability: 1
+    Category: 3
+    Buy-Price: 2
+    Sell-Price: 0
+
+  - Icon: "tallgrass"
+    Durability: 2
+    Category: 3
+    Buy-Price: 4
+    Sell-Price: 0
+
+  - Icon: "deadbush"
+    Category: 3
+    Buy-Price: 15
+    Sell-Price: 0
+
+  - Icon: "yellow_flower"
+    Category: 3
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "red_flower"
+    Category: 3
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "red_flower"
+    Durability: 1
+    Category: 3
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "red_flower"
+    Durability: 2
+    Category: 3
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "red_flower"
+    Durability: 3
+    Category: 3
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "red_flower"
+    Durability: 4
+    Category: 3
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "red_flower"
+    Durability: 5
+    Category: 3
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "red_flower"
+    Durability: 6
+    Category: 3
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "red_flower"
+    Durability: 7
+    Category: 3
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "red_flower"
+    Durability: 8
+    Category: 3
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "double_plant"
+    Category: 3
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "double_plant"
+    Durability: 1
+    Category: 3
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "double_plant"
+    Durability: 2
+    Category: 3
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "double_plant"
+    Durability: 3
+    Category: 3
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "double_plant"
+    Durability: 4
+    Category: 3
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "double_plant"
+    Durability: 5
+    Category: 3
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "brown_mushroom"
+    Category: 3
+    Buy-Price: 20
+    Sell-Price: 2
+
+  - Icon: "red_mushroom"
+    Category: 3
+    Buy-Price: 20
+    Sell-Price: 2
+
+  - Icon: "vine"
+    Category: 3
+    Buy-Price: 4
+    Sell-Price: 0
+
+  - Icon: "waterlily"
+    Category: 3
+    Buy-Price: 8
+    Sell-Price: 0
+
+  - Icon: "pumpkin"
+    Category: 3
+    Buy-Price: 10
+    Sell-Price: 3
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   REDSTONE CATEGORY                  | #
+# +------------------------------------------------------+ #
+############################################################
+
+  - Icon: "tripwire_hook"
+    Category: 4
+    Buy-Price: 76.25
+    Sell-Price: 0
+
+  - Icon: "daylight_detector"
+    Category: 4
+    Buy-Price: 40.5
+    Sell-Price: 12.75
+
+  - Icon: "repeater"
+    Category: 4
+    Buy-Price: 20
+    Sell-Price: 0
+
+  - Icon: "hopper"
+    Category: 4
+    Buy-Price: 500
+    Sell-Price: 0
+
+  - Icon: "dropper"
+    Category: 4
+    Buy-Price: 25
+    Sell-Price: 0
+
+  - Icon: "dispenser"
+    Category: 4
+    Buy-Price: 50
+    Sell-Price: 0
+
+  - Icon: "noteblock"
+    Category: 4
+    Buy-Price: 12
+    Sell-Price: 0
+
+  - Icon: "jukebox"
+    Category: 4
+    Buy-Price: 300
+    Sell-Price: 0
+
+  - Icon: "sticky_piston"
+    Category: 4
+    Buy-Price: 250
+    Sell-Price: 0
+
+  - Icon: "piston"
+    Category: 4
+    Buy-Price: 150
+    Sell-Price: 0
+
+  - Icon: "lever"
+    Category: 4
+    Buy-Price: 2
+    Sell-Price: 0
+
+  - Icon: "stone_pressure_plate"
+    Category: 4
+    Buy-Price: 4
+    Sell-Price: 0
+
+  - Icon: "wooden_pressure_plate"
+    Category: 4
+    Buy-Price: 2
+    Sell-Price: 0
+
+  - Icon: "light_weighted_pressure_plate"
+    Category: 4
+    Buy-Price: 150
+    Sell-Price: 0
+
+  - Icon: "heavy_weighted_pressure_plate"
+    Category: 4
+    Buy-Price: 350
+    Sell-Price: 0
+
+  - Icon: "stone_button"
+    Category: 4
+    Buy-Price: 2
+    Sell-Price: 0
+
+  - Icon: "comparator"
+    Category: 4
+    Buy-Price: 60
+    Sell-Price: 0
+
+  - Icon: "redstone"
+    Category: 4
+    Buy-Price: 12
+    Sell-Price: .1
+
+  - Icon: "redstone_lamp"
+    Category: 4
+    Buy-Price: 20
+    Sell-Price: 0
+
+  - Icon: "trapped_chest"
+    Category: 7
+    Buy-Price: 84.25
+    Sell-Price: 0
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     FOOD CATEGORY                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+  - Icon: "fish"
+    Category: 5
+    Buy-Price: 8
+    Sell-Price: 4
+
+  - Icon: "349"
+    Durability: 1
+    Category: 5
+    Buy-Price: 16
+    Sell-Price: 8
+
+  - Icon: "349"
+    Durability: 2
+    Category: 5
+    Buy-Price: 240
+    Sell-Price: 120
+
+  - Icon: "349"
+    Durability: 3
+    Category: 5
+    Buy-Price: 32
+    Sell-Price: 16
+
+  - Icon: "cookedfish"
+    Category: 5
+    Buy-Price: 10
+    Sell-Price: 5
+
+  - Icon: "350"
+    Durability: 1
+    Category: 5
+    Buy-Price: 20
+    Sell-Price: 10
+
+  - Icon: "melonslice"
+    Category: 5
+    Buy-Price: 3
+    Sell-Price: 1
+
+  - Icon: "cookie"
+    Category: 5
+    Buy-Price: 2
+    Sell-Price: 0
+
+  - Icon: "cake"
+    Category: 5
+    Buy-Price: 250
+    Sell-Price: 0
+
+  - Icon: "pumpkin_pie"
+    Category: 5
+    Buy-Price: 20
+    Sell-Price: 0
+
+  - Icon: "raw_beef"
+    Category: 5
+    Buy-Price: 6
+    Sell-Price: 1
+
+  - Icon: "cooked_beef"
+    Category: 5
+    Buy-Price: 12
+    Sell-Price: 2
+
+  - Icon: "chicken"
+    Category: 5
+    Buy-Price: 4
+    Sell-Price: 1
+
+  - Icon: "cooked_chicken"
+    Category: 5
+    Buy-Price: 8
+    Sell-Price: 2
+
+  - Icon: "apple"
+    Category: 5
+    Buy-Price: 30
+    Sell-Price: 7.5
+
+  - Icon: "mushroom_stew"
+    Category: 5
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "carrot"
+    Category: 5
+    Buy-Price: 9
+    Sell-Price: 3
+
+  - Icon: "potato"
+    Category: 5
+    Buy-Price: 9
+    Sell-Price: 3
+
+  - Icon: "baked_potato"
+    Category: 5
+    Buy-Price: 12
+    Sell-Price: 4
+
+  - Icon: "golden_carrot"
+    Category: 5
+    Buy-Price: 165
+    Sell-Price: 0
+
+  - Icon: "bread"
+    Category: 5
+    Buy-Price: 18
+    Sell-Price: 0
+
+  - Icon: "rabbit"
+    Category: 5
+    Buy-Price: 8
+    Sell-Price: 1.5
+
+  - Icon: "cooked_rabbit"
+    Category: 5
+    Buy-Price: 16
+    Sell-Price: 2.5
+
+  - Icon: "rabbit_stew"
+    Category: 5
+    Buy-Price: 27
+    Sell-Price: 0
+
+  - Icon: "porkchop"
+    Category: 5
+    Buy-Price: 6
+    Sell-Price: 1
+
+  - Icon: "cooked_porkchop"
+    Category: 5
+    Buy-Price: 12
+    Sell-Price: 2
+
+  - Icon: "golden_apple"
+    Category: 5
+    Buy-Price: 1415
+    Sell-Price: 0
+
+  - Icon: "melon_block"
+    Category: 5
+    Buy-Price: 10
+    Sell-Price: 5
+
+  - Icon: "mutton"
+    Category: 5
+    Buy-Price: 6
+    Sell-Price: 1
+
+  - Icon: "cooked_mutton"
+    Category: 5
+    Buy-Price: 12
+    Sell-Price: 2
+
+  - Icon: "pumpkin_seeds"
+    Category: 5
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "melon_seeds"
+    Category: 5
+    Buy-Price: 3
+    Sell-Price: 0
+
+  - Icon: "wheat_seeds"
+    Category: 5
+    Buy-Price: 1
+    Sell-Price: 1
+
+  - Icon: "wheat"
+    Category: 5
+    Buy-Price: 10
+    Sell-Price: 2
+
+  - Icon: "sugar"
+    Category: 5
+    Buy-Price: 4
+    Sell-Price: 0
+
+  - Icon: "milk_bucket"
+    Category: 5
+    Buy-Price: 240
+    Sell-Price: 0
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     DROPS CATEGORY                   | #
+# +------------------------------------------------------+ #
+############################################################
+
+  - Icon: "rotten_flesh"
+    Category: 6
+    Buy-Price: 3
+    Sell-Price: 1.5
+
+  - Icon: "ender_pearl"
+    Category: 6
+    Buy-Price: 60
+    Sell-Price: 0.5
+
+  - Icon: "blaze_rod"
+    Category: 6
+    Buy-Price: 30
+    Sell-Price: 4
+
+  - Icon: "ghast_tear"
+    Category: 6
+    Buy-Price: 120
+    Sell-Price: 30
+
+  - Icon: "gold_nugget"
+    Category: 6
+    Buy-Price: 20
+    Sell-Price: 0
+
+  - Icon: "nether_wart"
+    Category: 6
+    Buy-Price: 25
+    Sell-Price: 2
+
+  - Icon: "bone"
+    Category: 6
+    Buy-Price: 4.5
+    Sell-Price: 1.5
+
+  - Icon: "spider_eye"
+    Category: 6
+    Buy-Price: 4
+    Sell-Price: 2
+
+  - Icon: "fermented_spider_eye"
+    Category: 6
+    Buy-Price: 15
+    Sell-Price: 0
+
+  - Icon: "blaze_powder"
+    Category: 6
+    Buy-Price: 15
+    Sell-Price: 2
+
+  - Icon: "magma_cream"
+    Category: 6
+    Buy-Price: 75
+    Sell-Price: 0
+
+  - Icon: "ender_eye"
+    Category: 6
+    Buy-Price: 70
+    Sell-Price: 0
+
+  - Icon: "speckled_melon"
+    Category: 6
+    Buy-Price: 180
+    Sell-Price: 0
+
+  - Icon: "arrow"
+    Category: 6
+    Buy-Price: 5
+    Sell-Price: 1
+
+  - Icon: "string"
+    Category: 6
+    Buy-Price: 6
+    Sell-Price: 1
+
+  - Icon: "feather"
+    Category: 6
+    Buy-Price: 6
+    Sell-Price: 1
+
+  - Icon: "gunpowder"
+    Category: 6
+    Buy-Price: 60
+    Sell-Price: 3
+
+  - Icon: "flint"
+    Category: 6
+    Buy-Price: 5
+    Sell-Price: 2
+
+  - Icon: "slimeball"
+    Category: 6
+    Buy-Price: 60
+    Sell-Price: 3
+
+  - Icon: "cauldron"
+    Category: 6
+    Buy-Price: 525
+    Sell-Price: 0
+
+  - Icon: "leather"
+    Category: 6
+    Buy-Price: 12
+    Sell-Price: 2
+
+  - Icon: "egg"
+    Category: 6
+    Buy-Price: 10
+    Sell-Price: 2
+
+  - Icon: "rabbit_foot"
+    Category: 6
+    Buy-Price: 120
+    Sell-Price: 5
+
+  - Icon: "rabbit_hide"
+    Category: 6
+    Buy-Price: 25
+    Sell-Price: 2.5
+
+  - Icon: "prismarine_shard"
+    Category: 6
+    Buy-Price: 40
+    Sell-Price: 0
+
+  - Icon: "prismarine_crystals"
+    Category: 6
+    Buy-Price: 50
+    Sell-Price: 0
+
+  - Icon: "glass_bottle"
+    Category: 6
+    Buy-Price: 8
+    Sell-Price: 0
+
+  - Icon: "brewingstand"
+    Category: 6
+    Buy-Price: 21
+    Sell-Price: 0
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    SPECIAL CATEGORY                  | #
+# +------------------------------------------------------+ #
+############################################################
+
+
+  - Icon: "beacon"
+    Category: 7
+    Buy-Price: 1750
+    Sell-Price: 0
+
+  - Icon: "iron_horse_armor"
+    Category: 7
+    Buy-Price: 150
+    Sell-Price: 75
+
+  - Icon: "golden_horse_armor"
+    Category: 7
+    Buy-Price: 250
+    Sell-Price: 125
+
+  - Icon: "diamond_horse_armor"
+    Category: 7
+    Buy-Price: 350
+    Sell-Price: 175
+
+  - Icon: "saddle"
+    Category: 7
+    Buy-Price: 100
+    Sell-Price: 50
+
+  - Icon: "record_13"
+    Category: 7
+    Buy-Price: 100
+    Sell-Price: 15
+
+  - Icon: "record_cat"
+    Category: 7
+    Buy-Price: 100
+    Sell-Price: 15
+
+  - Icon: "record_blocks"
+    Category: 7
+    Buy-Price: 100
+    Sell-Price: 15
+
+  - Icon: "record_chirp"
+    Category: 7
+    Buy-Price: 100
+    Sell-Price: 15
+
+  - Icon: "record_far"
+    Category: 7
+    Buy-Price: 100
+    Sell-Price: 15
+
+  - Icon: "record_mellohi"
+    Category: 7
+    Buy-Price: 100
+    Sell-Price: 15
+
+  - Icon: "record_stal"
+    Category: 7
+    Buy-Price: 100
+    Sell-Price: 15
+
+  - Icon: "record_strad"
+    Category: 7
+    Buy-Price: 100
+    Sell-Price: 15
+
+  - Icon: "record_ward"
+    Category: 7
+    Buy-Price: 100
+    Sell-Price: 15
+
+  - Icon: "record_11"
+    Category: 7
+    Buy-Price: 100
+    Sell-Price: 15
+
+  - Icon: "record_wait"
+    Category: 7
+    Buy-Price: 100
+    Sell-Price: 15
+
+  - Icon: "name_tag"
+    Category: 7
+    Buy-Price: 50
+    Sell-Price: 10
+
+  - Icon: "fire_charge"
+    Category: 7
+    Buy-Price: 25
+    Sell-Price: 0
+
+  - Icon: "ender_chest"
+    Category: 7
+    Buy-Price: 400
+    Sell-Price: 0
+
+  - Icon: "chest"
+    Category: 7
+    Buy-Price: 8
+    Sell-Price: 0
+
+  - Icon: "bookshelf"
+    Category: 7
+    Buy-Price: 78
+    Sell-Price: 0
+
+  - Icon: "enchanting_table"
+    Category: 7
+    Buy-Price: 795
+    Sell-Price: 0
+
+  - Icon: "writable_book"
+    Category: 7
+    Buy-Price: 33
+    Sell-Price: 0
+
+  - Icon: "armor_stand"
+    Category: 7
+    Buy-Price: 10
+    Sell-Price: 0
+
+  - Icon: "web"
+    Category: 7
+    Buy-Price: 200
+    Sell-Price: 0
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  RESOURCES CATEGORY                  | #
+# +------------------------------------------------------+ #
+############################################################
+
+  - Icon: "dye"
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "dye"
+    Durability: 1
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "dye"
+    Durability: 2
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "dye"
+    Durability: 3
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 1
+
+  - Icon: "dye"
+    Durability: 4
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 2
+
+  - Icon: "dye"
+    Durability: 5
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "dye"
+    Durability: 5
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "dye"
+    Durability: 6
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "dye"
+    Durability: 7
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "dye"
+    Durability: 8
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "dye"
+    Durability: 9
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "dye"
+    Durability: 10
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "dye"
+    Durability: 11
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "dye"
+    Durability: 12
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "dye"
+    Durability: 13
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "dye"
+    Durability: 14
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "dye"
+    Durability: 15
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 0
+
+  - Icon: "clay_ball"
+    Category: 8
+    Buy-Price: 1
+    Sell-Price: 0.25
+
+  - Icon: "glowstone_dust"
+    Category: 8
+    Buy-Price: 8
+    Sell-Price: 0.5
+
+  - Icon: "diamond"
+    Category: 8
+    Buy-Price: 300
+    Sell-Price: 50
+
+  - Icon: "iron_ingot"
+    Category: 8
+    Buy-Price: 100
+    Sell-Price: 6
+
+  - Icon: "gold_ingot"
+    Category: 8
+    Buy-Price: 200
+    Sell-Price: 35
+
+  - Icon: "emerald"
+    Category: 8
+    Buy-Price: 300
+    Sell-Price: 1
+
+  - Icon: "bucket"
+    Category: 8
+    Buy-Price: 225
+    Sell-Price: 30
+
+  - Icon: "water_bucket"
+    Category: 8
+    Buy-Price: 300
+    Sell-Price: 30
+
+  - Icon: "lava_bucket"
+    Category: 8
+    Buy-Price: 400
+    Sell-Price: 30
+
+  - Icon: "quartz"
+    Category: 8
+    Buy-Price: 5
+    Sell-Price: 2
+
+  - Icon: "coal"
+    Category: 8
+    Buy-Price: 7
+    Sell-Price: 1
+
+  - Icon: "reeds"
+    Category: 8
+    Buy-Price: 12
+    Sell-Price: 2
+
+  - Icon: "paper"
+    Category: 8
+    Buy-Price: 4
+    Sell-Price: 0

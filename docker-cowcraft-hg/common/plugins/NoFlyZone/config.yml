@@ -1,0 +1,21 @@
+# NoFlyZone version: 1.3 Main Configuration
+# 
+# List regions below that will disable players from flying when they enter them
+
+no_fly_worlds:
+- world
+- arena1
+- arena2
+- arena3
+- arena4
+- arena5
+- arena6
+- arena7
+- arena8
+- arena9
+- arena10
+no_fly_message: '&cNo flying here!'
+auto_fly_message: '&aYour flight has been toggled on!'
+no_fly_regions:
+  world:
+  - testflyregion

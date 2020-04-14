@@ -1,0 +1,85 @@
+
+# Default perks 
+
+cowcraft.local.default:
+  default: true
+  children:
+    essentials.spawn: true
+    sg.join true: true
+    sg.vote.health: true
+    sg.vote.items: true
+    sg.vote.time: true
+
+# VIP rank perks	
+
+cowcraft.minigame.donor1.hg:
+  default: false
+  children:
+    animatednames.group.donor: true
+    puffix.prefix.rank1: true
+    essentials.nick: true
+    essentials.nick.color: true
+    essentials.hat: true
+    essentials.feed: true
+    essentials.ptime: true
+    essentials.workbench: true
+    essentials.fly: true
+    sg.kits.vip: true
+
+
+# Free rank perks 
+
+cowcraft_minigame_rank1:
+  default: false
+  children:
+    perk.here: true
+
+cowcraft_minigame_rank2:
+  default: false
+  children:
+    cowcraft.minigame.rank1: true
+
+cowcraft_minigame_rank3:
+  default: false
+  children:
+    cowcraft.minigame.rank2: true
+
+cowcraft_minigame_rank4:
+  default: false
+  children:
+    cowcraft.minigame.rank3: true
+
+cowcraft_minigame_rank5:
+  default: false
+  children:
+    cowcraft.minigame.rank4: true
+
+cowcraft_minigame_rank6:
+  default: false
+  children:
+    cowcraft.minigame.rank5: true
+
+cowcraft_minigame_rank7:
+  default: false
+  children:
+    cowcraft.minigame.rank6: true
+
+cowcraft_minigame_rank8:
+  default: false
+  children:
+    cowcraft.minigame.rank7: true
+
+cowcraft_minigame_rank9:
+  default: false
+  children:
+    cowcraft.minigame.rank8: true
+
+cowcraft_minigame_rank10:
+  default: false
+  children:
+    cowcraft.minigame.rank9: true
+
+cowcraft_minigame_rank11:
+  default: false
+  children:
+    cowcraft.minigame.rank10: true

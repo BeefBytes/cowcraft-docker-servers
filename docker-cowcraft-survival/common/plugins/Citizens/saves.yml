@@ -1,0 +1,257 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+last-created-npc-id: 3
+npc:
+  '2':
+    name: §f§lREGULAR WORLD
+    uuid: 7b6b2527-fe72-439c-aa38-7833e7f5ba70
+    traits:
+      type: VILLAGER
+      spawned: true
+      location:
+        world: spawn
+        x: '17.4417'
+        y: '71.5'
+        z: '-57.4857'
+        yaw: '84.29280090332031'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: Edy
+        uuid: fa0225d6-ca6c-4dff-9818-07a3a3384818
+    traitnames: mounttrait,spawned,inventory,lookclose,type,owner,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    name: §f§lNETHER WORLD
+    uuid: c39954ed-1aed-41b0-8967-fda173cfa1df
+    traits:
+      type: VILLAGER
+      spawned: true
+      location:
+        world: spawn
+        x: '17.4722'
+        y: '71.5'
+        z: '-61.4682'
+        yaw: '49.64414978027344'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: Edy
+        uuid: fa0225d6-ca6c-4dff-9818-07a3a3384818
+    traitnames: mounttrait,spawned,inventory,lookclose,type,owner,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    name: §e§lPLOTS WORLD
+    uuid: af8ee254-a770-4f74-929d-266d6ddc5072
+    traits:
+      type: VILLAGER
+      spawned: true
+      location:
+        world: spawn
+        x: '15.4329'
+        y: '71.5'
+        z: '-54.5223'
+        yaw: '126.70065307617188'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: Edy
+        uuid: fa0225d6-ca6c-4dff-9818-07a3a3384818
+    traitnames: mounttrait,inventory,spawned,lookclose,type,owner,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    name: §f§lEND WORLD
+    uuid: 079383ce-046e-4563-acbe-5957af4a8e11
+    traits:
+      location:
+        world: spawn
+        x: '15.5274'
+        y: '71.5'
+        z: '-64.521'
+        yaw: '49.751251220703125'
+        pitch: '0.0'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      spawned: true
+      age:
+        age: 0
+        locked: true
+      type: VILLAGER
+      owner:
+        owner: Edy
+        uuid: fa0225d6-ca6c-4dff-9818-07a3a3384818
+    traitnames: mounttrait,spawned,lookclose,type,owner,location,age
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

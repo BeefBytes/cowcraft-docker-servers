@@ -1,0 +1,17 @@
+# Set this to true to automatically assign skin to head. Set to false if you want everyone to drop steve heads.
+player-skin: true
+rename-enabled: false
+rename-item: 339
+drop-chance: 100
+death-types:
+- PVP
+items-required:
+- ANY
+- 276
+message: '&eThis head once belonged to &c%%NAME%%&e.'
+non-th-message: '&eThat is a Custom head!'
+debug-enabled: false
+right-click-cooldown: 40
+info-blacklist:
+- IGNOREDUSER
+custom-heads:

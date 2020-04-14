@@ -1,0 +1,32 @@
+ShopName: anvil
+DisplayName: '&8&lRepair enchanted items'
+Command: anvil
+shop:
+  5-1:
+    Condition:
+    - type:permission
+    - match:plugin.bossshop.shop.anvil
+    RewardType: OPCOMMAND
+    Reward:
+    - erepair
+    PriceType: EXP
+    Price: 15
+    MenuItem:
+    - name:&e&lANVIL
+    - 'lore:&7Price &b%price%'
+    - 'lore:'
+    - 'lore:&e&lMAKE SURE YOU ARE HOLDING AN ITEM'
+    - 'lore:&e&lBEFORE CLICKING ON ANVIL!'
+    - type:ANVIL:0
+    - amount:1
+    InventoryLocation: 5
+
+  5:
+    RewardType: nothing
+    MenuItem:
+    - name:&c&lANVIL
+    - 'lore:&cOnly Titan and above are able to use this!'
+    - 'lore:&cTo list all of the perks use &f/ranks'
+    - type:BARRIER
+    - amount:1
+    InventoryLocation: 5

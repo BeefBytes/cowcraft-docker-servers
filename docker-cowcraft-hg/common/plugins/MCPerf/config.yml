@@ -1,0 +1,15 @@
+entityManager:
+  nearbyChunkRadius: 1
+  nearbyItemLimit: 400
+  nearbyCreatureLimit: 200
+  worldItemLimit: 3000
+  worldCreatureLimit: 2000
+validityManager:
+  maxLoreLines: 5
+  maxLoreLineLength: 127
+  maxNameLength: 63
+  fullUnicodeAllowed: false
+proxyManager:
+  enabled: true
+toxicityManager:
+  enabled: false

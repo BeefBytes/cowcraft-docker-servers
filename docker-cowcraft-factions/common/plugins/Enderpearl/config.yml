@@ -1,0 +1,2 @@
+cooldown: 20
+message: "&cTime remaining: %cooldown% seconds."

@@ -1,0 +1,113 @@
+# vim: ft=yaml et ts=2 sts=2 sw=2
+entityManager:
+  enabled: true
+  chunkLoadScanningEnabled: true
+  nearbyChunkRadius: 1
+  nearbyItemLimit: 250
+  nearbyCreatureLimit: 400
+  worldItemLimit: 1000
+  worldCreatureLimit: 2000
+  bannedEntityTypes: []  # Example: SPLASH_POTION
+chunkManager:
+  enabled: false
+  debugEnabled: false
+  forceUnloadRadius: 8
+  forceUnloadInterval: 300
+  forceUnloadThresholdEnabled: true
+  syncTimeout: 5000  # ms -- advanced setting; don't mess with this
+projectileManager:
+  enabled: true
+  chunkLoadCleanupEnabled: true
+  projectileCleanupInterval: 600  # Ticks
+validityManager:
+  enabled: false
+  maxLoreLines: 5
+  maxLoreLineLength: 127
+  maxNameLength: 63
+  basicUnicodeAllowed: true
+  supplementaryUnicodeAllowed: true
+  privateUnicodeAllowed: true
+  linebreakUnicodeAllowed: false
+  controlUnicodeAllowed: false
+  unusualWhitespaceUnicodeAllowed: false
+  nullCharAllowed: false
+  escapeCharAllowed: false
+  formattingAllowed: true
+  crazyTextAllowed: true
+  enchantmentCheckingEnabled: false
+  potionCheckingEnabled: false
+  splashPotionCheckingEnabled: false
+  splashPotionsBanned: false
+  lingeringPotionCheckingEnabled: false
+  lingeringPotionsBanned: false
+  zeroQuantityBanned: false
+  bannedAttributeModifiers:
+    - generic.maxHealth
+    - generic.movementSpeed
+    - generic.attackDamage
+    - horse.jumpStrength
+  bannedTags:
+    - www.wurst-client.tk
+  bannedMaterials: []
+screeningManager:
+  enabled: false
+  gracePeriod: 20  # Seconds
+heuristicsManager:
+  enabled: false
+  debugEnabled: false
+  verboseDebugEnabled: false
+  uncertainCommands:
+    # %1$s = username
+    # %2$s = reason
+    # %3$s = IP address
+    # %4$s = UUID, with hyphens
+    - 'kick %1$s [MCPerf] Cheating: %2$s'
+  certainCommands:
+    # %1$s = username
+    # %2$s = reason
+    # %3$s = IP address
+    # %4$s = UUID, with hyphens
+    - 'tempban %1$s 3d [MCPerf] Cheating: %2$s'
+blacklistManager:
+  enabled: false
+  blocks: []
+securityManager:
+  enabled: true
+  bannedNames: []
+  bannedIPs: []
+  bannedUUIDs: []
+proxyManager:
+  enabled: false
+  threadPoolSize: 15  # Calculation: Max players connecting per tcpTimeout milliseconds times number of tcpPorts
+  tcpTimeout: 1000  # Milliseconds (1000 ms = 1 sec)
+  vulnScannerEnabled: false  # Will scan for and alert players of potential vulnerabilities on their network.
+  tcpPorts: []  # Extra TCP ports to scan.  Known services will be scanned automatically.
+  knownServiceCommands:  # Run if a known proxy/VPN service is detected with high confidence.
+    # %1$s = username
+    # %2$s = IP address
+    # %3$s = service detected
+    - "tempban %1$s 1d [MCPerf] We don't allow proxies/VPNs."
+  suspiciousCommands:  # Run if there is the player is most likely using a proxy/VPN.
+    # %1$s = username
+    # %2$s = IP address
+    # %3$s = service detected
+    - "tempban %1$s 5m [MCPerf] You appear to be using a proxy/VPN. If this is incorrect, contact support."
+  whitelist: # Usernames; must be all-lowercase
+    - lizchlops         # Father is an engineer; has DD-WRT + VPN; confirmed by talking to father
+    - kaichlops         # Also used by LizChlops
+    - crazyviolin       # Sibling of LizChlops
+    - xvinyl_scratchx   # /alts LizChlops
+    - xxrainbow_dashxx  # /alts LizChlops
+toxicityManager:
+  enabled: false
+  muteHours: 24  # 0 = disabled, -1 = forever; must be integer
+  minDelayMinutes: 0.5
+  maxDelayMinutes: 4.0
+  toxicText:  # These don't need to be complete words.  Must be lowercase!
+    - '卐'
+    - '\uFFFF'  # Used to evade filters
+  toxicWords:  # Need to be complete words.  Must be lowercase!
+    - nigger
+    - niggers
+    - nigga
+    - niggas

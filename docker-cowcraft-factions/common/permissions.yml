@@ -1,0 +1,409 @@
+cowcraft.local.fly:
+  default: true
+  children:
+    ffly.fly: true
+    ffly.yours: true
+
+cowcraft.local.default:
+  default: false
+  children:
+    wildx.use: true
+    genbucket.buy: true
+    essentials.showkit: true
+    ctplus.check: true
+    ctplus.logout: true
+    factionstop.use: true
+    essentials.signs.use.buy: true
+    koth.help: false
+    koth.loot: false
+    koth.version: false
+    netherwater.use.*: true
+    runes.use: true
+    tntfill.use: true
+    tntfill.use.customradius: true
+    tntfill.fill: true
+    tntfill.fill.amount: true
+    cr.menu: true
+    cr.crate: true
+    casino.stats: true
+    casino.jackpot: true
+    casino.rpsnew: true
+    casino.rps: true
+    casino.coinflipnew: true
+    casino.coinflip: true
+    pt.toggle: true
+    essentials.clearinventory: true
+    essentials.exp: true
+    enchantmentbook.use: true
+    deenchanter.use: true
+    ebchance.use: true
+    bankcheque.deposit: true
+    bankcheque.withdraw: true
+    enchantmentbooktool.get: true
+    BossShop.open: true
+    linkitem.use: true
+    ultracosmetics.gadgets.*: true
+    ultracosmetics.pets.*: true
+    ultracosmetics.mounts.*: true
+    ultracosmetics.morphs.*: true
+    ultracosmetics.hats.*: true
+    ultracosmetics.particleeffects.*: true
+    ultracosmetics.suits.*: true
+    ultracosmetics.emotes.*: true
+    ultracosmetics.openmenu: true
+    justshop.base: true
+    justshop.buy: true
+    justshop.sell: true
+    justshop.shop: true
+    justshop.worth: true
+    herobounty.new: true
+    herobounty.accept: true
+    herobounty.list: true
+    factions.setwarp: true
+    factions.warp: true
+    skript.donorsigns: true
+    bounty.claimbounty: true
+    bounty.setbounty: true
+    multiverse.portal.access.pvparena: true
+    multiverse.portal.access.nether: true
+    multiverse.portal.access.shop: true
+    multiverse.portal.access.end: true
+    multiverse.portal.access.infoarea: true
+    multiverse.portal.access.wild: true
+    multiverse.portal.access.facwars: true
+    automessage.receive.regular: true
+    libsdisguises.undisguise: true
+    factionChat.factionChat: true
+    factionChat.allyChat: true
+    auction.start: true
+    auction.bid: true
+    whatisit.use: true
+    mcmmo.chat.partychat: false
+    mcmmo.commands.party.all: false
+    mcmmo.commands.ptp.all: false
+    playerheads.canbehead: true
+    playerheads.canlosehead: true
+    playerheads.canbeheadmob: true
+    essentials.kits.fat: true
+    essentials.kits.food: true
+    essentials.kits.starter: true
+    essentials.kit: true
+    essentials.warp: true
+    essentials.warps.wild: true
+    essentials.warps.nether: true
+    essentials.warps.end: true
+    essentials.warps.cave: true
+    essentials.warps.castle: true
+    essentials.warps.event: true
+    essentials.warps.end: true
+    essentials.warps.nether: true
+    essentials.warps.info: true
+    essentials.home: true
+    essentials.delhome: true
+    essentials.sethome: true
+    essentials.tpa: true
+    essentials.tpaccept: true
+    essentials.tpahere: true
+    essentials.tpdeny: true
+    silkspawners.info: true
+    silkspawners.viewtype: true
+    factions.kit.default: true
+    factions.kit.fullplayer: true
+    factions.kit.halfplayer: true
+    silkspawners.place.pig: true
+    silkspawners.place.sheep: true
+    silkspawners.place.cow: true
+    silkspawners.place.chicken: true
+    silkspawners.place.slime: true
+    silkspawners.place.squid: true
+    silkspawners.place.rabbit: true
+    silkspawners.place.wolf: true
+    silkspawners.place.skeleton: true
+    silkspawners.place.cow: true
+    silkspawners.place.spider: true
+    silkspawners.place.zombie: true
+    silkspawners.place.zombiepigman: true
+    silkspawners.place.cavespider: true
+    silkspawners.place.mooshroom: true
+    silkspawners.place.ocelot: true
+    silkspawners.place.creeper: true
+    silkspawners.place.blaze: true
+    silkspawners.place.enderman: true
+    silkspawners.place.magmacube: true
+    silkspawners.place.snowgolem: true
+    silkspawners.place.horse: true
+    silkspawners.place.witch: true
+    silkspawners.place.cavespider: true
+    silkspawners.place.silverfish: true
+    silkspawners.place.irongolem: true
+    silkspawners.silkdrop.pig: true
+    silkspawners.silkdrop.sheep: true
+    silkspawners.silkdrop.rabbit: true
+    silkspawners.silkdrop.cow: true
+    silkspawners.silkdrop.chicken: true
+    silkspawners.silkdrop.slime: true
+    silkspawners.silkdrop.squid: true
+    silkspawners.silkdrop.wolf: true
+    silkspawners.silkdrop.skeleton: true
+    silkspawners.silkdrop.cow: true
+    silkspawners.silkdrop.spider: true
+    silkspawners.silkdrop.zombie: true
+    silkspawners.silkdrop.zombiepigman: true
+    silkspawners.silkdrop.cavespider: true
+    silkspawners.silkdrop.mooshroom: true
+    silkspawners.silkdrop.ocelot: true
+    silkspawners.silkdrop.creeper: true
+    silkspawners.silkdrop.blaze: true
+    silkspawners.silkdrop.enderman: true
+    silkspawners.silkdrop.magmacube: true
+    silkspawners.silkdrop.snowgolem: true
+    silkspawners.silkdrop.horse: true
+    silkspawners.silkdrop.witch: true
+    silkspawners.silkdrop.cavespider: true
+    silkspawners.silkdrop.silverfish: true
+    silkspawners.silkdrop.irongolem: true
+
+
+
+cowcraft.factions.perm.sethome:
+  default: false
+  children:
+    essentials.sethome.multiple.unlimited: true
+
+
+
+
+cowcraft.factions.rank1:
+  default: false
+  children:
+    nodamage: true
+    essentials.kits.armor1: true
+    ffly.yours: true
+    crates.factions.rank1: true
+    silkspawners.silkdrop.pig: true
+    silkspawners.silkdrop.sheep: true
+    silkspawners.silkdrop.rabbit: true
+    silkspawners.silkdrop.cow: true
+    silkspawners.silkdrop.chicken: true
+    silkspawners.silkdrop.slime: true
+    silkspawners.silkdrop.squid: true
+    silkspawners.silkdrop.wolf: true
+    silkspawners.silkdrop.skeleton: true
+    silkspawners.silkdrop.cow: true
+    silkspawners.silkdrop.spider: true
+    silkspawners.silkdrop.zombie: true
+    silkspawners.silkdrop.zombiepigman: true
+    silkspawners.silkdrop.cavespider: true
+    silkspawners.silkdrop.mooshroom: true
+    silkspawners.silkdrop.ocelot: true
+    silkspawners.silkdrop.creeper: true
+    silkspawners.silkdrop.blaze: true
+    silkspawners.silkdrop.enderman: true
+    silkspawners.silkdrop.magmacube: true
+    silkspawners.silkdrop.snowgolem: true
+    silkspawners.silkdrop.horse: true
+    silkspawners.silkdrop.witch: true
+    silkspawners.silkdrop.cavespider: true
+    silkspawners.silkdrop.silverfish: true
+    silkspawners.silkdrop.irongolem: true
+    ffly.fly: true
+    animatednames.group.default: false
+    animatednames.group.donor: true
+    puffix.prefix.rank1: true
+    cowcraft.factions.default: true
+    libsdisguises.disguise.chicken: true
+    libsdisguises.disguise.cow: true
+    libsdisguises.disguise.horse: true
+    libsdisguises.disguise.ocelot: true
+    libsdisguises.disguise.pig: true
+    libsdisguises.disguise.sheep: true
+    libsdisguises.disguise.mooshroom: true
+    libsdisguises.disguise.squid: true
+    libsdisguises.disguise.villager: true
+    libsdisguises.disguise.wolf: true
+    essentials.back: true
+    essentials.kits.supporter: true
+    essentials.sethome.multiple.rank1: true
+    essentials.hat: true
+    essentials.ptime: true
+    essentials.workbench: true
+    essentials.feed: true
+    essentials.sethome.multiple: true
+    cowcore.hasnick: true
+
+
+cowcraft.factions.rank2:
+  default: false
+  children:
+    essentials.kits.armor1: false
+    essentials.kits.armor2: true
+    crates.factions.rank2: true
+    puffix.prefix.rank2: true
+    cowcraft.factions.rank1: true
+    libsdisguises.disguise.blaze: true
+    libsdisguises.disguise.creeper: true
+    libsdisguises.disguise.skeleton: true
+    libsdisguises.disguise.slime: true
+    libsdisguises.disguise.zombie: true
+    libsdisguises.disguise.witch: true
+    essentials.kits.elite: true
+    essentials.sethome.multiple.rank2: true
+    essentials.enderchest: true
+    essentials.heal: true
+    essentials.signs.color: true
+    essentials.signs.color: true
+    essentials.ext: true
+    milkykore.chat.color: true
+
+
+cowcraft.factions.rank3:
+  default: false
+  children:
+    crates.factions.rank3: true
+    puffix.prefix.rank3: true
+    cowcraft.factions.rank2: true
+    libsdisguises.disguise.pigzombie: true
+    libsdisguises.disguise.irongolem: true
+    libsdisguises.disguise.snowgolem: true
+    libsdisguises.disguise.magmacube: true
+    libsdisguises.disguise.guardian: true
+    libsdisguises.disguise.rabbit: true
+    essentials.kits.cowgod: true
+    essentials.kits.cannon: true
+    essentials.kits.armor1: false
+    essentials.kits.armor2: false
+    essentials.kits.armor3: true
+    essentials.kits.gapple: true
+    nodamage.explosion: true
+    essentials.sethome.multiple.rank3: true
+    essentials.repair: true
+    essentials.repair.all: true
+    essentials.repair.armor: true
+    essentials.nick: true
+    essentials.nick.color: true
+    essentials.back: true
+    essentials.near: true
+    essentials.keepxp: true
+
+
+
+
+cowcraft.factions.rank4:
+  default: false
+  children:
+    bossshop.fix.titan: true
+    crates.factions.rank4: true
+    puffix.prefix.rank4: true
+    cowcraft.factions.rank3: true
+    essentials.sethome.multiple.rank4: true
+    libsdisguises.disguise.giant: true
+    essentials.kits.titan: true
+    essentials.kits.armor1: false
+    essentials.kits.armor2: false
+    essentials.kits.armor3: false
+    essentials.kits.armor4: true
+    essentials.kits.ores: true
+    essentials.nick.format: true
+    nodamage.fire: true
+    plugin.bossshop.shop.anvil: true
+
+
+cowcraft.factions.rank5:
+  default: false
+  children:
+    crates.factions.rank5: true
+    puffix.prefix.rank5: true
+    cowcraft.factions.rank4: true
+    essentials.sethome.multiple.rank5: true
+    essentials.kits.overlord: true
+    essentials.kits.armor3: false
+    essentials.kits.armor4: false
+    essentials.kits.armor5: true
+    essentials.kits.creeper: true
+    essentials.kits.cratekeys: true
+    nodamage.fall: true
+    nodamage.drowning: true
+    playervaults.amount.1: true
+    essentials.kits.overlordmcmmo: true
+
+
+cowcraft.factions.rank6:
+  default: false
+  children:
+    puffix.prefix.rank6: true
+    cowcraft.factions.rank5: true
+    essentials.sethome.multiple.rank6: true
+    essentials.kits.mythic: true
+    playervaults.amount.2: true
+    essentials.kits.armor3: false
+    essentials.kits.armor4: false
+    essentials.kits.armor5: false
+    essentials.kits.armor6: true
+    essentials.kits.overlordmcmmo: false
+    essentials.kits.mythicmcmmo: true
+
+cowcraft.local.mod:
+  default: false
+  children:
+    essentials.vanish: false
+    essentials.fly: false
+    essentials.tp: false
+    essentials.tphere: false
+
+cowcraft.factions.dev:
+  default: false
+  children:
+    essentials.fly: true
+    essentials.tp: true
+    essentials.tphere: true
+    essentials.gamemode: true
+    essentials.gamemode.creative: true
+    essentials.gamemode.survival: true
+    essentials.speed: true
+    essentials.back: true
+    worldedit.*: true
+    worldguard.*: true
+    essentials.sethome: true
+    essentials.home: true
+    essentials.warp: true
+    essentials.warps.*: true
+    voxelsniper.ignorelimitations: true
+    voxelsniper.sniper: true
+    voxelsniper.brush.*: true
+    voxelsniper.goto: true
+    playervaults.*: true
+    playervaults.amount.5: true
+    playervaults.commands.use: true
+    essentials.signs.create.info: true
+    essentials.signs.break.info: true
+    essentials.signs.use.info: true
+    runes.cmd: true
+    runes.tinkerer: true
+    runes.use: true
+
+
+cowcraft.factions.free.rank1:
+  default: false
+  children:
+    puffix.prefix.free.rank1: true
+    essentials.sethome.multiple.freerank1: true
+    libsdisguises.disguise.cow: true
+    mootags.tag.factionsrespected: true
+
+cowcraft.factions.free.rank2:
+  default: false
+  children:
+    puffix.prefix.free.rank2: true
+    essentials.sethome.multiple.freerank2: true
+    libsdisguises.disguise.mushroomcow: true
+    essentials.feed: true
+    mootags.tag.factionsvip: true
+
+cowcraft.factions.free.rank3:
+  default: false
+  children:
+    puffix.prefix.free.rank3: true
+    essentials.sethome.multiple.freerank2: true
+    essentials.back: true
+    essentials.back.ondeath: true
+    mootags.tag.factionssupervip: true

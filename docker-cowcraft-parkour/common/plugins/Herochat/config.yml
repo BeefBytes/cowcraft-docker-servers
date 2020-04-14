@@ -1,0 +1,42 @@
+moderator-permissions:
+  can-kick: true
+  can-ban: true
+  can-mute: true
+  can-remove-channel: true
+  can-modify-nick: true
+  can-modify-color: true
+  can-modify-distance: true
+  can-modify-password: true
+  can-modify-format: false
+  can-modify-shortcut: false
+  can-modify-verbose: true
+  can-modify-focusable: false
+  can-modify-crossworld: false
+  can-color-messages: true
+  can-view-info: true
+  can-focus: true
+default-channel: Default
+censors: []
+spam:
+  message-limit: 3
+  message-limit-buildoff: 20
+format:
+  default: '&a[%parkour_level%]&r %puffix_prefix%&r{sender}%mootags_tag% &7» &f{msg}'
+  announce: '{color}[{nick}] {msg}'
+  emote: '{color}[{nick}] * {sender} {msg}'
+  private-message: '&e&l[PM] &e{convoaddress} &f{convopartner} &e» {msg}'
+  staff: '&c&l[STAFF] &c{sender}%mootags_tag% &c{msg}'
+use-channel-emotes: true
+locale: en_US
+log-chat: true
+log-to-bukkit: false
+log-colors: false
+log-colors-to-bukkit: false
+twitter-style-private-messages: true
+use-cross-server: true
+servername: ''
+serveralias: '[M]'
+servers:
+- survival
+- hub
+- kitpvp

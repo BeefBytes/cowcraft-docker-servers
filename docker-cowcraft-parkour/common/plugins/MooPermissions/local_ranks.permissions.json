@@ -1,0 +1,23 @@
+ {
+	"name": "Local_Hub_Ranks",
+	"priority": 2,
+	"groups": [
+ 
+ 
+ 
+ {
+            "name": "hub_rank1",
+            "permissions": {
+                "cowcraft.hub.rank1": true
+            },
+            "priority": 1000,
+            "displayName": "Hub VIP",
+            "isDefault": false
+        }
+   
+		
+		
+		
+		
+		]
+}	

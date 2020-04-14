@@ -1,0 +1,24 @@
+ShopName: blacksmith
+DisplayName: 'Blacksmith > Titan+ ONLY'
+signs:
+  text: '[Information]'
+  NeedPermissionToCreateSign: true
+shop:
+  1:
+    RewardType: opcommand
+    Reward:
+    - fix hand
+    PriceType: money
+    Price: 6000
+    MenuItem:
+    - type:ANVIL
+    - amount:1
+    - 'name:&bBlacksmith &b[Titan+ only!]'
+    - 'lore:&7Repairs enchanted item for &b$6000'
+    - 'lore: '
+    - 'lore:&4&m------------&4[IMPORTANT]&4&m------------'
+    - 'lore:&bMake sure to hold your item in your hand'
+    - 'lore:&bbefore clicking anvil!'
+    - 'lore:&4&m------------&4[IMPORTANT]&4&m------------'
+    InventoryLocation: 5
+    ExtraPermission: 'bossshop.fix.titan'

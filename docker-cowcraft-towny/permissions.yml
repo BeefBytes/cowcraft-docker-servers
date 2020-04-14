@@ -1,0 +1,245 @@
+
+cowcraft.local.default:
+  default: true
+  children:
+    towny.command.town.set.tag: false
+    towny.command.town.set.name: false
+    towny.command.nation.set.title: false
+    towny.command.nation.set.tag: false
+    multiverse.portal.access.nether: true
+    multiverse.portal.access.end: true
+    marriage.user.marry : true
+    marriage.user.marry.accept: true
+    marriage.user.marry.deny: true
+    marriage.user.divorce: true
+    cowcore.cowshop: true
+    cowcore.cowcoins: true
+    treefeller.use.diamond_axe: false
+    treefeller.use.iron_axe: false
+    treefeller.use.gold_axe: false
+    treefeller.use.stone_axe: false
+    treefeller.use.wood_axe: false
+    treefeller.use.*: false
+    deluxemenus.guimenu.scratches: true
+    deluxemenus.guimenucommand: true
+    deluxemenus.guimenucommand.scratches: true
+    dailybonus.menu: true
+    dailybonus.menu.open: true
+    auction.limit.3: true
+    scratch.buy: true
+    lockette.user.create.*: true
+    essentials.signs.break.disposal: true
+    essentials.signs.break.heal: true
+    towny.command.town.set.name: false
+    towny.command.resident.*: true
+    towny.command.towny.map: true
+    towny.command.towny.top: true
+    towny.chat.general: true
+    towny.chat.local: true
+    towny.chat.town: true
+    towny.chat.nation: true
+    towny.wild.*: true
+    ChestShop.shop.*: true
+    essentials.tpa: true
+    essentials.tpaccept: true
+    essentials.tpahere: true
+    essentials.tpdeny: true
+    essentials.kit: true
+    essentials.kits.cows: true
+    essentials.kits.fat: true
+    essentials.warp: true
+    essentials.warps.daily: true
+    essentials.warps.info: true
+    essentials.warps.pvp: true
+    essentials.warps.event: true
+    essentials.home: true
+    essentials.delhome: true
+    essentials.sethome: true
+    essentials.spawn: true
+    mcmmo.chat.partychat: false
+    mcmmo.commands.party.all: false
+    mcmmo.commands.ptp.all: false
+    auction.start: true
+    auction.bid: true
+    redeemMCMMO.rmhelp: true
+    redeemMCMMO.redeem: true
+    silkspawners.info: true
+    silkspawners.viewtype: true
+    silkspawners.place.pig: true
+    silkspawners.place.sheep: true
+    silkspawners.place.cow: true
+    silkspawners.place.chicken: true
+    silkspawners.place.slime: true
+    silkspawners.place.squid: true
+    silkspawners.place.wolf: true
+    silkspawners.place.skeleton: true
+    silkspawners.place.spider: true
+    silkspawners.place.zombie: true
+    silkspawners.place.zombiepigman: true
+    silkspawners.place.cavespider: true
+    silkspawners.place.mooshroom: true
+    silkspawners.place.ocelot: true
+    silkspawners.place.creeper: true
+    silkspawners.place.blaze: true
+    silkspawners.place.enderman: true
+    silkspawners.place.magmacube: true
+    silkspawners.place.snowgolem: true
+    silkspawners.place.horse: true
+    silkspawners.place.witch: true
+    silkspawners.silkdrop.pig: true
+    silkspawners.silkdrop.sheep: true
+    silkspawners.silkdrop.cow: true
+    silkspawners.silkdrop.chicken: true
+    silkspawners.silkdrop.slime: true
+    silkspawners.silkdrop.squid: true
+    silkspawners.silkdrop.wolf: true
+
+
+cowcraft.towny.rank1:
+  default: false
+  children:
+    crates.towny.rank1: true
+    animatednames.group.default: false
+    animatednames.group.donor: true
+    puffix.prefix.rank1: true
+    essentials.kits.sir: true
+    cowcraft.towny.default: true
+    essentials.hat: true
+    cowcore.hasnick: true
+    essentials.ptime: true
+    essentials.workbench: true
+    essentials.feed: true
+    essentials.sethome.multiple: true
+    essentials.sethome.multiple.rank1: true
+    libsdisguises.disguise.chicken: true
+    libsdisguises.disguise.cow: true
+    libsdisguises.disguise.horse: true
+    libsdisguises.disguise.ocelot: true
+    libsdisguises.disguise.pig: true
+    libsdisguises.disguise.squid: true
+    libsdisguises.disguise.villager: true
+    essentials.signs.create.disposal: true
+    essentials.signs.create.heal: true
+
+
+cowcraft.towny.rank2:
+  default: false
+  children:
+    auction.limit.10: true
+    auction.limit.3: false
+    crates.towny.rank1: true
+    crates.towny.rank2: true
+    puffix.prefix.rank2: true
+    essentials.kits.knight: true
+    cowcraft.towny.rank1: true
+    essentials.back: true
+    essentials.heal: true
+    essentials.keepxp: true
+    essentials.near: true
+    essentials.sethome.multiple.rank2: true
+    libsdisguises.disguise.blaze: true
+    libsdisguises.disguise.creeper: true
+    libsdisguises.disguise.skeleton: true
+    libsdisguises.disguise.slime: true
+    libsdisguises.disguise.witch: true
+    libsdisguises.disguise.zombie: true
+    essentials.signs.color: true
+    essentials.signs.format: true
+    essentials.signs.magic: true
+    silkspawners.silkdrop.skeleton: true
+    silkspawners.silkdrop.cow: true
+    silkspawners.silkdrop.spider: true
+    silkspawners.silkdrop.zombie: true
+    silkspawners.silkdrop.zombiepigman: true
+    silkspawners.silkdrop.cavespider: true
+    silkspawners.silkdrop.mooshroom: true
+    silkspawners.silkdrop.ocelot: true
+    silkspawners.silkdrop.creeper: true
+
+
+cowcraft.towny.rank3:
+  default: false
+  children:
+    auction.limit.10: false
+    auction.limit.20: true
+    crates.towny.rank1: true
+    crates.towny.rank2: true
+    crates.towny.rank3: true
+    puffix.prefix.rank3: true
+    essentials.kits.lord: true
+    cowcraft.towny.rank2: true
+    essentials.enderchest: true
+    essentials.repair: true
+    essentials.repair.armor: true
+    essentials.nick: true
+    essentials.nick.color: true
+    essentials.sethome.multiple.rank3: true
+    libsdisguises.disguise.mooshroom: true
+    libsdisguises.disguise.irongolem: true
+    libsdisguises.disguise.snowgolem: true
+    libsdisguises.disguise.magmacube: true
+    libsdisguises.disguise.wolf: true
+    libsdisguises.disguise.pigzombie: true
+    libsdisguises.disguise.guardian: true
+    libsdisguises.disguise.rabbit: true
+    silkspawners.silkdrop.blaze: true
+    silkspawners.silkdrop.enderman: true
+    silkspawners.silkdrop.magmacube: true
+    silkspawners.silkdrop.snowgolem: true
+    silkspawners.silkdrop.horse: true
+    silkspawners.silkdrop.witch: true
+
+cowcraft.towny.rank4:
+  default: false
+  children:
+    crates.towny.rank1: true
+    crates.towny.rank2: true
+    crates.towny.rank3: true
+    crates.towny.rank4: true
+    mcmmo.ability.woodcutting.treefeller: true
+    mcmmo.ability.woodcutting.leafblower: true
+    puffix.prefix.rank4: true
+    cowcraft.towny.rank3: true
+    treefeller.use.diamond_axe: true
+    treefeller.use.iron_axe: true
+    treefeller.use.gold_axe: true
+    treefeller.use.stone_axe: true
+    treefeller.use.wood_axe: true
+    nodamage: true
+    nodamage.fall: true
+    nodamage.fire: true
+    trail.allow: true
+    trail.heart: true
+    trail.block.rainbow: true
+    trail.rain.dia: true
+    auction.limit.20: false
+    auction.limit.40: true
+    cowcore.hasspecialnick: true
+    essentials.nick.format: true
+    essentials.back.ondeath: true
+    essentials.kits.king: true
+    essentials.kits.epickey: true
+    cowjoin.towny.rank4: true
+    essentials.sethome.multiple.rank4: true
+    marriage.user.marry : true
+    marriage.user.marry.accept: true
+    marriage.user.marry.deny: true
+    marriage.user.divorce: true
+    marriage.donor.broadcast: true
+    marriage.donor.priest: true
+
+
+
+cowcraft.local.helper:
+  default: false
+  children:
+    towny.command.nation.new: true
+
+
+cowcraft.local.mod:
+  default: false
+  children:
+    essentials.vanish: false
+    essentials.fly: false
+    essentials.tp: false
+    essentials.tphere: false

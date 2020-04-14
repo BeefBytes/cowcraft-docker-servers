@@ -1,0 +1,81 @@
+## --------------------------------------- ##
+## SubSide's KoTH plugin Placeholders
+## https://www.spigotmc.org/resources/koth-king-of-the-hill.7689/
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 1
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Define what the boolean placeholder {koth_isinarea_raw} returns
+koth_isinarea_raw:
+  # This will be shown when the placeholder is 'True'
+  true: 'true'
+  # This will be shown when the placeholder is 'False'
+  false: 'false'
+
+
+# Define what the boolean placeholder {koth_middleposition_chunk_isloaded_raw} returns
+koth_middleposition_chunk_isloaded_raw:
+  # This will be shown when the placeholder is 'True'
+  true: 'true'
+  # This will be shown when the placeholder is 'False'
+  false: 'false'
+
+
+# Placeholder settings {koth_cappingplayer} returns
+koth_cappingplayer:
+  # Default return value
+  default: ''
+
+
+# Placeholder settings {koth_timeleft_formatted} returns
+koth_timeleft_formatted:
+  # Default return value
+  default: ''
+
+
+# Placeholder settings {koth_lastwinner} returns
+koth_lastwinner:
+  # Default return value
+  default: ''
+
+
+# Placeholder settings {koth_name} returns
+koth_name:
+  # Default return value
+  default: ''
+
+
+# Define what the boolean placeholder {koth_lootposition_chunk_isloaded_raw} returns
+koth_lootposition_chunk_isloaded_raw:
+  # This will be shown when the placeholder is 'True'
+  true: 'true'
+  # This will be shown when the placeholder is 'False'
+  false: 'false'
+
+
+# Placeholder settings {koth_timecapped_formatted} returns
+koth_timecapped_formatted:
+  # Default return value
+  default: ''
+
+
+# Placeholder settings {koth_lootchest} returns
+koth_lootchest:
+  # Default return value
+  default: ''
+
+
+# Placeholder settings {koth_loot} returns
+koth_loot:
+  # Default return value
+  default: ''
+
+

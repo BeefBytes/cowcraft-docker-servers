@@ -1,0 +1,346 @@
+
+
+cowcraft.local.default:
+  default: true
+  children:
+    cowcraft.survival.spawner.place: true
+    casino.coinflip: true
+    casino.coinflipnew: true
+    casino.rps: true
+    casino.rpsnew: true
+    casino.jackpot: true
+    casino.player: true
+    casino.stats: true
+    plots.plot.2: true
+    plots.merge: true
+    plots.merge.2: true
+    plots.auto: true
+    plots.claim: true
+    mcmmo.ability.swords.bleed: false
+    cmmo.commands.party.all: true
+    essentials.keepxp: true
+    justshop.base: true
+    lockette.user.create.*: true
+    justshop.buy: true
+    justshop.sell: true
+    justshop.shop: true
+    justshop.worth: true
+    essentials.signs.break.mail: true
+    essentials.signs.break.disposal: true
+    essentials.signs.break.heal: true
+    essentials.kit: true
+    essentials.kits.fat: true
+    essentials.kits.cows: true
+    essentials.warp: true
+    essentials.home: true
+    essentials.delhome: true
+    essentials.sethome: true
+    automessage.receive.regular: true
+    casinoslots.use: true
+    ChestShop.shop.buy: true
+    ChestShop.shop.sell: true
+    mobarena.classes.vip: false
+    silkspawners.info: true
+    silkspawners.viewtype: true
+    auction.start: true
+    auction.bid: true
+    whatisit.use: true
+    redeemMCMMO.rmhelp: true
+    redeemMCMMO.redeem: true
+    deadbolt.user.create.chest: true
+    plotme.use: true
+    plotme.use.add: true
+    plotme.use.remove: true
+    essentials.tpa: true
+    essentials.tpaccept: true
+    essentials.tpahere: true
+    essentials.tpdeny: true
+
+
+cowcraft.survival.plots:
+  default: true
+  children:
+    plots.list.mine: true
+    plots.use: true
+    plots.home: true
+    plots.set: true
+    plots.set.flag: true
+    plots.set.flag.titles: true
+    plots.info: true
+    plots.claim: true
+    plots.unclaim: true
+    plots.auto: true
+    plots.plot.1: true
+    plots.clear: true
+    plots.delete: true
+    plots.list: true
+    plots.denied: true
+    plots.add: true
+    plots.trust: true
+    plots.deny: true
+    plots.remove: true
+    plots.untrust: true
+    plots.undeny: true
+    plots.kick: true
+
+
+cowcraft.survival.plots.flags:
+  default: true
+  children:
+    plots.set.flag.pvp.*: true
+    plots.set.flag: true
+    plots.flag: true
+    plots.set.biome: true
+    plots.set.flag: true
+    plots.set.flag.titles.*: true
+    plots.set.flag.greeting.*: true
+    plots.set.flag.farewell.*: true
+    plots.set.flag.time.*: true
+    plots.set.flag.weather.*: true
+    plots.set.flag.disable-physics.*: true
+    plots.set.flag.pve.*: true
+    plots.set.flag.hostile-interact.*: true
+    plots.set.flag.hostile-attack.*: true
+    plots.set.flag.animal-interact.*: true
+    plots.set.flag.animal-attack.*: true
+    plots.set.flag.tamed-interact.*: true
+    plots.set.flag.tamed-attack.*: true
+    plots.set.flag.misc-interact.*: true
+    plots.set.flag.vehicle-use.*: true
+    plots.set.flag.vehicle-place.*: true
+    plots.set.flag.vehicle-break.*: true
+    plots.set.flag.place.*: true
+    plots.set.flag.break.*: true
+    plots.set.flag.use.*: true
+    plots.set.flag.forcefield.*: true
+
+
+cowcraft.survival.spawner.mine:
+  default: false
+  children:
+    silkspawners.silkdrop.skeleton: true
+    silkspawners.silkdrop.spider: true
+    silkspawners.silkdrop.zombie: true
+    silkspawners.silkdrop.slime: true
+    silkspawners.silkdrop.zombiepigman: true
+    silkspawners.silkdrop.enderman: true
+    silkspawners.silkdrop.cavespider: true
+    silkspawners.silkdrop.blaze: true
+    silkspawners.silkdrop.magmacube: true
+    silkspawners.silkdrop.pig: true
+    silkspawners.silkdrop.sheep: true
+    silkspawners.silkdrop.cow: true
+    silkspawners.silkdrop.chicken: true
+    silkspawners.silkdrop.squid: true
+    silkspawners.silkdrop.wolf: true
+    silkspawners.silkdrop.mooshroom: true
+    silkspawners.silkdrop.snowgolem: true
+    silkspawners.silkdrop.ocelot: true
+    silkspawners.silkdrop.villager: true
+    silkspawners.silkdrop.horse: true
+    silkspawners.silkdrop.creeper: true
+    silkspawners.silkdrop.irongolem: true
+    silkspawners.silkdrop.silverfish: true
+
+cowcraft.survival.spawner.place:
+  default: false
+  children:
+    silkspawners.place.skeleton: true
+    silkspawners.place.spider: true
+    silkspawners.place.zombie: true
+    silkspawners.place.slime: true
+    silkspawners.place.zombiepigman: true
+    silkspawners.place.enderman: true
+    silkspawners.place.cavespider: true
+    silkspawners.place.blaze: true
+    silkspawners.place.magmacube: true
+    silkspawners.place.pig: true
+    silkspawners.place.sheep: true
+    silkspawners.place.cow: true
+    silkspawners.place.chicken: true
+    silkspawners.place.squid: true
+    silkspawners.place.wolf: true
+    silkspawners.place.mooshroom: true
+    silkspawners.place.snowgolem: true
+    silkspawners.place.ocelot: true
+    silkspawners.place.villager: true
+    silkspawners.place.horse: true
+    silkspawners.place.creeper: true
+    silkspawners.place.irongolem: true
+    silkspawners.place.silverfish: true
+
+
+cowcraft.survival.plots.flags.donor:
+  default: false
+  children:
+    plots.set.flag.instabreak: true
+    plots.set.flag.fly: true
+    plots.set.flag.feed: true
+    plots.set.flag.heal: true
+    plots.set.flag.invincible: true
+
+
+cowcraft.survival.rank1:
+  default: false
+  children:
+    animatednames.group.default: false
+    animatednames.group.donor: true
+    cowcraft.survival.spawner.mine: true
+    mcmmo.commands.defaults: true
+    puffix.prefix.rank1: true
+    essentials.kits.iron: true
+    cowcraft.survival.default: true
+    betterenderchest.slots.upgrade1: true
+    essentials.hat: true
+    essentials.ptime: true
+    essentials.workbench: true
+    essentials.sethome.multiple: true
+    essentials.sethome.multiple.rank1: true
+    essentials.feed: true
+
+
+cowcraft.survival.rank2:
+  default: false
+  children:
+    plots.plot.3: true
+    plots.merge.3: true
+    puffix.prefix.rank2: true
+    essentials.kits.gold: true
+    cowcraft.survival.rank1: true
+    betterenderchest.slots.upgrade2: true
+    essentials.enderchest: true
+    essentials.sethome.multiple.rank2: true
+    essentials.heal: true
+    essentials.signs.color: true
+    libsdisguises.disguise.chicken: true
+    libsdisguises.disguise.cow: true
+    libsdisguises.disguise.horse: true
+    libsdisguises.disguise.ocelot: true
+    libsdisguises.disguise.pig: true
+    libsdisguises.disguise.sheep: true
+    libsdisguises.disguise.bat: true
+    libsdisguises.disguise.mooshroom: true
+    libsdisguises.disguise.squid: true
+    libsdisguises.disguise.villager: true
+    essentials.signs.create.disposal: true
+    essentials.signs.create.heal: true
+    essentials.signs.create.mail: true
+    essentials.near: true
+    essentials.signs.create.warp: true
+
+
+cowcraft.survival.rank3:
+  default: false
+  children:
+    plots.plot.4: true
+    plots.merge.4: true
+    puffix.prefix.rank3: true
+    essentials.kits.diamond: true
+    cowcraft.survival.rank2: true
+    betterenderchest.slots.upgrade3: true
+    essentials.sethome.multiple.rank3: true
+    essentials.repair: true
+    essentials.repair.armor: true
+    essentials.nick: true
+    essentials.nick.color: true
+    libsdisguises.disguise.wolf: true
+    libsdisguises.disguise.blaze: true
+    libsdisguises.disguise.creeper: true
+    libsdisguises.disguise.skeleton: true
+    libsdisguises.disguise.slime: true
+    libsdisguises.disguise.zombie: true
+    libsdisguises.disguise.witch: true
+    libsdisguises.disguise.pigzombie: true
+    libsdisguises.disguise.irongolem: true
+    libsdisguises.disguise.snowgolem: true
+    libsdisguises.disguise.magmacube: true
+    libsdisguises.disguise.guardian: true
+    libsdisguises.disguise.rabbit: true
+    mobarena.classes.vip: true
+    libsdisguises.disguise.enderdragon: false
+    libsdisguises.disguise.giant: false
+    libsdisguises.disguise.wither: false
+    libsdisguises.disguise.silverfish: false
+    libsdisguises.disguise.ghast: false
+    essentials.keepxp: true
+    essentials.back: true
+    essentials.back.ondeath: true
+    plots.plot.2: true
+
+
+cowcraft.survival.rank4:
+  default: false
+  children:
+    cowcraft.survival.rank3: true
+
+
+cowcraft.survival.helper:
+  default: false
+  children:
+    plots.tp: true
+    plots.visit: true
+    essentials.vanish: true
+    plots.admin.build.road: true
+    plots.admin.break.road: true
+    plots.admin.build.unowned: true
+    plots.admin.build.other: true
+    plots.admin.destroy.road: true
+    plots.admin.destroy.unowned: true
+    plots.admin.destroy.other: true
+    plots.admin.interact.road: true
+    plots.admin.interact.unowned: true
+    plots.admin.interact.other: true
+    plots.admin.projectile.road: true
+    plots.admin.projectile.unowned: true
+    plots.admin.projectile.other: true
+    plots.admin.pve.road: true
+    plots.admin.pve.unowned: true
+    plots.admin.pve.other: true
+    plots.admin.command.denied: true
+    plots.admin.entry.denied: true
+    plots.admin.break.other: true
+    plots.visit.other: true
+    plots.set.flag.notify-enter.*: true
+    plots.set.flag.notify-leave.*: true
+
+
+cowcraft.survival.mod:
+  default: false
+  children:
+    essentials.invsee.modify: true
+    plots.set.other: true
+    plots.set.flag.other: true
+    plots.flag.add: true
+    plots.flag.remove: true
+    plots.admin.command.setowner: true
+    plots.set.owner: true
+    plots.admin.command.set: true
+    plots.admin.command.unclaim: true
+    plots.admin.command.unlink: true
+    plots.admin.command.trusted: true
+    plots.admin.command.merge: true
+    plots.admin.command.kick: true
+    plots.admin.command.helpers: true
+    plots.admin.break.unowned: true
+    plots.admin.break.road: true
+    essentials.enderchest: true
+    essentials.enderchest.modify: true
+    essentials.enderchest.others: true
+ 
+
+cowcraft.survival.admin:
+  default: false
+  children:
+    plots.admin.command.delete: true
+    plots.admin.command.copy: true
+    plots.admin.command.paste: true
+    plots.admin.command.swap: true
+    plots.admin.command.clear: true
+    plots.merge: true
+    plots.unlink: true
+
+
+cowcraft.survival.perm.essentials.fly:
+  default: false
+  children:
+    essentials.fly: true

@@ -1,0 +1,13 @@
+#Shows up before all the chat messages.
+plugin-prefix: '&6[MooGamble] '
+gui-color: '&8&l'
+#Maximum money, defaults to 10 trillion as that is Essentials' default but not cap as their config says.
+max-money: 10000000000000
+messages:
+  too-little-arguments: '&cError: Too little arguments.'
+  too-many-arguments: '&cError: Too many arguments.'
+  reloaded-files: '&aSucessfully reloaded files.'
+  insufficient-permissions: '&cError: Insufficient permissions.'
+  invalid-subcommand: '&cError: Invalid subcommand.'
+  player-has-not-played-before: '&cError: The player %name% has never played before!'
+  invalid-arguments: '&cError: Invalid arguments.'

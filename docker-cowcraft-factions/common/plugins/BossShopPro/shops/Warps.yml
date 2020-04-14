@@ -1,0 +1,95 @@
+ShopName: Warps
+DisplayName: 'Warps'
+signs:
+  text: '[Warps]'
+  NeedPermissionToCreateSign: true
+Command: warps
+shop:
+  1:
+    RewardType: playercommand
+    Reward: warp wild
+    MenuItem:
+    - type:GRASS
+    - amount:1
+    - name:&bWild
+    - lore:&7Overworld
+    - lore:&8Click to warp
+    InventoryLocation: 1
+    ExtraPermission: ''
+  2:
+    RewardType: playercommand
+    Reward: warp nether
+    MenuItem:
+    - type:NETHERRACK
+    - amount:1
+    - name:&bNether
+    - lore:&7Nether world
+    - lore:&8Click to warp
+    InventoryLocation: 2
+    ExtraPermission: ''
+  3:
+    RewardType: playercommand
+    Reward: warp end
+    MenuItem:
+    - type:ENDER_STONE
+    - amount:1
+    - name:&bEnd
+    - lore:&7End world
+    - lore:&8Click to warp
+    InventoryLocation: 3
+    ExtraPermission: ''
+  4:
+    RewardType: playercommand
+    Reward: warp info
+    MenuItem:
+    - type:BOOK
+    - amount:1
+    - name:&bInfo
+    - lore:&7Information about server
+    - lore:&8Click to warp
+    InventoryLocation: 4
+    ExtraPermission: ''
+  5:
+    RewardType: playercommand
+    Reward: warp event
+    MenuItem:
+    - type:CAKE
+    - amount:1
+    - name:&bEvent
+    - lore:&7Only works during event!
+    - lore:&8Click to warp
+    InventoryLocation: 5
+    ExtraPermission: ''
+  6:
+    RewardType: playercommand
+    Reward: warp crates
+    MenuItem:
+    - type:CHEST
+    - amount:1
+    - name:&bCrates
+    - lore:&7Brings you to crates area
+    - lore:&8Click to warp
+    InventoryLocation: 6
+    ExtraPermission: ''
+  7:
+    RewardType: playercommand
+    Reward: warp castle
+    MenuItem:
+    - type:GOLD_HELMET
+    - amount:1
+    - name:&bCastle &7(KoTH)
+    - lore:&7KoTH cave area
+    - lore:&8Click to warp
+    InventoryLocation: 8
+    ExtraPermission: ''
+  8:
+    RewardType: playercommand
+    Reward: warp cave
+    MenuItem:
+    - type:GOLD_HELMET
+    - amount:1
+    - name:&bCave &7(KoTH)
+    - lore:&7KoTH castle area
+    - lore:&8Click to warp
+    InventoryLocation: 9
+    ExtraPermission: ''

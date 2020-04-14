@@ -1,0 +1,141 @@
+minatsu.local.default:
+  default: true
+  children:
+    puffix.prefix.default: true
+    essentials.fly: true
+    bukkit.command.me: false
+    essentials.warp: true
+    plots.use: true
+    plots.visit: true
+    plota.visit.other: true
+    essentials.speed: true
+    essentials.back: true
+    essentials.ping: true
+    essentials.clearinventory: true
+    essentials.kick.notify: true
+    essentials.mute.notify: true
+    essentials.ban.notify: true
+    essentials.seen: true
+    essentials.seen.banreason: true
+
+minatsu.local.client:
+  default: false
+  children:
+    minatsu.local.default: true
+    puffix.prefix.client: true
+
+
+
+minatsu.local.staff3:
+  default: false
+  children:
+    minatsu.local.staff2: true
+    puffix.prefix.staff3: true
+
+minatsu.local.staff2:
+  default: false
+  children:
+    minatsu.local.staff1: true
+    puffix.prefix.staff2: true
+    essentials.socialspy:  true
+    essentials.socialspy.others: true
+    essentials.clearinventory.others: true
+    essentials.enderchest: true
+    essentials.enderchest.modify: true
+    essentials.enderchest.others: true
+    essentials.unban: true
+    essentials.vanish.see: true
+    essentials.ban: true
+    essentials.ban.offline: true
+
+minatsu.local.staff1:
+  default: false
+  children:
+    minatsu.local.builder4: true
+    puffix.prefix.staff1: true
+    essentials.kick: true
+    essentials.mute: true
+    essentials.mute.offline: true
+    essentials.tempban: true
+    essentials.tempban.offline: true
+    essentials.gc: true
+    essentials.invsee: true
+    essentials.invsee.modify: true
+    essentials.kill: true
+    essentials.vanish: true
+
+
+
+
+minatsu.local.builder4:
+  default: false
+  children:
+    minatsu.local.builder3: true
+    puffix.prefix.builder4: true
+
+minatsu.local.builder3:
+  default: false
+  children:
+    minatsu.local.builder2: true
+    puffix.prefix.builder3: true
+    essentials.setwarp: true
+
+minatsu.local.builder2:
+  default: false
+  children:
+    minatsu.local.builder1: true
+    puffix.prefix.builder2: true
+    plots.plot.50: true
+    minatsu.local.tools: true
+    essentials.item: true
+    essentials.itemspawn.item-all: true
+
+minatsu.local.builder1:
+  default: false
+  children:
+    minatsu.local.default: true
+    puffix.prefix.builder1: true
+    headdb.allow.buy: true
+    headdb.open: true
+    headdb.category.*: true
+    headdb.free.*: true
+    headdb.admin.showid: true
+    headdb.phead: true
+    essentials.top: true
+    essentials.skull: true
+    essentials.skull.modify: true
+    essentials.skull.others: true
+    essentials.skull.spawn: true
+    essentials.gamemode: true
+    essentials.gamemode.creative: true
+    essentials.gamemode.survival: true
+    essentials.tp: true
+    essentials.tphere: true
+    essentials.sethome.multiple.unlimited: true
+    plots.permpack.basic: true
+    plots.permpack.basicflags: true
+    plots.plot.10: true
+    plotsmenu.command.plotsmenu: true
+    plotsmenu.command.menu: true
+    builders.util.secretblocks: true
+    builders.util.banner: true
+    builders.util.color: true
+    builders.util.noclip: true
+    builders.util.nightvision: true
+    builders.util.advancedfly: true
+    builders.util.tpgm3: true
+
+minatsu.local.tools:
+  default: false
+  children:
+    voxelsniper.*: true
+    voxelsniper.sniper: true
+    voxelsniper.brush.*: true
+    voxelsniper.goto: true
+    voxelsniper.ignorelimitations: true
+    fawe.permpack.basic: true
+    fawe.plotsquared: true
+    fawe.plotsquared.member: true
+    fawe.worldguard: true
+    fawe.worldguard.member: true
+

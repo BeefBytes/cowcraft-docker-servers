@@ -1,0 +1,313 @@
+# 
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+chat:
+  format: '{faction} puffix&7{DISPLAYNAME}mootags &7» &f{MESSAGE}'
+
+ops-name-color: ''
+nickname-prefix: §7~
+max-nick-length: 15
+ignore-colors-in-max-nick-length: true
+change-displayname: true
+teleport-safety: true
+force-disable-teleport-safety: true
+teleport-cooldown: 0
+teleport-delay: 3
+teleport-invulnerability: 3
+heal-cooldown: 60
+near-radius: 100
+permission-based-item-spawn: false
+spawnmob-limit: 10
+warn-on-smite: true
+drop-items-if-full: true
+notify-no-new-mail: false
+socialspy-commands:
+- msg
+- w
+- r
+- mail
+- m
+- t
+- whisper
+- emsg
+- tell
+- er
+- reply
+- ereply
+- email
+- action
+- describe
+- eme
+- eaction
+- edescribe
+- etell
+- ewhisper
+- pm
+mute-commands:
+- f
+- kittycannon
+skip-used-one-time-kits-from-kit-list: true
+kits:
+
+
+
+kits:
+  food:
+    delay: 86400
+    items:
+    - COOKED_BEEF 16
+    - GOLDEN_APPLE 3
+  starter:
+    delay: 259200
+    items:
+    - DIAMOND_SPADE 1 dig_speed:1 durability:2
+    - DIAMOND_PICKAXE 1 dig_speed:1 durability:2
+    - DIAMOND_HOE 1 durability:2
+    - DIAMOND_AXE 1 dig_speed:1 durability:2
+    - DIAMOND_SWORD 1 damage_all:1
+    - TRAPPED_CHEST 8
+    - COOKED_BEEF 64
+    - COOKED_BEEF 64
+    - GOLDEN_APPLE 5
+    - DIAMOND_BOOTS 1 protection_environmental:1
+    - DIAMOND_LEGGINGS 1 protection_environmental:1
+    - DIAMOND_CHESTPLATE 1 protection_environmental:1
+    - DIAMOND_HELMET 1 protection_environmental:1
+    - ENDER_PEARL 8
+    - LOG 16
+  supporter:
+    delay: 432000
+    items:
+    - EXP_BOTTLE 64
+    - COOKED_BEEF 16
+    - DIAMOND 2
+    - IRON_INGOT 8
+    - GOLD_INGOT 2
+  elite:
+    delay: 432000
+    items:
+    - IRON_INGOT 16
+    - DIAMOND 4
+    - EXP_BOTTLE 64
+    - GOLD_INGOT 4
+    - COOKED_BEEF 16
+  cowgod:
+    delay: 432000
+    items:
+    - IRON_INGOT 24
+    - GOLD_INGOT 8
+    - DIAMOND 6
+    - COOKED_BEEF 16
+    - EXP_BOTTLE 64
+  titan:
+    delay: 432000
+    items:
+    - COOKED_BEEF 16
+    - EXP_BOTTLE 64
+    - GOLD_INGOT 12
+    - DIAMOND 8
+    - IRON_INGOT 32
+  overlord:
+    delay: 432000
+    items:
+    - COOKED_BEEF 16
+    - EXP_BOTTLE 64
+    - DIAMOND 10
+    - GOLD_INGOT 16
+    - IRON_INGOT 40
+  mythic:
+    delay: 432000
+    items:
+    - COOKED_BEEF 16
+    - EXP_BOTTLE 64
+    - DIAMOND 16
+    - GOLD_INGOT 20
+    - IRON_INGOT 48
+  cannon:
+    delay: 1209600
+    items:
+    - WOOD 32
+    - WEB 8
+    - REDSTONE 64
+    - DISPENSER 16
+    - DIODE 32
+    - GLASS 64
+    - TNT 64
+    - STONE 32
+    - PISTON_BASE 6
+    - WATER_BUCKET 15
+    - TNT 64
+  healing:
+    delay: 86400
+    items:
+    - POTION:37 1 splash:true effect:heal power:1 duration:0
+    - POTION:37 1 splash:true effect:heal power:1 duration:0
+    - POTION:37 1 splash:true effect:heal power:1 duration:0
+    - POTION:37 1 splash:true effect:heal power:1 duration:0
+    - POTION:37 1 splash:true effect:heal power:1 duration:0
+    - POTION:37 1 splash:true effect:heal power:1 duration:0
+    - POTION:37 1 splash:true effect:heal power:1 duration:0
+    - POTION:37 1 splash:true effect:heal power:1 duration:0
+    - POTION:37 1 splash:true effect:heal power:1 duration:0
+  potion:
+    delay: 86400
+    items:
+    - GHAST_TEAR 3
+    - RABBIT_FOOT 3
+    - GOLDEN_CARROT 3
+    - SPECKLED_MELON 10
+    - MAGMA_CREAM 3
+    - BLAZE_POWDER 3
+    - FERMENTED_SPIDER_EYE 3
+    - GLASS_BOTTLE 60
+  armor6:
+    delay: 604800
+    items:
+    - DIAMOND_SWORD 1 damage_all:5 fire_aspect:2
+    - DIAMOND_BOOTS 1 protection_environmental:4
+    - DIAMOND_LEGGINGS 1 protection_environmental:4
+    - DIAMOND_CHESTPLATE 1 protection_environmental:4
+    - DIAMOND_HELMET 1 protection_environmental:4
+  armor5:
+    delay: 604800
+    items:
+    - DIAMOND_SWORD 1 damage_all:4 fire_aspect:2
+    - DIAMOND_BOOTS 1 protection_environmental:3 durability:1
+    - DIAMOND_LEGGINGS 1 protection_environmental:3 durability:1
+    - DIAMOND_CHESTPLATE 1 protection_environmental:3 durability:1
+    - DIAMOND_HELMET 1 protection_environmental:3 durability:1
+  armor4:
+    delay: 604800
+    items:
+    - DIAMOND_SWORD 1 damage_all:3 fire_aspect:2
+    - DIAMOND_BOOTS 1 protection_environmental:3
+    - DIAMOND_LEGGINGS 1 protection_environmental:3
+    - DIAMOND_CHESTPLATE 1 protection_environmental:3
+    - DIAMOND_HELMET 1 protection_environmental:3
+  armor3:
+    delay: 604800
+    items:
+    - DIAMOND_SWORD 1 damage_all:3 fire_aspect:1
+    - DIAMOND_BOOTS 1 protection_environmental:3
+    - DIAMOND_LEGGINGS 1 protection_environmental:3
+    - DIAMOND_CHESTPLATE 1 protection_environmental:3
+    - DIAMOND_HELMET 1 protection_environmental:3
+  armor2:
+    delay: 604800
+    items:
+    - DIAMOND_SWORD 1 damage_all:2 fire_aspect:1
+    - DIAMOND_BOOTS 1 protection_environmental:2 durability:1
+    - DIAMOND_LEGGINGS 1 protection_environmental:2 durability:1
+    - DIAMOND_CHESTPLATE 1 protection_environmental:2 durability:1
+    - DIAMOND_HELMET 1 protection_environmental:2 durability:1
+  armor1:
+    delay: 604800
+    items:
+    - DIAMOND_SWORD 1 damage_all:1 fire_aspect:1 durability:1
+    - DIAMOND_BOOTS 1 protection_environmental:1 durability:1
+    - DIAMOND_LEGGINGS 1 protection_environmental:1 durability:1
+    - DIAMOND_CHESTPLATE 1 protection_environmental:1 durability:1
+    - DIAMOND_HELMET 1 protection_environmental:1 durability:1
+  creeper:
+    delay: 259200
+    items:
+    - TNT 64
+    - OBSIDIAN 64
+    - MONSTER_EGG:50 2
+  ores:
+    delay: 172800
+    items:
+    - IRON_BLOCK 8
+    - GOLD_BLOCK 4
+    - DIAMOND_BLOCK 2
+    - EMERALD_BLOCK 1
+  cratekeys:
+    delay: 1209600
+    items:
+    - /cr givekey {player} gold 2
+    - /cr givekey {player} diamond 1
+  gapple:
+    delay: 604800
+    items:
+    - GOLDEN_APPLE:1 1
+  overlordmcmmo:
+    delay: 86400
+    items:
+    - /addcredits {player} 1
+  mythicmcmmo:
+    delay: 86400
+    items:
+    - /addcredits {player} 2
+
+enabledSigns:
+- color
+- disposal
+- warp
+- mail
+- heal
+- info
+- buy
+sign-use-per-second: 4
+backup:
+  interval: 30
+per-warp-permission: true
+list:
+  Players: '*'
+debug: false
+remove-god-on-disconnect: true
+auto-afk: -1
+auto-afk-kick: -1
+freeze-afk-players: false
+disable-item-pickup-while-afk: false
+cancel-afk-on-interact: true
+cancel-afk-on-move: true
+afk-list-name: none
+death-messages: false
+allow-silent-join-quit: false
+custom-join-message: none
+custom-quit-message: none
+world-teleport-permissions: false
+default-stack-size: -1
+oversized-stacksize: 64
+repair-enchanted: false
+unsafe-enchantments: true
+register-back-in-listener: false
+login-attack-delay: 5
+max-fly-speed: 0.8
+max-walk-speed: 0.8
+mails-per-minute: 1000
+max-tempban-time: -1
+last-message-reply-recipient: false
+last-message-reply-recipient-timeout: 180
+milk-bucket-easter-egg: true
+send-fly-enable-on-join: true
+world-time-permissions: false
+update-bed-at-daytime: true
+world-home-permissions: false
+sethome-multiple:
+  default: 1
+  rank1: 3
+  rank2: 5
+  rank3: 7
+  rank4: 10
+  rank5: 20
+  rank6: 30
+  freerank1: 2
+  freerank2: 3
+tpa-accept-cancellation: 120
+starting-balance: 300
+currency-symbol: $
+max-money: 10000000000000
+min-money: -10000
+economy-log-enabled: false
+use-bukkit-permissions: false
+minimum-pay-amount: 0.001
+non-ess-in-help: true
+hide-permissionless-help: true
+newbies:
+  announce-format: '&7Welcome &b{DISPLAYNAME}&7 to the CowCraft Factions!'
+  spawnpoint: newbies
+  kit: starter
+respawn-listener-priority: highest
+respawn-at-home: false

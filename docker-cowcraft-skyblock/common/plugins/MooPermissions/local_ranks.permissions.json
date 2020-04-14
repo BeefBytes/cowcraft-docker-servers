@@ -1,0 +1,57 @@
+{  
+   "name":"Local_SkyBlock_Ranks",
+   "priority":2,
+   "groups":[  
+
+      {  
+         "name":"skyblock_spawner",
+         "permissions":{  
+            "cowcraft.skyblock.perm.essentials.warps.spawner":true
+         },
+         "priority":10,
+         "displayName":"SkyBlock Spawner",
+         "isDefault":false,
+         "parents":[  
+            "default"
+         ]
+      },
+
+
+      {  
+         "name":"skyblock_rank1",
+         "permissions":{  
+            "cowcraft.skyblock.rank1":true
+         },
+         "priority":1000,
+         "displayName":"Noble",
+         "isDefault":false,
+         "parents":[  
+            "global_donor1"
+         ]
+      },
+      {  
+         "name":"skyblock_rank2",
+         "permissions":{  
+            "cowcraft.skyblock.rank2":true
+         },
+         "priority":2000,
+         "displayName":"Titan",
+         "isDefault":false,
+         "parents":[  
+            "skyblock_rank1"
+         ]
+      },
+      {  
+         "name":"skyblock_rank3",
+         "permissions":{  
+            "cowcraft.skyblock.rank3":true
+         },
+         "priority":3000,
+         "displayName":"Skylord",
+         "isDefault":false,
+         "parents":[  
+            "skyblock_rank2"
+         ]
+      }
+   ]
+}

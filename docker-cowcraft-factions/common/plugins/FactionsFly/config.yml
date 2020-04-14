@@ -1,0 +1,35 @@
+enemy-radius: 32 #Flight will be disabled if an enemy is within this radius
+
+#For towny & PlotSquared, this has no effect
+
+#Comment these permissions out (place a # before them) to disable them (and give access to everyone with ffly.fly)
+wilderness-perm: ffly.wilderness #With this permission, you will be allowed to fly in the wilderness
+safezone-perm: ffly.safezone #With this permission, you can fly in a safezone
+allied-perm: ffly.ally #With this permission, you can fly in allied lands
+yours-perm: ffly.yours #With this permission, you can fly in your faction's claims
+neutral-perm: ffly.neutral
+enemy-perm: ffly.enemy #With this permission, you can fly in enemy territory
+truce-perm: ffly.truce #With this permission, you can fly where you are "truce"'d with a faction (FactionsOne, Factions from MassiveCraft)
+
+fly-height-perms: #All of this is circumvented by ffly.bypass
+  default: -1 #If you have no permission, this is the max height
+  #ffly.height.name, so if you give a player ffly.height.high they can go to 128
+  high: 128 #If you have one of these permissions, this is the highest you can fly
+  medium: 92
+  tiny: 64
+
+
+allow-ender-pearl-while-flying: false #If we should allow kids to pearl
+
+commands-on-flight-disable: [] #The motivation behind this was simple, people with skyblock wanted people to return to their island when people had their flight disabled. These commands will be run from the player's perspective
+  #- is #the /is command
+      #You can put {{player}} in here and it'l execute that
+soft-fall: true #If this is false, then the user will simply fall from their height, instead of being teleported to the nearest ground. The best reason to disable this option is if you have a teleport command above
+
+#Set this to 0 or remove it from your config to disable it
+#You must stand still and not be harmed for 10 seconds in order to fly (unless you have ffly.bypass or ffly.instant)
+fly-warmup: 5
+
+#this is how many milliseconds between checking player move events
+#(so, the higher this value, the lower the performance penalty. Only change this is you're having performance problems, the default value should work fine)
+move-check-ms: 500

@@ -1,0 +1,26 @@
+#  ----------------------------------------------------
+#  AutoMessage Configuration File
+#  ----------------------------------------------------
+#  Message Configuration:
+#     Messages are handled in lists to allow for advanced customization!
+#     Feel free to add color codes by using & in your messages!
+#     To split a message onto multiple lines use the \n delimiter!
+#     Lines starting with / will be run as a command!
+#     To add single apostrophes into a message use ''.
+#     For a complete tutorial go to http://dev.bukkit.org/server-mods/automessage.
+#     If you are unfamiliar with YAML use the in-game commands: /am help
+
+settings:
+  enabled: true
+  min-players: 0
+  log-to-console: false
+message-lists:
+  regular:
+    enabled: true
+    interval: 340
+    expiry: -1
+    random: false
+    messages:
+    - '&e&l[&6&l▲&e&l]&6&l&m-----------------------------------------&e&l[&6&l▲&e&l]\n
+      &r\n &6Get your own rank with unique perks! &6Visit &edonate.cowcraft.net\n
+      &r\n&e&l[&6&l▼&e&l]&6&l&m-----------------------------------------&e&l[&6&l▼&e&l]'

@@ -1,0 +1,97 @@
+# If the messages should try finding a text icon for this item from WolfieMarios Resourcepack (http://imgur.com/a/oHvbX)
+texticonrp: true
+# If you have WorldResourcepacks (https://s.moep.tv/wrp) or ForceResourcepacks (https://s.moep.tv/frp) installed
+# then you can specify which  pack contains the icons. So if WRP/FRP has not send a pack to the player or a pack
+# that does not include the icons according to the below list then it wont show the icon characters to him.
+# Set to an empty list [] in order to completely disable this compatibility.
+packs-with-icons: []
+# - serverpack
+# If you have issues with item names not translating and showing their id you can enable this option
+# and use the manual mapping in transmapping.yml for all items
+use-translation-mapping: false
+# This option sets wether we should try to use the Bungee chat api when we detect a spigot server
+# It does nothing on a normal craftbukkit
+usefancymsg: true
+# The default radius for the /showitem (/show, /si) command if no -r(adius) parameter is specified
+# Can also be "all" or "world" if the command without argument should target everyone (in the world)
+defaultradius: 16
+
+chat:
+  variables:
+  - "%item%"
+  # Which variables we should replace in the chat with the player's current item
+  commands:
+  # A list of commands where we should replace the variable with the item info
+  - "msg"
+  - "say"
+  - "me"
+  - "ch"
+  # Maximum count of variables per message
+  # Bypass with the showitem.chat.spam permission
+  # 0 = unlimited
+  max-per-message: 1
+  # How to display variables that exceed the max count
+  # An empty string removes them completely
+  overflow-display: ""
+  # Allow variable with no item in hand?
+  # Uses lang.error.noitem as error message when false
+  show-empty-hand: true
+
+# Filter strings out of item names and lore
+filter:
+  # Strings are compared case-insensitive
+  # r= prefix indicates that the string should be handled as a regex
+  list:
+  - "faggot"
+  - "r=f.ck"
+  # Replace with the following string.
+  # If the string is only one character long it will fill up the word's length with it
+  replace: "*****"
+
+cooldowns:
+# Cooldowns for the radius and the direct show command in seconds.
+# 0 to disable cooldowns entirely.
+# Exempt permission: showitem.cooldownexempt
+  all: 300
+  world: 60
+  radius: 10
+  direct: 0
+  chat: 60
+
+# Whether or not we should attempt to send the nickname instead of the username
+# This will also include colors/prefixes of the team the player is in!
+usenickname: true
+
+lang:
+  no-permission: "&cYou don't have the permission %permission%"
+  count: "%count% "
+  item:
+# The different texts that display the item
+# The %icon% variable will only be displayed then texticonrp is set to true
+# The %count% variable will be replaced with lang.count if more than 1 item is shown
+# The string will be automatically colored but it tries to respect custom codes
+#    unnamed: "%count%[%icon%%type%]"
+#    named: "%count%[%icon%%name%]"
+    unnamed: "%count%[%type%]"
+    named: "%count%[%name%]"
+    none: "[None]"
+# The %type% variable is also usable in the named string for example like this:
+#   named: "%icon%%type% &anamed %name%
+  all:
+    self: "You show %item% to everyone!"
+    target: "%player% shows everyone %item%!"
+  world:
+    self: "You show %item% to everyone in your world!"
+    target: "%player% shows %item% to everyone in his world!"
+  radius:
+    self: "You hold up %item%!%customradius%"
+    custom: "&8(View distance: %radius%&8 blocks)"
+    target: "%player% holds up %item%!"
+  player:
+    self: "You show %player% %item%"
+    target: "%player% shows you %item%"
+  error:
+    noitem: "&cYou don't have an item to show in your hand. :("
+    playeroffline: "&cThe player %player%&c is not online"
+    noonearound: "&cThere are no players around which could see your item :("
+    cooldown: "&cYou have to wait %remaining%&c more seconds before showing another item!"

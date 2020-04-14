@@ -1,0 +1,5 @@
+
+cowcraft.local.default:
+  default: true
+  children:
+    perm.node: true

@@ -1,0 +1,39 @@
+# Scheduler intervals in seconds, recommended to leave as default values.
+# Setting to 0 disables the scheduler from running.
+# Only change if you know what you are doing!
+scheduler:
+  expiresCheck: 300
+  playerBans: 30
+  playerMutes: 30
+  playerWarnings: 30
+  ipBans: 30
+  ipRangeBans: 30
+  rollbacks: 30
+  nameBans: 30
+  externalPlayerBans: 120
+  externalPlayerMutes: 120
+  externalPlayerNotes: 120
+  externalIpBans: 120
+  saveLastChecked: 60
+  newMutes: 8
+  newBans: 8
+  newIPBans: 8
+  external: 120
+  saveLastRuns: 60
+lastChecked:
+  playerMutes: 1517758540
+  expiresCheck: 1517758360
+  nameBans: 1517758540
+  playerBans: 1517758540
+  bans: 1424613879
+  playerWarnings: 1517758540
+  mutes: 1424613998
+  ipbans: 1424614000
+  externalPlayerNotes: 0
+  ipRangeBans: 1517758540
+  external: 0
+  externalPlayerMutes: 0
+  rollbacks: 1517758540
+  externalPlayerBans: 0
+  externalIpBans: 0
+  ipBans: 1517758540

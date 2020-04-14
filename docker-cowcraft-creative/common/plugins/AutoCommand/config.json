@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    {
+      "taskName": "Restart message 1",
+      "time": "0 30 3 * * ?",
+      "commands": [
+        "bcast &c&lServer auto restart in 30 minutes!"
+      ]
+    },
+   
+    {
+      "taskName": "Restart message 2",
+      "time": "0 50 3 * * ?",
+      "commands": [
+        "bcast &c&lServer auto restart in 10 minutes!"
+      ]
+    },
+   
+    {
+      "taskName": "Restart message 3",
+      "time": "0 59 3 * * ?",
+      "commands": [
+        "bcast &c&lServer auto restart in 1 minute!"
+      ]
+    },
+   
+   
+    {
+      "taskName": "Restart",
+      "time": "0 0 4 * * ?",
+      "commands": [
+        "stop"
+      ]
+    }
+   
+   
+  ]
+}

@@ -1,0 +1,20 @@
+Items:
+  Servers:
+    Look:
+    - name:&3&lServer Selector &f(Right click)
+    - type:COMPASS
+    - amount:1
+    GiveOnJoin: true
+    InventoryLocation: 5
+    OpenShop: servers
+CreationVersion: 1.0.5
+Settings:
+  AllowPlaceItems: false
+  AllowMoveItems: false
+  AllowDropItems: false
+  AcceptLeftClick: false
+  DropItemsOnDeath: false
+  GetItemsOnRespawn: true
+  ClearInvOnJoin: false
+  JoinDelay: -1
+  ClearInvOnWorldChange: false

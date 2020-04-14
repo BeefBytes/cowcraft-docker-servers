@@ -1,0 +1,56 @@
+# vim: ft=yaml et ts=2 sts=2 sw=2
+entityManager:
+  enabled: false
+  chunkLoadScanningEnabled: false
+  nearbyChunkRadius: 1
+  nearbyItemLimit: 250
+  nearbyCreatureLimit: 800
+  worldItemLimit: 1000
+  worldCreatureLimit: 4000
+projectileManager:
+  enabled: false
+  chunkLoadCleanupEnabled: false
+  projectileCleanupInterval: 600  # Ticks
+validityManager:
+  enabled: false
+  maxLoreLines: 5
+  maxLoreLineLength: 127
+  maxNameLength: 63
+  basicUnicodeAllowed: true
+  supplementaryUnicodeAllowed: true
+  privateUnicodeAllowed: true
+  linebreakUnicodeAllowed: false
+  controlUnicodeAllowed: false
+  unusualWhitespaceUnicodeAllowed: false
+  nullCharAllowed: false
+  escapeCharAllowed: false
+  formattingAllowed: true
+  crazyTextAllowed: true
+  enchantmentCheckingEnabled: false
+  potionCheckingEnabled: false
+  splashPotionCheckingEnabled: false
+  splashPotionsBanned: false
+  zeroQuantityBanned: false
+  bannedAttributeModifiers:
+    - generic.maxHealth
+    - generic.movementSpeed
+    - generic.attackDamage
+    - horse.jumpStrength
+  bannedTags:
+    - www.wurst-client.tk
+screeningManager:
+  enabled: false
+  gracePeriod: 20  # Seconds
+heuristicsManager:
+  enabled: false
+  debugEnabled: false
+  commands:
+    # %1$s = username
+    # %2$s = reason
+    # %3$s = IP address
+    # %4$s = UUID, with hyphens
+    - 'kick %1$s [MCPerf] Cheating: %2$s'
+blacklistManager:
+  blocks: []
+toxicityManager:
+  enabled: false

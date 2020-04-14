@@ -1,0 +1,85 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# GENERAL PLUGIN SETTINGS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+config: 2
+lang: 'en'
+debug: false
+
+log:
+  enabled: true
+  # Reset log on startup
+  reset: true
+
+update:
+  check: true # RECOMMENDED YOU LEAVE THIS TRUE
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# PLUGIN SPECIFIC SETTINGS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+placeholder:
+  log-memory: false
+  clear-unused: true
+  # Config cache only
+  # This will only use placeholders in the config
+  # HOWEVER: IT WILL BREAK ALL CUSTOM PLACEHOLDERS!
+  # IT WILL ALSO PREVENT ANY HOOKS (PlaceholderAPI)
+  config-cache: false
+
+database:
+  persistent: false
+  database: "airbar"
+  username: bukkit
+  isolation: SERIALIZABLE
+  driver: org.sqlite.JDBC
+  password: walrus
+  url: jdbc:sqlite:{DIR}{NAME}.db
+  save-interval: 6000
+
+disabled-worlds:
+- 'example_world'
+  
+tweaks-1.8:
+  entity-distance: 28
+  movement-threshold: 1
+  visible-entity: false
+
+tweaks-1.9:
+  darken-sky: false
+  create-fog: false
+  sound: false
+  default-segments: 1
+  default-color: PINK
+  single-bar: true
+
+announcements:
+  enabled: false
+  change-interval: 60 
+
+airbar:
+  default:
+    text:
+#    - '&e&l55% FLASH SALE! &cdonate.cowcraft.net'
+    - '&aRegister at CowCraft.net by using &e/forums register'
+    - '&aSave a cow by donating at &edonate.cowcraft.net'
+
+#    - '|color:yellow|&aSave a cow by donating at &edonate.cowcraft.net'
+    interval: 120
+    random: false
+    run-once: false
+    is-announcement: false
+    # Available colors:
+    #     PINK
+    #     BLUE
+    #     RED
+    #     GREEN
+    #     YELLOW
+    #     PURPLE
+    #     WHITE
+    color: PINK
+    # Default segments in the boss bar (just for the looks). Only works on 1.9!
+    # Will be overridden by a |segments:xx| tag in a line
+    # Available options:
+    #     1,6,10,12,20
+    # Leave 1 or 0 if you are not sure
+    segments: 1

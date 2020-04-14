@@ -1,0 +1,110 @@
+## --------------------------------------- ##
+## MobArena placeholders Placeholders
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 1
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Define what the boolean placeholder {mobarena_arena_canjoin} returns
+mobarena_arena_canjoin:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_arena_isrunning} returns
+mobarena_arena_isrunning:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_locationarena_canjoin} returns
+mobarena_locationarena_canjoin:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_locationarena_isrunning} returns
+mobarena_locationarena_isrunning:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_locationarena_isenabled} returns
+mobarena_locationarena_isenabled:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_arena_isprotected} returns
+mobarena_arena_isprotected:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_arena_canspec} returns
+mobarena_arena_canspec:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_locationarena_isprotected} returns
+mobarena_locationarena_isprotected:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_arena_canafford} returns
+mobarena_arena_canafford:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_arena_isenabled} returns
+mobarena_arena_isenabled:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_locationarena_canspec} returns
+mobarena_locationarena_canspec:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_locationarena_canafford} returns
+mobarena_locationarena_canafford:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+

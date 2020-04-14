@@ -1,0 +1,50 @@
+# vim: et sts=2 ts=2 sw=2
+entityManager:
+  enabled: true
+  chunkLoadScanningEnabled: true
+  nearbyChunkRadius: 1
+  nearbyItemLimit: 400
+  nearbyCreatureLimit: 200
+  worldItemLimit: 3000
+  worldCreatureLimit: 2000
+  bannedEntityTypes:
+    - MINECART
+    - MINECART_COMMAND
+    - MINECART_CHEST
+    - MINECART_FURNACE
+    - MINECART_TNT
+    - MINECART_HOPPER
+    - MINECART_MOB_SPAWNER
+    - BOAT
+    - SPLASH_POTION
+    - LINGERING_POTION
+    - FIREWORK
+chunkManager:
+  enabled: false
+  debugEnabled: false
+  forceUnloadRadius: 8
+  forceUnloadInterval: 300
+  forceUnloadThresholdEnabled: true
+validityManager:
+  enabled: false
+  maxLoreLines: 5
+  maxLoreLineLength: 64
+  maxNameLength: 64
+  fullUnicodeAllowed: false
+  splashPotionsBanned: true
+  enchantmentCheckingEnabled: true
+  attributeCheckingEnabled: true
+  bannedMaterials:
+    - TIPPED_ARROW
+  bannedTags:
+    - www.wurst-client.tk
+    - crash
+proxyManager:
+  enabled: true
+  whitelist: # Usernames; must be all-lowercase
+    - exabit         # Using VPN cause shit internet - Edy
+    - unf0rgettable  # Using some shitty internet - Edy
+monitorManager:
+  enabled: true
+toxicityManager:
+  enabled: false

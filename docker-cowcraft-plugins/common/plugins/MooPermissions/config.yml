@@ -1,0 +1,7 @@
+Prefix: "&3[&bMooPerms&3] "
+MySQL-Settings:
+  Hostname: 'mysql'
+  Port: 3306
+  Database: 'mc_perms?useSSL=false&'
+  Username: 'mc_admin_rw'
+  Password: 'MYSQL_USER_PASS'

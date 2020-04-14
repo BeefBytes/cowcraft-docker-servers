@@ -1,0 +1,176 @@
+{  
+   "name":"Local crate nodes",
+   "priority":3,
+   "groups":[  
+
+
+        {
+            "name": "factions_rank1",
+            "permissions": {
+                "crate.rank.factions.rank1": true
+            },
+            "priority": 1000,
+            "displayName": "Supporter",
+            "isDefault": false
+        },
+
+
+        {
+            "name": "factions_rank2",
+            "permissions": {
+                "crate.rank.factions.rank2": true
+            },
+            "priority": 2000,
+            "displayName": "Elite",
+            "isDefault": false
+        },
+   
+   
+        {
+            "name": "factions_rank3",
+            "permissions": {
+                "crate.rank.factions.rank3": true
+            },
+            "priority": 3000,
+            "displayName": "CowGod",
+            "isDefault": false
+        },
+
+ 
+        {
+            "name": "factions_rank4",
+            "permissions": {
+                "crate.rank.factions.rank4": true
+            },
+            "priority": 4000,
+            "displayName": "Titan",
+            "isDefault": false
+        },
+
+
+
+
+      {  
+         "name":"creative_rank1",
+         "permissions":{  
+            "crate.rank.creative.rank1":true
+         },
+         "priority":1000,
+         "displayName":"Builder",
+         "isDefault":false
+      },
+      {  
+         "name":"creative_rank2",
+         "permissions":{  
+            "crate.rank.creative.rank2":true
+         },
+         "priority":2000,
+         "displayName":"Architect",
+         "isDefault":false
+      },
+      {  
+         "name":"creative_rank3",
+         "permissions":{  
+            "crate.rank.creative.rank3":true
+         },
+         "priority":3000,
+         "displayName":"CreativeGod",
+         "isDefault":false
+      },
+      {  
+         "name":"creative_rank4",
+         "permissions":{  
+            "crate.rank.creative.rank4":true
+         },
+         "priority":4000,
+         "displayName":"CreativeGod+",
+         "isDefault":false
+      },
+
+      {  
+         "name":"minigame_donor1",
+         "permissions":{  
+            "crate.rank.minigames.rank1":true
+         },
+         "priority":1000,
+         "displayName":"VIP",
+         "isDefault":false
+      },
+
+
+
+
+      {  
+         "name":"skyblock_rank1",
+         "permissions":{  
+            "crate.rank.skyblock.rank1":true
+         },
+         "priority":1000,
+         "displayName":"Noble",
+         "isDefault":false
+      },
+      {  
+         "name":"skyblock_rank2",
+         "permissions":{  
+            "crate.rank.skyblock.rank2":true
+         },
+         "priority":2000,
+         "displayName":"Titan",
+         "isDefault":false
+      },
+      {  
+         "name":"skyblock_rank3",
+         "permissions":{  
+            "crate.rank.skyblock.rank3":true
+         },
+         "priority":3000,
+         "displayName":"Skylord",
+         "isDefault":false
+      },
+
+
+
+      {  
+         "name":"towny_rank1",
+         "permissions":{  
+            "crate.rank.towny.rank1":true
+         },
+         "priority":1000,
+         "displayName":"Sir",
+         "isDefault":false
+      },
+      
+      {  
+         "name":"towny_rank2",
+         "permissions":{  
+            "crate.rank.towny.rank2":true
+         },
+         "priority":2000,
+         "displayName":"Knight",
+         "isDefault":false
+      },
+
+      {  
+         "name":"towny_rank3",
+         "permissions":{  
+            "crate.rank.towny.rank3":true
+         },
+         "priority":3000,
+         "displayName":"Lord",
+         "isDefault":false
+      },
+
+      {  
+         "name":"towny_rank4",
+         "permissions":{  
+            "crate.rank.towny.rank4":true
+         },
+         "priority":4000,
+         "displayName":"King",
+         "isDefault":false
+      }
+
+
+
+   ]
+}

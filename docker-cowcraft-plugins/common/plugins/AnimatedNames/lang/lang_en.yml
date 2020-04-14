@@ -1,0 +1,15 @@
+prefix: '&5[&9AnimatedNames&5] '
+prefix-error: '&4[&cAnimatedNames&4] '
+config-reload: '&aConfiguration reloaded!'
+config-reset: '&cConfiguration has been reset!'
+no-permission: '&cYou do not have permissions!'
+invalid-arguments: '&cInvalid arguments!'
+no-console: '&cThis command can only be used ingame'
+list-page-range: '&cThe page can be from 1-{PAGES}!'
+list-noitems: '&cNo items found!'
+placeholders-loading: '&7&oPlaceholders are being loaded ...'
+placeholders-updating-1: Fetching available placeholder modules ...
+placeholders-updating-2: Fetching available updates ...
+placeholders-updating-3: Checking for updates ...
+placeholders-updating-error-1: Unable to fetch available placeholder modules!
+placeholders-updating-error-2: Unable to fetch available placeholder updates!

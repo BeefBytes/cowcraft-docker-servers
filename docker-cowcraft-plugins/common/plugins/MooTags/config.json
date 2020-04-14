@@ -1,0 +1,391 @@
+{
+    "prefix": "&e[MooTags] ",
+    "inventoryName": "&e&lMooTags",
+    "defaultPlaceholder": "mootags",
+    "tags": [
+        {
+            "id": "rigged",
+            "permission": "mootags.tag.rigged",
+            "tag": " &8[&fRigged&8]"
+        },
+        {
+            "id": "egirl",
+            "permission": "mootags.tag.egirl",
+            "tag": " &8[&fegirl&8]"
+        },
+        {
+            "id": "bitcoin",
+            "permission": "mootags.tag.bitcoin",
+            "tag": " &8[&6Bitcoin&8]"
+        },
+        {
+            "id": "colgate",
+            "permission": "mootags.tag.colgate",
+            "tag": " &8[&f&lColgate&8]"
+        },
+        {
+            "id": "furry",
+            "permission": "mootags.tag.furry",
+            "tag": " &8[&fFurry&8]"
+        },
+        {
+            "id": "supreme",
+            "permission": "mootags.tag.supreme",
+            "tag": " &8[&c&oSupreme&8]"
+        },
+        {
+            "id": "thinkingemoji",
+            "permission": "mootags.tag.thinkingemoji",
+            "tag": " &8[&fThinkingEmoji&8]"
+        },
+        {
+            "id": "bape",
+            "permission": "mootags.tag.bape",
+            "tag": " &8[&5Bape&8]"
+        },
+        {
+            "id": "gucci",
+            "permission": "mootags.tag.gucci",
+            "tag": " &8[&6GUCCI&8]"
+        },
+        {
+            "id": "yeezy",
+            "permission": "mootags.tag.yeezy",
+            "tag": " &8[&fYeezy&8]"
+        },
+        {
+            "id": "tag",
+            "permission": "mootags.tag.tag",
+            "tag": " &8[&ftag&8]"
+        },
+        {
+            "id": "esketit",
+            "permission": "mootags.tag.esketit",
+            "tag": " &8[&fESKETIT&8]"
+        },
+        {
+            "id": "yoda",
+            "permission": "mootags.tag.yoda",
+            "tag": " &8[&2Yoda&8]"
+        },
+        {
+            "id": "bigshaq",
+            "permission": "mootags.tag.bigshaq",
+            "tag": " &8[&fBig Shaq&8]"
+        },
+        {
+            "id": "l",
+            "permission": "mootags.tag.l",
+            "tag": " &8[&fL&8]"
+        },
+        {
+            "id": "biggay",
+            "permission": "mootags.tag.biggay",
+            "tag": " &8[&dBigGay&8]"
+        },
+        {
+            "id": "santa",
+            "permission": "mootags.tag.santa",
+            "tag": " &8[&cSanta&8]"
+        },
+        {
+            "id": "grinch",
+            "permission": "mootags.tag.grinch",
+            "tag": " &8[&2Grinch&8]"
+        },
+        {
+            "id": "highroller",
+            "permission": "mootags.tag.highroller",
+            "tag": " &8[&fHigh Roller&8]"
+        },
+        {
+            "id": "vsauce",
+            "permission": "mootags.tag.vsauce",
+            "tag": " &8[&fvsauce michael here&8]"
+        },
+        {
+            "id": "angery",
+            "permission": "mootags.tag.angery",
+            "tag": " &8[&cAngery&8]"
+        },
+        {
+            "id": "boneless",
+            "permission": "mootags.tag.boneless",
+            "tag": " &8[&c&l[B] &fO N E L E S S&8]"
+        },
+        {
+            "id": "youtuber",
+            "permission": "mootags.tag.youtuber",
+            "tag": " &8[&fYou&cTuber&8]"
+        },
+        {
+            "id": "moo",
+            "permission": "mootags.tag.moo",
+            "tag": " &8[&7Moo&8]"
+        },
+        {
+            "id": "batman",
+            "permission": "mootags.tag.batman",
+            "tag": " &8[&8Batman&8]"
+        },
+        {
+            "id": "milkman",
+            "permission": "mootags.tag.milkman",
+            "tag": " &8[&fMilkman&8]"
+        },
+        {
+            "id": "champion",
+            "permission": "mootags.tag.champion",
+            "tag": " &8[&eChampion&8]"
+        },
+        {
+            "id": "senpai",
+            "permission": "mootags.tag.senpai",
+            "tag": " &8[&dSenpai&8]"
+        },
+        {
+            "id": "trump",
+            "permission": "mootags.tag.trump",
+            "tag": " &8[&cTrump&8]"
+        },
+        {
+            "id": "hillary",
+            "permission": "mootags.tag.hillary",
+            "tag": " &8[&9Hillary&8]"
+        },
+        {
+            "id": "jakesus",
+            "permission": "mootags.tag.jakesus",
+            "tag": " &8[&dJakesus&8]"
+        },
+        {
+            "id": "factionsrespected",
+            "permission": "mootags.tag.factionsrespected",
+            "tag": " &8[&2Respected&8]"
+        },
+        {
+            "id": "factionsvip",
+            "permission": "mootags.tag.factionsvip",
+            "tag": " &8[&5VIP&8]"
+        },
+        {
+            "id": "factionssupervip",
+            "permission": "mootags.tag.factionssupervip",
+            "tag": " &8[&6SuperVIP&8]"
+        },
+        {
+            "id": "beefcake",
+            "permission": "mootags.tag.beefcake",
+            "tag": " &8[&6BeefCake&8]"
+        },
+        {
+            "id": "yungowl",
+            "permission": "mootags.tag.yungowl",
+            "tag": " &8[&5YungOwl&8]"
+        },
+        {
+            "id": "italian",
+            "permission": "mootags.tag.italian",
+            "tag": " &8[&aIt&fali&can&8]"
+        },
+        {
+            "id": "ccbuilder",
+            "permission": "mootags.tag.ccbuilder",
+            "tag": " &8[&fCC &9Builder&8]"
+        },
+        {
+            "id": "darkside",
+            "permission": "mootags.tag.darkside",
+            "tag": " &8[&0DarkSide&8]"
+        },
+        {
+            "id": "2016",
+            "permission": "mootags.tag.2016",
+            "tag": " &8[&e2016&8]"
+        },
+        {
+            "id": "goldcow",
+            "permission": "mootags.tag.goldcow",
+            "tag": " &8[&eGold Cow&8]"
+        },
+        {
+            "id": "silvercow",
+            "permission": "mootags.tag.silvercow",
+            "tag": " &8[&7Silver Cow&8]"
+        },
+        {
+            "id": "bronzecow",
+            "permission": "mootags.tag.bronzecow",
+            "tag": " &8[&6Bronze Cow&8]"
+        },
+        {   "id": "untouchable",
+            "permission": "mootags.tag.untouchable",
+            "tag": " &8[&fUntouchable&8]"
+        },
+        {   "id": "cannoner",
+            "permission": "mootags.tag.cannoner",
+            "tag": " &8[&fCannoner&8]"
+        },
+        {   "id": "bigmoney",
+            "permission": "mootags.tag.bigmoney",
+            "tag": " &8[&aBigMoney&8]"
+        },
+        {   "id": "trustworthy",
+            "permission": "mootags.tag.trustworthy",
+            "tag": " &8[&fTrustworthy&8]"
+        },
+        {   "id": "floader",
+            "permission": "mootags.tag.floader",
+            "tag": " &8[&fFloader&8]"
+        },
+        {   "id": "split",
+            "permission": "mootags.tag.split",
+            "tag": " &8[&fSplit&8]"
+        },
+        {   "id": "mcdater",
+            "permission": "mootags.tag.mcdater",
+            "tag": " &8[&fMcDater&8]"
+        },
+        {   "id": "quickdrop",
+            "permission": "mootags.tag.quickdrop",
+            "tag": " &8[&fQuickDrop&8]"
+        },
+        {   "id": "topd",
+            "permission": "mootags.tag.topd",
+            "tag": " &8[&fTopD&8]"
+        },
+        {   "id": "topkek",
+            "permission": "mootags.tag.topkek",
+            "tag": " &8[&fTopKEK&8]"
+        },
+        {   "id": "cactus",
+            "permission": "mootags.tag.cactus",
+            "tag": " &8[&fCactus&8]"
+        },
+        {   "id": "fudge",
+            "permission": "mootags.tag.fudge",
+            "tag": " &8[&fFudge&8]"
+        },
+        {   "id": "og",
+            "permission": "mootags.tag.og",
+            "tag": " &8[&fOG&8]"
+        },
+        {   "id": "grinder",
+            "permission": "mootags.tag.grinder",
+            "tag": " &8[&fGrinder&8]"
+        },
+        {   "id": "getraided",
+            "permission": "mootags.tag.getraided",
+            "tag": " &8[&fGet Raided&8]"
+        },
+        {   "id": "rip",
+            "permission": "mootags.tag.rip",
+            "tag": " &8[&fRIP&8]"
+        },
+        {   "id": "vapenation",
+            "permission": "mootags.tag.vapenation",
+            "tag": " &8[&fVapeNation&8]"
+        },
+        {   "id": "harambe",
+            "permission": "mootags.tag.harambe",
+            "tag": " &8[&aHarambe&8]"
+        },
+        {   "id": "redneck",
+            "permission": "mootags.tag.redneck",
+            "tag": " &8[&fRedneck&8]"
+        },
+        {   "id": "420blazeit",
+            "permission": "mootags.tag.420blazeit",
+            "tag": " &8[&f420BlazeIT&8]"
+        },
+        {   "id": "derp",
+            "permission": "mootags.tag.derp",
+            "tag": " &8[&fDerp&8]"
+        },
+        {   "id": "thuglife",
+            "permission": "mootags.tag.thuglife",
+            "tag": " &8[&fThugLife&8]"
+        },
+        {   "id": "deadparents",
+            "permission": "mootags.tag.deadparents",
+            "tag": " &8[&fDeadParents&8]"
+        },
+        {   "id": "illuminati",
+            "permission": "mootags.tag.illuminati",
+            "tag": " &8[&fIlluminati&8]"
+        },
+        {   "id": "1v1meirl",
+            "permission": "mootags.tag.1v1meirl",
+            "tag": " &8[&f1v1MeIRL&8]"
+        },
+        {   "id": "girlkisser",
+            "permission": "mootags.tag.girlkisser",
+            "tag": " &8[&fGirlKisser&8]"
+        },
+        {   "id": "taco",
+            "permission": "mootags.tag.taco",
+            "tag": " &8[&fTaco&8]"
+        },
+        {   "id": "kappa",
+            "permission": "mootags.tag.kappa",
+            "tag": " &8[&fKappa&8]"
+        },
+        {   "id": "boss",
+            "permission": "mootags.tag.boss",
+            "tag": " &8[&fBoss&8]"
+        },
+        {   "id": "married",
+            "permission": "mootags.tag.married",
+            "tag": " &8[&fMarried&8]"
+        },
+        {   "id": "useless",
+            "permission": "mootags.tag.useless",
+            "tag": " &8[&fUseless&8]"
+        },
+        {   "id": "lul",
+            "permission": "mootags.tag.lul",
+            "tag": " &8[&fLUL&8]"
+        },
+        {   "id": "csgolotto",
+            "permission": "mootags.tag.csgolotto",
+            "tag": " &8[&fCSGOLotto&8]"
+        },
+        {   "id": "superman",
+            "permission": "mootags.tag.superman",
+            "tag": " &8[&fSuperman&8]"
+        },
+        {   "id": "joker",
+            "permission": "mootags.tag.joker",
+            "tag": " &8[&fJoker&8]"
+        },
+        {   "id": "triggered",
+            "permission": "mootags.tag.triggered",
+            "tag": " &8[&cTriggered&8]"
+        },
+        {   "id": "noskill",
+            "permission": "mootags.tag.noskill",
+            "tag": " &8[&fNoSkill&8]"
+        },
+        {   "id": "weeaboo",
+            "permission": "mootags.tag.weeaboo",
+            "tag": " &8[&dWeeaboo&8]"
+        },
+        {   "id": "fatrob",
+            "permission": "mootags.tag.fatrob",
+            "tag": " &8[&fFatRob&8]"
+        },
+        {   "id": "keemstar",
+            "permission": "mootags.tag.keemstar",
+            "tag": " &8[&cKeemstar&8]"
+        },
+        {   "id": "ripmama",
+            "permission": "mootags.tag.ripmama",
+            "tag": " &8[&cRIPMama&8]"
+        },
+        {   "id": "harley",
+            "permission": "mootags.tag.harley",
+            "tag": " &8[&fHarley&8]"
+        }
+        
+    ]
+}

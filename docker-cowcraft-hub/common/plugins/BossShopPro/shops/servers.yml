@@ -1,0 +1,20 @@
+ShopName: servers
+DisplayName: 'Servers Selector'
+signs:
+  text: '[Servers]'
+  NeedPermissionToCreateSign: true 
+shop:
+
+  Creative:
+    MenuItem:
+    - lore:&7Click to connect
+    - lore:&c&lOther servers are coming soon!
+    - name:&bCreative
+    - amount:1
+    - type:DIAMOND_BLOCK
+    RewardType: bungeecordserver
+    Reward: creative
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5

@@ -1,0 +1,66 @@
+{
+  "prefix": [
+    {
+      "string": "&3[Dev] &f",
+      "permission": "puffix.prefix.dev",
+      "priority": 10000
+    },
+    {
+      "string": "&5[Owner] &f",
+      "permission": "puffix.prefix.owner",
+      "priority": 10100
+    },
+    {
+      "string": "&2[Trainee] &f",
+      "permission": "puffix.prefix.trainee",
+      "priority": 900
+    },
+    {
+      "string": "&a[Helper] &f",
+      "permission": "puffix.prefix.helper",
+      "priority": 1000
+    },
+    {
+      "string": "&9[Mod] &f",
+      "permission": "puffix.prefix.mod",
+      "priority": 2000
+    },
+    {
+      "string": "&c[Admin] &f",
+      "permission": "puffix.prefix.admin",
+      "priority": 3000
+    },
+    {
+      "string": "&8[&6Builder&8] &f",
+      "permission": "puffix.prefix.rank1",
+      "priority": 10
+    },
+    {
+      "string": "&8[&eArchitect&8] &f",
+      "permission": "puffix.prefix.rank2",
+      "priority": 20
+    },
+    {
+      "string": "&8[&cC&6r&ee&aa&bt&9i&5v&ce&6G&eo&ad&8] &f",
+      "permission": "puffix.prefix.rank3",
+      "priority": 30
+    },
+    {
+      "string": "&8[&c&lC&6&lr&e&le&a&la&b&lt&9&li&5&lv&c&le&6&lG&e&lo&a&ld&f&l+&8] &f",
+      "permission": "puffix.prefix.rank4",
+      "priority": 40
+    }
+  ],
+  "suffix": [
+    {
+      "string": "&3[Boob] &f",
+      "permission": "puffix.dev",
+      "priority": 5
+    },
+    {
+      "string": "&5[Poop] &f",
+      "permission": "puffix.owner",
+      "priority": 10
+    }
+  ]
+}

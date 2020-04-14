@@ -1,0 +1,191 @@
+# Default permissions
+
+cowcraft.local.default:
+  default: true
+  children:
+    essentials.fly: true
+    bukkit.command.me: false
+    essentials.warp: true
+    paintball.general: true
+    marriage.user.marry: true
+    marriage.user.marry.accept: true
+    marriage.user.marry.deny: true
+    marriage.user.marry.divorce: true
+    marriage.donor.broadcast: true
+    marriage.donor.priest: true
+    qminez: true
+    qminez.spawn: true
+    plots.visit: true
+    plota.visit.other: true
+    MyZ.play: true
+
+# Builder permissions
+
+cowcraft.dev.rank1:
+  default: false
+  children:
+    crackshot.use.all: true
+    crackshot.get.all: true
+    crackshot.list: true
+    crackshot.bypass.all: true
+    headdb.allow.buy: true
+    headdb.open: true
+    headdb.category.*: true
+    headdb.free.*: true
+    headdb.admin.showid: true
+    headdb.phead: true
+    essentials.top: true
+    essentials.skull: true
+    essentials.skull.modify: true
+    essentials.skull.others: true
+    essentials.skull.spawn: true
+    plots.claim: true
+    plots.auto: true
+    puffix.prefix.rank1: true
+    cowcraft.dev.default: true
+    essentials.gamemode: true
+    essentials.gamemode.creative: true
+    essentials.gamemode.survival: true
+    plots.use: true
+    plots.plot.1: true
+    plots.info: true
+    plots.home: true
+    plots.list: true
+    plots.set.biome: true
+    plots.set.home: true
+    plots.denied: true
+    plots.add: true
+    plots.trust: true
+    plots.deny: true
+    plots.remove: true
+    plots.untrust: true
+    plots.undeny: true
+    plots.kick: true
+    essentials.tp: true
+    essentials.setwarp: true
+    essentials.warp: true
+    essentials.warps.*: true
+    essentials.speed: true
+    essentials.back: true
+
+# Builder+ permissions
+
+cowcraft.dev.rank2:
+  default: false
+  children:
+    essentials.sethome.multiple.unlimited: true
+    essentials.item: true
+    essentials.itemspawn.item-all: true
+    puffix.prefix.rank2: true
+    cowcraft.dev.rank1: true
+    plots.plot.10: true
+    plots.merge.20: true
+    plots.merge: true
+
+# Worldedit access
+
+cowcraft.dev.rank2.tools:
+  default: false
+  children:
+    #worldedit.*: true
+    voxelsniper.*: true
+    voxelsniper.sniper: true
+    voxelsniper.brush.*: true
+    voxelsniper.goto: true
+    voxelsniper.ignorelimitations: true
+    fawe.permpack.basic: true
+    fawe.plotsquared: true
+    fawe.plotsquared.member: true
+    fawe.worldguard: true
+    fawe.worldguard.member: true
+
+
+cowcraft.factions.dev:
+  default: false
+  children:
+    essentials.fly: true
+    essentials.tp: true
+    essentials.tphere: true
+    essentials.gamemode: true
+    essentials.gamemode.creative: true
+    essentials.gamemode.survival: true
+    essentials.speed: true
+    essentials.back: true
+    worldedit.*: true
+    worldguard.*: true
+    essentials.sethome: true
+    essentials.home: true
+    essentials.warp: true
+    essentials.warps.*: true
+    voxelsniper.sniper: true
+    voxelsniper.brush.*: true
+    voxelsniper.goto: true
+
+# Dev admin specific permissions
+
+cowcraft.dev.admin:
+  default: false
+  children:
+    cowcraft.dev.rank2: true
+    plots.clear: true
+    plots.delete: true
+    plots.merge: true
+    plots.unlink: true
+
+
+
+# Ultracosmetics permissions
+
+cowcraft.dev.uc:
+  default: true
+  children:
+    ultracosmetics.gadgets.paintballgun: true
+    ultracosmetics.gadgets.batblaster: true
+    ultracosmetics.gadgets.chickenator: true
+    ultracosmetics.gadgets.melonthrower: true
+    ultracosmetics.gadgets.etherealpearl: true
+    ultracosmetics.gadgets.discoball: true
+    ultracosmetics.gadgets.colorbomb: true
+    ultracosmetics.gadgets.fleshhook: true
+    ultracosmetics.gadgets.portalgun: true
+    ultracosmetics.gadgets.blizzardblaster: true
+    ultracosmetics.gadgets.thorhammer: true
+    ultracosmetics.gadgets.smashdown: true
+    ultracosmetics.gadgets.explosivesheep: true
+    ultracosmetics.gadgets.antigravity: true
+    ultracosmetics.gadgets.tsunami: true
+    ultracosmetics.gadgets.rocket: true
+    ultracosmetics.gadgets.blackhole: true
+    ultracosmetics.particleeffects.raincloud: true
+    ultracosmetics.particleeffects.snowcloud: true
+    ultracosmetics.particleeffects.bloodhelix: true
+    ultracosmetics.particleeffects.frostlord: true
+    ultracosmetics.particleeffects.flamerings: true
+    ultracosmetics.particleeffects.inlove: true
+    ultracosmetics.particleeffects.greensparks: true
+    ultracosmetics.mounts.druggedhorse: true
+    ultracosmetics.mounts.ecologisthorse: true
+    ultracosmetics.mounts.glacialsteed: true
+    ultracosmetics.mounts.infernalhorror: true
+    ultracosmetics.mounts.mountoffire: true
+    ultracosmetics.mounts.mountofwater: true
+    ultracosmetics.mounts.walkingdea: true
+    ultracosmetics.mounts.snake: true
+    ultracosmetics.mounts.nyansheep: true
+    ultracosmetics.mounts.dragon: true
+    ultracosmetics.pets.piggy: true
+    ultracosmetics.pets.sheep: true
+    ultracosmetics.pets.kitty: true
+    ultracosmetics.pets.dog: true
+    ultracosmetics.pets.chick: true
+    ultracosmetics.pets.cow: true
+    ultracosmetics.pets.easterbunny: true
+    ultracosmetics.pets.rename: true
+    ultracosmetics.morphs.bat: true
+    ultracosmetics.morphs.blaze: true
+    ultracosmetics.morphs.pig: true
+    ultracosmetics.morphs.chicken: true
+    ultracosmetics.morphs.slime: true
+    ultracosmetics.morphs.enderman: true
+    ultracosmetics.morphs.creeper: true
+

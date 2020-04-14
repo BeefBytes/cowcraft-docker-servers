@@ -1,0 +1,29 @@
+{
+	"name": "Local_Dev_Ranks",
+	"priority": 2,
+	"groups": [
+
+	
+        {  
+            "name": "dev_rank1",
+            "permissions": {
+                "cowcraft.dev.rank1": true
+            },
+            "priority": 1000,
+            "displayName": "Builder",
+            "isDefault": false
+        },
+   
+   
+        {
+            "name": "dev_rank2",
+            "permissions": {
+                "cowcraft.dev.rank2": true
+            },
+            "priority": 2000,
+            "displayName": "Builder+",
+            "isDefault": false
+        }
+   
+	]
+}

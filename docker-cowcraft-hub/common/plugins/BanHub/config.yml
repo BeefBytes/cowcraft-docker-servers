@@ -1,0 +1,10 @@
+# Commands executed when a banned player joins
+#
+# You can use <player> as a placeholder for the player's name
+execute-commands:
+   - mvtp <player> banhub
+#  - minecraft:tp <player> -683 125 -211
+
+# Commands a banned player are allowed to execute
+allowed-commands:
+  - forums

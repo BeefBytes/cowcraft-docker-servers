@@ -1,0 +1,357 @@
+# vim: et ts=2 sts=2 sw=2
+# Default rank
+
+cowcraft.local.default:
+  default: true
+  children:
+    plots.visit: true
+    plot.visit.other: true
+    plots.auto: true
+    plots.claim: true
+    plots.plot.2: true
+    essentials.tpa: true
+    essentials.tpaccept: true
+    essentials.tpahere: true
+    essentials.tpdeny: true
+    essentials.home: true
+    essentials.delhome: true
+    essentials.sethome: true
+    essentials.signs.break.*: true
+    essentials.warp: true
+    essentials.warps.*: true
+    essentials.clearinventory: true
+    essentials.feed: true
+    cowcraft.creative.plot.flags: true
+
+
+
+
+
+
+# Creative plots
+
+cowcraft.creative.perm.plots.plot.3:
+  default: false
+  children:
+    plots.plot.3: true
+
+cowcraft.creative.perm.plots.plot.4:
+  default: false
+  children:
+    plots.plot.4: true
+
+cowcraft.creative.perm.plots.plot.5:
+  default: false
+  children:
+    plots.plot.5: true
+
+cowcraft.creative.pet.giant:
+  default: false
+  children:
+    echopet.pet.type.giant: true
+
+
+# Default plot permissions 
+
+cowcraft.creative.plots:
+  default: true
+  children:
+    plots.visit: true
+    plots.set.alias: true
+    plots.list.mine: true
+    plots.use: true
+    plots.home: true
+    plots.set: true
+    plots.set.flag: true
+    plots.set.flag.titles: true
+    plots.info: true
+    plots.unclaim: true
+    plots.clear: true
+    plots.delete: true
+    plots.list: true
+    plots.denied: true
+    plots.add: true
+    plots.trust: true
+    plots.deny: true
+    plots.remove: true
+    plots.untrust: true
+    plots.undeny: true
+    plots.kick: true
+
+# Default plot flags	
+
+cowcraft.creative.plots.flags:
+  default: true
+  children:
+    plots.flag.remove: true
+    plots.flag.add: true
+    plots.set.biome: true
+    plots.set.flag: true
+    plots.flag: true
+    plots.flag.list: true
+    plots.set.flag.titles.*: true
+    plots.set.flag.greeting.*: true
+    plots.set.flag.farewell.*: true
+    plots.set.flag.notify-enter.*: true
+    plots.set.flag.notify-leave.*: true
+    plots.set.flag.feed.*: true
+    plots.set.flag.heal.*: true
+    plots.set.flag.invincible.*: true
+    plots.set.flag.instabreak.*: true
+    plots.set.flag.fly.*: true
+    plots.set.flag.gamemode: true
+    plots.set.flag.gamemode.creative: true
+    plots.set.flag.time.*: true
+    plots.set.flag.weather.*: true
+    plots.set.flag.music.*: true
+    plots.set.flag.disable-physics.*: true
+    plots.set.flag.pve.*: true
+    plots.set.flag.pvp.*: true
+    plots.set.flag.misc-interact.*: true
+    plots.set.flag.hanging-place.*: true
+    plots.set.flag.hanging-break.*: true
+    plots.set.flag.vehicle-use.*: true
+    plots.set.flag.vehicle-place.*: true
+    plots.set.flag.vehicle-break.*: true
+    plots.set.flag.place.*: true
+    plots.set.flag.break.*: true
+    plots.set.flag.use.*: true
+    plots.set.flag.use: true
+    plots.set.flag.forcefield.*: true
+
+
+
+
+
+# Donor rank perks	
+
+cowcraft.creative.rank1:
+  default: false
+  children:
+    plots.plot.5: true
+    plots.set.home: true
+    plots.set.flag.gamemode.survival: true
+    plots.set.flag.gamemode.creative: true
+    animatednames.group.default: true
+    animatednames.group.donor: true
+    puffix.prefix.rank1: true
+    essentials.top: true
+    cowcraft.creative.default: true
+    essentials.speed: true
+    essentials.speed.fly: true
+    essentials.speed.walk: true
+    essentials.signs.format: true
+    essentials.signs.magic: true
+    essentials.signs.color: true
+    essentials.hat: true
+    essentials.sethome.multiple: true
+    essentials.sethome.multiple.rank1: true
+
+cowcraft.creative.rank2:
+  default: false
+  children:
+    plots.plot.8: true
+    puffix.prefix.rank2: true
+    cowcraft.creative.rank1: true
+    essentials.back: true
+    libsdisguises.disguise.chicken: true
+    libsdisguises.disguise.cow: true
+    libsdisguises.disguise.horse: true
+    libsdisguises.disguise.ocelot: true
+    libsdisguises.disguise.pig: true
+    libsdisguises.disguise.sheep: true
+    libsdisguises.disguise.bat: true
+    libsdisguises.disguise.mooshroom: true
+    libsdisguises.disguise.squid: true
+    libsdisguises.disguise.villager: true
+    essentials.signs.create.mail: true
+    essentials.signs.create.disposal: true
+    essentials.signs.create.free: true
+    essentials.signs.create.heal: true
+    essentials.signs.color: true
+    essentials.sethome.multiple.rank2: true
+
+cowcraft.creative.rank3:
+  default: false
+  children:
+    plots.plot.10: true
+    puffix.prefix.rank3: true
+    essentials.ptime: true
+    essentials.skull: true
+    essentials.skull.others: true
+    essentials.skull.spawn: true
+    cowcraft.creative.rank2: true
+    essentials.nick: true
+    essentials.nick.color: true
+    libsdisguises.disguise.blaze: true
+    libsdisguises.disguise.creeper: true
+    libsdisguises.disguise.magmacube: true
+    libsdisguises.disguise.skeleton: true
+    libsdisguises.disguise.slime: true
+    libsdisguises.disguise.witch: true
+    libsdisguises.disguise.zombie: true
+    libsdisguises.disguise.irongolem: true
+    libsdisguises.disguise.snowgolem: true
+    essentials.sethome.multiple.rank3: true
+
+cowcraft.creative.rank4:
+  default: false
+  children:
+    mootags.tag.senpai: true
+    plots.plot.20: true
+    essentials.warp: true
+    essentials.warps.islands: true
+    cowcraft.creative.rank3: true
+    puffix.prefix.rank4: true
+    plots.merge: true
+    plots.merge.4: true
+    plots.unlink: true
+    libsdisguises.disguise.rabbit: true
+    libsdisguises.disguise.cavespider: true
+    libsdisguises.disguise.pigzombie: true
+    libsdisguises.disguise.enderman: true
+    libsdisguises.disguise.shulker: true
+    libsdisguises.disguise.giant: true
+    libsdisguises.disguise.guardian: true
+    libsdisguises.disguise.elderguardian: true
+    libsdisguises.disguise.endermite: true
+    libsdisguises.disguise.silverfish: true
+    libsdisguises.disguise.zombievillager: true
+    libsdisguises.disguise.witherskeleton: true
+    essentials.sethome.multiple.unlimited: true
+    echopet.pet.type.snowman: true
+    echopet.pet: true
+    MCPainter.user.drawStatue.self: true
+    MCPainter.user.drawStatue.other: true
+    worldedit.history.undo: true
+    booscooldowns.creativerank4: true
+    uj.rank1: true
+    deluxejoin.format.creativerank4: true
+    essentials.gamemode: true
+    cowjoin.creative.rank4: true
+
+
+
+
+
+
+# Wolrdedit permissions 
+
+cowcraft.creative.worldedit:
+  default: false
+  children:
+    worldedit.clipboard.cut: true
+    worldedit.clipboard.paste: true
+    worldedit.clipboard.clear: true
+    worldedit.clipboard.copy: true
+    worldedit.clipboard.flip: true
+    worldedit.clipboard.rotate: true
+    worldedit.generation.cylinder: true
+    worldedit.generation: true
+    worldedit.generation.sphere: true
+    worldedit.history.redo: true
+    worldedit.history.undo: true
+    worldedit.navigation.unstuck: true
+    worldedit.navigation.ascend: true
+    worldedit.navigation.descend: true
+    worldedit.navigation.ceiling: true
+    worldedit.region.hollow: true
+    worldedit.region.center: true
+    worldedit.region.walls: true
+    worldedit.region.smooth: true
+    worldedit.region.move: true
+    worldedit.region.replace: true
+    worldedit.region.stack: true
+    worldedit.region.set: true
+    worldedit.selection.pos: true
+    worldedit.wand: true
+    worldedit.analysis.count: true
+    worldedit.selection.size: true
+    worldedit.drain: true
+    worldedit.fixlava: true
+    worldedit.fixwater: true
+    worldedit.navigation.up: true
+    worldedit.green: true
+    worldedit.selection.expand: true
+    worldedit.brush.sphere: true
+    worldedit.brush.smooth: true
+    AWE.user.jobs: true
+    AWE.user.purge: true
+    AWE.user.cancel: true
+
+
+
+
+
+
+
+
+# Creative specific helper permissions
+
+cowcraft.creative.helper:
+  default: false
+  children:
+    headdb.open: true
+    headdb.category.*: true
+    headdb.free.*: true
+    plots.tp: true
+    plots.visit: true
+    essentials.vanish: true
+    plots.admin.build.road: true
+    plots.admin.break.road: true
+    plots.admin.build.unowned: true
+    plots.admin.build.other: true
+    plots.admin.destroy.road: true
+    plots.admin.destroy.unowned: true
+    plots.admin.destroy.other: true
+    plots.admin.interact.road: true
+    plots.admin.interact.unowned: true
+    plots.admin.interact.other: true
+    plots.admin.projectile.road: true
+    plots.admin.projectile.unowned: true
+    plots.admin.projectile.other: true
+    plots.admin.pve.road: true
+    plots.admin.pve.unowned: true
+    plots.admin.pve.other: true
+    plots.admin.command.denied: true
+    plots.admin.entry.denied: true
+    plots.admin.break.other: true
+    plots.visit.other: true
+
+# Creative specific mod permissions	
+
+cowcraft.creative.mod:
+  default: false
+  children:
+    plots.flag.add: true
+    plots.flag.remove: true
+    plots.set.other: true
+    plots.set.flag.other: true
+    plots.set.flag.*: true
+    plots.admin.command.setowner: true
+    plots.set.owner: true
+    plots.admin.command.set: true
+    plots.admin.command.unclaim: true
+    plots.admin.command.unlink: true
+    plots.admin.command.trusted: true
+    plots.admin.command.merge: true
+    plots.admin.command.kick: true
+    plots.admin.command.helpers: true
+    plots.admin.break.unowned: true
+    plots.admin.break.road: true
+    plots.worldedit.bypass: true
+    cowcraft.creative.worldedit: true
+    essentials.gamemode: true
+
+# Creative specific admin permissions
+
+cowcraft.creative.admin:
+  default: false
+  children:
+    plots.admin.command.delete: true
+    plots.admin.command.copy: true
+    plots.admin.command.paste: true
+    plots.admin.command.swap: true
+    plots.admin.command.clear: true
+    plots.merge: true
+    plots.unlink: true

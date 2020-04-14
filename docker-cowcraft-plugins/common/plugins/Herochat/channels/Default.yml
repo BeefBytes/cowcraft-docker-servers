@@ -1,0 +1,18 @@
+name: Default
+nick: D
+format: '{default}'
+color: DARK_GREEN
+distance: 0
+shortcut: false
+verbose: true
+crossworld: true
+cross-server: false
+muted: false
+worlds: []
+bans: []
+mutes: []
+moderators: []
+spam:
+  message-limit: 3
+  message-limit-buildoff: 20
+password: ''

@@ -1,0 +1,51 @@
+
+cowcraft.local.default:
+  default: true
+  children:
+    essentials.warp: true
+    essentials.warps.fightclub: true
+    cowcore.player: true
+    cowcore.server: true
+    lilypad.portal.use: true
+    lobbycompass.use: true
+#    cowplayers.bigstaff: true
+    cowplayers.smallplayer: true
+    libsdisguises.undisguise: false
+    bukkit.command.help: false
+    bukkit.command.kill: false
+    bukkit.command.me: false
+    bukkit.command.plugins: false
+    bukkit.command.tell: false
+    bukkit.command.version: false
+    deluxechat.pm: true
+    minecraft.command.me: false
+    cowcore.find: true
+    cowcore.glist: true
+    essentials.mail: true
+    essentials.mail.send: true
+    essentials.msg: true
+    essentials.msg.url: true
+
+cowcraft.local.hg.fly:
+  default: false
+  children:
+    essentials.fly: true
+
+cowcraft.hub.rank1:
+  default: false
+  children:
+    animatednames.group.default: false
+    animatednames.group.donor: true
+    puffix.prefix.rank1: true
+    essentials.fly: true
+
+cowcraft.hub.staff:
+  default: false
+  children:
+    mcauthenticator.enable.other: true
+    mcauthenticator.lock: true
+
+cowcraft.hub.perm.essentials.fly:
+  default: false
+  children:
+    essentials.fly: true

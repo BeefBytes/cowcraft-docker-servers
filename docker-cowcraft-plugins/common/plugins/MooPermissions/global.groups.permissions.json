@@ -1,0 +1,567 @@
+{  
+   "name":"Global Ranks",
+   "priority":1,
+   "groups":[  
+
+
+      {  
+         "name":"op",
+         "permissions":{
+            "chat.color.permission.red":true,
+            "animatednames.group.donor":false,
+            "puffix.prefix.dev":false,
+            "puffix.prefix.owner":false,
+            "animatednames.group.admin":false,
+            "animatednames.group.mod":false,
+            "animatednames.group.helper":false,
+            "animatednames.group.default":false,
+            "animatednames.group.trainee":false,
+            "animatednames.group.owner":false,
+            "animatednames.group.dev":false,
+            "bukkit.command.op.give":true,
+            "serverlistplus.admin":true,
+            "minecraft.command.op":true
+         },
+         "priority":7,
+         "displayName":"OP",
+         "isDefault":false,
+         "parents":[  
+            "admin"
+         ]
+      },
+
+
+      {  
+         "name":"admin",
+         "permissions":{
+            "koth.help":true,
+            "koth.loot":true,
+            "koth.version":true,
+            "worldguard.region.bypass.mines":true,
+            "worldguard.region.bypass.shops":true,
+            "mv.bypass.gamemode.*":true,
+            "cowcraft.survival.admin":true,  
+            "cowcraft.creative.admin":true,  
+            "deluxechat.socialspy":true,
+            "animatednames.group.mod":false,
+            "animatednames.group.admin":true,
+            "bm.command.banip":true,
+            "bm.command.banip.override":true,
+            "bm.command.banlist":true,
+            "bm.command.banlist.ipranges":true,
+            "bm.command.banlist.ips":true,
+            "bm.command.banlist.players":true,
+            "bm.command.tempbanip":true,
+            "bm.command.tempbanip.override":true,
+            "bm.exempt.*":true,
+            "bukkit.command.plugins":true,
+            "bukkit.command.stop":true,
+            "bukkit.command.version":true,
+            "cowcore.cowcoinsadmin":true,
+            "cowcraft.local.admin":true,
+            "cr.crate":true,
+            "cr.give":true,
+            "cr.givekey":true,
+            "cratekey.give":true,
+            "essentials.back":true,
+            "essentials.chat.url":true,
+            "essentials.clearinventory":true,
+            "essentials.clearinventory.others":true,
+            "essentials.delhome.others":true,
+            "essentials.eco":true,
+            "essentials.enchant":true,
+            "essentials.enchant.*":true,
+            "essentials.enderchest.modify":true,
+            "essentials.enderchest.others":true,
+            "essentials.fly.safelogin":true,
+            "essentials.gamemode":true,
+            "essentials.gamemode.creative":true,
+            "essentials.gamemode.survival":true,
+            "essentials.give":true,
+            "essentials.god":true,
+            "essentials.home.others":true,
+            "essentials.invsee.modify":true,
+            "essentials.kill":true,
+            "essentials.near":true,
+            "essentials.nick.others":true,
+            "essentials.seen.extra":true,
+            "essentials.seen.ipsearch":true,
+            "essentials.sethome.multiple.unlimited":true,
+            "essentials.sethome.others":true,
+            "essentials.sudo":true,
+            "essentials.teleport.cooldown.bypass":true,
+            "essentials.teleport.timer.bypass":true,
+            "essentials.tp":true,
+            "essentials.tp.others":true,
+            "essentials.tphere":true,
+            "essentials.tpo":true,
+            "essentials.tpohere":true,
+            "essentials.tppos":true,
+            "essentials.unban":true,
+            "essentials.unbanip":true,
+            "essentials.vanish.interact":true,
+            "essentials.whois":true,
+            "factions.kit.mod":true,
+            "plots.admin.command.chat":false,
+            "puffix.prefix.admin":true,
+            "worldedit.*":true,
+            "essentials.speed":true
+         },
+         "priority":6,
+         "displayName":"Admin",
+         "isDefault":false,
+         "parents":[  
+            "mod"
+         ]
+      },
+
+
+
+      {  
+         "name":"mod",
+         "permissions":{  
+            "sg.start":true,
+            "sg.stop":true,
+            "mcperf.chans":true,
+            "mcperf.chans.multiple":true,
+            "mcperf.proxy":true,
+            "mcperf.receivealerts":true,
+            "cowcraft.prison.staff":true,
+            "essentials.whois":true,
+            "cowcraft.skyblock.mod":true,
+            "cowplayers.bigstaff":true,
+            "animatednames.group.helper":false,
+            "animatednames.group.mod":true,
+            "bm.timelimit.playerbans.helper":false,
+            "bm.timelimit.playermutes.helper":false,
+            "bm.timelimit.ipbans.helper":false,
+            "bm.command.activity":true,
+            "bm.command.ban":true,
+            "bm.command.ban.offline":true,
+            "bm.command.ban.override":true,
+            "bm.command.mute":true,
+            "bm.command.mute.offline":true,
+            "bm.command.tempban.override":true,
+            "bm.command.tempmute.override":true,
+            "bm.command.unban":true,
+            "bm.command.unbanip":true,
+            "bm.timelimit.bans.bypass":true,
+            "bm.timelimit.mutes.bypass":true,
+            "cowcraft.creative.mod":true,
+            "cowcraft.kitpvp.helper":true,
+            "cowcraft.local.mod":true,
+            "cowcraft.survival.mod":true,
+            "essentials.broadcast":true,
+            "essentials.clearinventory":true,
+            "essentials.enderchest":true,
+            "essentials.enderchest.others":true,
+            "essentials.fly":true,
+            "essentials.gc":true,
+            "essentials.invsee":true,
+            "essentials.invsee.modify":true,
+            "essentials.kick":true,
+            "essentials.nick":true,
+            "essentials.nick.others":true,
+            "essentials.seen.extra":true,
+            "essentials.time":true,
+            "essentials.time.set":true,
+            "essentials.tp":true,
+            "essentials.tphere":true,
+            "essentials.vanish":true,
+            "essentials.warp":true,
+            "essentials.warps.*":true,
+            "essentials.weather":true,
+            "mcmmo.commands.skillreset":true,
+            "mcmmo.commands.skillreset.all":true,
+            "puffix.prefix.mod":true,
+            "sg.admin":true
+         },
+         "priority":4,
+         "displayName":"Mod",
+         "isDefault":false,
+         "parents":[  
+            "helper"
+         ]
+      },
+
+
+
+
+      {  
+         "name":"helper",
+         "permissions":{ 
+            "group.water_rank1":true,
+            "group.fire_rank1":true,
+            "group.earth_rank1":true,
+            "group.wind_rank1":true,
+            "noflyzone.bypass":true, 
+            "animatednames.group.trainee":false,
+            "animatednames.group.helper":true,
+            "bm.command.alts":true,
+            "bm.command.bminfo":true,
+            "bm.command.bminfo.alts":true,
+            "bm.command.bminfo.connection":true,
+            "bm.command.bminfo.geoip":true,
+            "bm.command.bminfo.history.bans":true,
+            "bm.command.bminfo.history.kicks":true,
+            "bm.command.bminfo.history.mutes":true,
+            "bm.command.bminfo.history.notes":true,
+            "bm.command.bminfo.history.warnings":true,
+            "bm.command.bminfo.ipstats":true,
+            "bm.command.bminfo.others":true,
+            "bm.command.bminfo.playerstats":true,
+            "bm.command.bminfo.website":true,
+            "bm.command.kick":true,
+            "bm.command.tempban":true,
+            "bm.command.tempban.offline":true,
+            "bm.command.tempmute":true,
+            "bm.command.tempmute.offline":true,
+            "bm.command.unmute":true,
+            "bm.command.warn":true,
+            "bm.command.warn.offline":true,
+            "bm.notify.*":true,
+            "bm.timelimit.ipbans.helper":true,
+            "bm.timelimit.playerbans.helper":true,
+            "bm.timelimit.playermutes.helper":true,
+            "cowcore.hasnick":true,
+            "cowcore.mod":true,
+            "cowcore.staffchat":true,
+            "cowcore.stafflist":true,
+            "cowcraft.creative.helper":true,
+            "cowcraft.survival.helper":true,
+            "cowcraft.creative.worldedit":true,
+            "cowcraft.dev.rank1":true,
+            "cowcraft.global.helper":true,
+            "cowcraft.hub.uc.all":true,
+            "cowcraft.local.helper":true,
+            "essentials.joinfullserver":true,
+            "essentials.kick":true,
+            "essentials.nick":true,
+            "essentials.nick.color":true,
+            "essentials.seen":true,
+            "essentials.tptoggle":true,
+            "is.admin.kill":true,
+            "is.admin.move":true,
+            "lockette.admin.break":true,
+            "lockette.admin.create.*":true,
+            "lockette.admin.snoop":true,
+            "mcperf.chans":true,
+            "nocheatplus.command.info":true,
+            "plotme.admin.bypassdeny":true,
+            "plotme.admin.home.other":true,
+            "puffix.prefix.helper":true,
+            "swr.opchest":true,
+            "swr.spectateshop":true
+         },
+         "priority":3,
+         "displayName":"Helper",
+         "isDefault":false,
+         "parents":[  
+            "trainee"
+         ]
+      },
+
+
+
+      {  
+         "name":"trainee",
+         "permissions":{  
+            "herochat.join.staff":true,
+	    "herochat.force.join.staff":true,
+	    "herochat.speak.staff":true,
+            "whitelist.bypass":true,
+            "cowcraft.hub.staff":true,
+            "chatformat.staff":true,
+            "mcauth.staff":true,
+            "betatester.activate":true,
+            "cowplayers.smallstaff":true,
+            "puffix.prefix.trainee":true,
+            "chat.color.permission.RED": true,
+            "animatednames.group.default":false,
+            "animatednames.group.trainee":true,
+            "cowcore.staffchat":true,
+            "cowcore.staffnotify":true,
+            "cowcore.joinwhitelist":true,
+            "cowcore.stafflist":true,
+            "bm.timelimit.playermutes.trainee":true,
+            "bm.command.kick":true,
+            "bm.command.tempmute":true,
+            "bm.command.tempmute.offline":true,
+            "bm.command.warn":true,
+            "bm.command.warn.offline":true,
+            "bm.command.bminfo":true,
+            "bm.command.bminfo.connection":true,
+            "bm.command.bminfo.history.bans":true,
+            "bm.command.bminfo.history.kicks":true,
+            "bm.command.bminfo.history.mutes":true,
+            "bm.command.bminfo.history.notes":true,
+            "bm.command.bminfo.history.warnings":true,
+            "bm.command.bminfo.others":true,
+            "commoonicate.staffchat":true,
+            "commoonicate.helpop":true,
+            "bungeecord.server.dev":true,
+            "bungeecord.server.survival":true,
+            "bm.command.bminfo.playerstats":true,
+            "chatcontrol.notify.signduplication":true,
+            "chatcontrol.notify.whenmentioned":true,
+            "chatcontrol.notify.rulesalert":true,
+            "bm.command.bminfo.website":true
+         },
+         "priority":2,
+         "displayName":"Trainee",
+         "isDefault":false,
+         "parents":[  
+            "chatcolors"
+         ]
+      },
+
+
+
+
+      {  
+         "name":"default",
+         "permissions":{
+            "herochat.pm":true,
+            "herochat.autojoin.default":true,
+            "herochat.join.default":true,
+	    "herochat.join.global":true,
+	    "herochat.force.join.global":true,
+	    "herochat.force.join.default":true,
+	    "herochat.speak.default":true,
+	    "herochat.speak.global":true,
+	    "herochat.focus.default":true,
+            "trail.heart":true,
+            "mootags.tag.santa":true,
+            "mootags.tag.grinch":true,
+            "VotingPlugin.Commands.Vote.Best":true,
+            "VotingPlugin.Commands.Vote.Help":true,
+            "VotingPlugin.Commands.Vote.Last":true,
+            "VotingPlugin.Commands.Vote.Next":true,
+            "VotingPlugin.Commands.Vote.Party":true,
+            "VotingPlugin.Commands.Vote.Points":true,
+            "VotingPlugin.Commands.Vote.Shop":true,
+            "VotingPlugin.Commands.Vote.Streak":true,
+            "VotingPlugin.Commands.Vote.Top":true,
+            "VotingPlugin.Commands.Vote.Total":true,
+            "VotingPlugin.Commands.Vote.URL":true,
+            "VotingPlugin.Login.RemindVotes":true,
+            "cowcraft.local.default":true,
+            "cowplayers.smallplayers":true,
+            "mootags.tag.moo":true,
+            "airbar.group.default":true,
+            "islands.commands.blocked":true,
+            "plots.chat":true,
+            "plots.toggle.chat":true,
+            "trail.allow":true,
+            "mootags.use":true,
+            "deluxechat.pm":true,
+            "chatformat.default":true,
+            "puffix.use":true,
+            "bukkit.command.help":false,
+            "bukkit.command.kill":false,
+            "bukkit.command.me":false,
+            "bukkit.command.plugins":false,
+            "bukkit.command.tell":false,
+            "bukkit.command.version":false,
+            "essentials.seen.extra":false,
+	    "milkykore.chat.color":false,
+            "minecraft.command.me":false,
+            "animatednames.group.default":true,
+            "automessage.receive.default":true,
+            "automessage.receive.regular":true,
+            "bm.bminfo":true,
+            "bossmessenger.list.actionbar":true,
+            "bossmessenger.list.broadcast":true,
+            "bossmessenger.list.tab":true,
+            "cowcore.chatfilter":true,
+            "cowcore.cowshop":true,
+            "cowcore.find":true,
+            "cowcore.glist":true,
+            "cowcore.helpop":true,
+            "cowcore.player":true,
+            "cowcore.server":true,
+            "cowcore.vote":true,
+            "mootag.tag.moo":true,
+            "echopet.pet.remove":true,
+            "echopet.pet.ride.*":true,
+            "essentials.balance":true,
+            "essentials.balancetop":true,
+            "essentials.getpos":true,
+            "essentials.help":true,
+            "essentials.ignore":true,
+            "essentials.list":true,
+            "essentials.mail":true,
+            "essentials.mail.send":true,
+            "essentials.motd":true,
+            "essentials.msg":true,
+            "essentials.msg.url":true,
+            "essentials.pay":true,
+            "essentials.realname":true,
+            "essentials.recipe":true,
+            "essentials.rules":true,
+            "essentials.seen":true,
+            "essentials.seen.banreason":true,
+            "essentials.signs.break.disposal":true,
+            "essentials.signs.break.heal":true,
+            "essentials.signs.break.mail":true,
+            "essentials.signs.break.warp":true,
+            "essentials.signs.use.*":true,
+            "essentials.spawn":true,
+            "essentials.tpdeny":true,
+            "factions.invite":true,
+            "factions.kit.fullplayer":true,
+            "factions.kit.halfplayer":true,
+            "justshop.base":true,
+            "justshop.buy":true,
+            "justshop.gui":true,
+            "justshop.sell":true,
+            "justshop.shop":true,
+            "justshop.worth":true,
+            "libsdisguises.undisguise":true,
+            "lilypad.portal.use":true,
+            "lobbycompass.use":true,
+            "lockette.user.create.*":true,
+            "marriage.user.divorce":true,
+            "marriage.user.marry.accept":true,
+            "marriage.user.marry.deny":true,
+            "mcinfected.join.lobby":true,
+            "multiverse.portal.access.*":true,
+            "pet.default":true,
+            "plot.flag.list":true,
+            "plots.flag.list":true,
+            "plots.home":true,
+            "redeemmcmmo.redeem":true,
+            "sg.join":true,
+            "skript.donorsigns":true,
+            "ultimatevotes.player.*":true
+         },
+         "priority":1,
+         "displayName":"Default",
+         "isDefault":true,
+         "parents":[  
+            "chatcolors",
+            "hub_undis"
+         ]
+      },
+
+
+      {  
+         "name":"hub_undis",
+         "permissions":{  
+            "libsdisguises.undisguise":false
+         },
+         "priority":5,
+         "displayName":"Hub undis",
+         "isDefault":false
+      },
+
+
+
+
+      {  
+         "name":"ownertag",
+         "permissions":{  
+            "animatednames.group.owner":true,
+            "puffix.prefix.owner":true
+         },
+         "priority":100,
+         "displayName":"Owner Tag",
+         "isDefault":false
+      },
+
+
+      {  
+         "name":"sradmintag",
+         "permissions":{  
+            "animatednames.group.sradmin":true,
+            "puffix.prefix.sradmin":true
+         },
+         "priority":100,
+         "displayName":"Sr Admin Tag",
+         "isDefault":false
+      },
+
+
+      {  
+         "name":"devtag",
+         "permissions":{  
+            "animatednames.group.dev":true,
+            "puffix.prefix.dev":true
+         },
+         "priority":100,
+         "displayName":"Dev Tag",
+         "isDefault":false
+      },
+
+      {  
+         "name":"global_donor1",
+         "permissions":{  
+         	"cowcore.hasspecialnick":true,
+            "cowcore.hasnick":true,
+            "animatednames.group.default":false,
+            "animatednames.group.donor":true
+         },
+         "priority":101,
+         "displayName":"Global Donor 1",
+         "isDefault":false
+      },
+
+
+      {  
+         "name":"creativegod_senpai",
+         "permissions":{  
+            "mootags.tag.senpai":true
+         },
+         "priority":40001,
+         "displayName":"Global Senpai Tag",
+         "isDefault":false
+      },
+
+
+
+      {  
+         "name":"event_winner",
+         "permissions":{  
+            "mootags.tag.champion":true
+         },
+         "priority":105,
+         "displayName":"Event Winner",
+         "isDefault":false
+      },
+
+
+      {  
+         "name":"chatcolors",
+         "permissions":{  
+            "chat.color.permission.AQUA": false,
+            "chat.color.permission.BLACK": false,
+            "chat.color.permission.BLUE": false,
+            "chat.color.permission.BOLD": false,
+            "chat.color.permission.DARK_AQUA": false,
+            "chat.color.permission.DARK_BLUE": false,
+            "chat.color.permission.DARK_GRAY": false,
+            "chat.color.permission.DARK_GREEN": false,
+            "chat.color.permission.DARK_PURPLE": false,
+            "chat.color.permission.DARK_RED": false,
+            "chat.color.permission.GOLD": false,
+            "chat.color.permission.GRAY": false,
+            "chat.color.permission.GREEN": false,
+            "chat.color.permission.ITALIC": false,
+            "chat.color.permission.LIGHT_PURPLE": false,
+            "chat.color.permission.MAGIC": false,
+            "chat.color.permission.RED": false,
+            "chat.color.permission.RESET": false,
+            "chat.color.permission.STRIKETHROUGH": false,
+            "chat.color.permission.UNDERLINE": false,
+            "chat.color.permission.WHITE": false,
+            "chat.color.permission.YELLOW": false
+         },
+         "priority":102,
+         "displayName":"Chat Colors",
+         "isDefault":false
+      }
+
+
+
+   ]
+}
